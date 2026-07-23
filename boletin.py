@@ -32,7 +32,6 @@ import requests
 from pypdf import PdfReader
 
 import anthropic
-
 # ----------------------------- Configuración -----------------------------
 
 TZ_CORDOBA = dt.timezone(dt.timedelta(hours=-3))
@@ -42,16 +41,12 @@ RAIZ = Path(__file__).resolve().parent
 DOCS = RAIZ / "docs"
 DATA = DOCS / "data"
 
-MODELO = "claude-haiku-4-5"      # el más económico: ideal para esta tarea diaria
+MODELO = "claude-haiku-4-5"
 MAX_TOKENS_SALIDA = 16000
 
-# Secciones del Boletín a procesar. 1ª = Legislación y decretos,
-# 4ª = Concesiones y licitaciones. Agregá "2" o "3" si algún día
-# querés judiciales/sociedades (sube el costo por volumen).
 SECCIONES = ["1", "4"]
 
 CABECERAS_NAVEGADOR = {
-   CABECERAS_NAVEGADOR = {
     "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                    "AppleWebKit/537.36 (KHTML, like Gecko) "
                    "Chrome/138.0.0.0 Safari/537.36"),
@@ -62,7 +57,6 @@ CABECERAS_NAVEGADOR = {
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-Site": "same-origin",
     "Upgrade-Insecure-Requests": "1",
-}
 }
 # ------------------------------- Descarga --------------------------------
 
