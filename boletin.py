@@ -51,10 +51,17 @@ MAX_TOKENS_SALIDA = 16000
 SECCIONES = ["1", "4"]
 
 CABECERAS_NAVEGADOR = {
+   CABECERAS_NAVEGADOR = {
     "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                   "Chrome/126.0 Safari/537.36"),
-    "Accept-Language": "es-AR,es;q=0.9",
+                   "Chrome/138.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/pdf,*/*;q=0.8",
+    "Accept-Language": "es-AR,es;q=0.9,en;q=0.8",
+    "Referer": "https://boletinoficial.cba.gov.ar/",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Upgrade-Insecure-Requests": "1",
 }
 
 # ------------------------------- Descarga --------------------------------
@@ -86,6 +93,7 @@ def _bajar_pdf(url: str):
         return None
 
     if r.status_code in (403, 404):
+        print(f"   · el servidor respondió {r.status_code}")
         return None
     r.raise_for_status()
 
