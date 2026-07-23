@@ -1,0 +1,430 @@
+{
+ "fecha": "2026-07-23",
+ "numero_boletin": "140",
+ "sintesis_juridica": [
+  "El boletín de hoy formaliza compensaciones presupuestarias del Ministerio de Justicia y Trabajo (febrero y marzo de 2026) conforme a las facultades otorgadas por Decreto N° 486/2023 y la Ley N° 10.835. Se modifica el umbral de retención en operaciones digitales según el Decreto N° 2445/2023: donde se requería $ 200.000 para aplicar el sistema SIRTAC, ahora se requieren $ 750.000, armonizando con la percepción del IVA nacional (Resolución ARCA N° 5319). Se renuevan habilitaciones de empresas prestadoras de seguridad privada y se designan directores técnicos conforme a la Ley N° 10.571.",
+  "En materia de contrataciones públicas, predominan licitaciones de EPEC (Empresa Provincial de Energía) para mantenimiento de infraestructura térmica e hidroeléctrica, poda de líneas de alta tensión, e implementación de plataformas de inteligencia artificial; una licitación de ACIF por $ 1.999.985.624 para reparación de parques y plazas en Zona N° 2 de Córdoba ciudad; y subastas electrónicas de menor cuantía. Se declara desierta una contratación directa de la UNC. Participan también partidos políticos con presentaciones de estados patrimoniales (PJ, MAS, Demócrata, UCRI) y la UCR convoca elecciones internas para el 20 de septiembre de 2026."
+ ],
+ "sintesis_politica": [
+  "Las resoluciones presupuestarias reflejan ajustes administrativos de rutina en justicia y seguridad penitenciaria sin controversia aparente. El cambio en el umbral SIRTAC (de $ 200.000 a $ 750.000) responde a una necesidad técnica de armonización federal con ARCA, probablemente para evitar doble imposición y simplificar el régimen tributario para comerciantes digitales pequeños; el timing en julio sugiere implementación para la segunda mitad del año. No hay indicios de conflictividad política inmediata.",
+  "La batería de licitaciones de EPEC (con presupuestos agregados superiores a $ 6 mil millones) refleja continuidad en inversión en infraestructura energética, particularmente hidroeléctrica (Río Grande: $ 237 mil millones) y térmica (San Francisco y San Roque). La licitación de ACIF por casi $ 2 mil millones para espacios verdes en zona céntrica de la capital es de alcance moderado y consistente con políticas urbanas. La convocatoria electoral radical (interna para el 20 de septiembre, delegados al 29 de setiembre vencimiento) muestra actividad normal en el calendario político, sin tensiones internas visibles en la reglamentación publicada."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "154",
+   "titulo": "Formalización de compensaciones de recursos financieros febrero 2026 - Ministerio de Justicia y Trabajo",
+   "importa": "Cierre administrativo mensual de modificaciones presupuestarias en Servicio Penitenciario y Ministerio de Justicia; requiere seguimiento de control de gasto público.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto administrativo de cumplimiento obligatorio conforme Decreto N° 486/2023 y Ley N° 10.835. Formaliza ex post compensaciones ya autorizadas en febrero 2026 entre Unidades Administrativas N° 35 (Servicio Penitenciario) y N° 40 (Ministerio). El texto no especifica montos ni detalle de las compensaciones, remitiendo a anexo de tres fojas que no fue transcrito en el boletín. La estructura de control (aprobación de Economía y Gestión Pública, Tribunal de Cuentas) está cumplida según la norma. Vicio formal menor: falta publicación del anexo anexo en el boletín.",
+    "politica": "Trámite de rutina administrativa sin arena política visible. Refleja que el Ejecutivo mantiene flexibilidad presupuestaria intramensual dentro de marcos autorizados. La participación del Tribunal de Cuentas garantiza control posterior. No hay indicios de sobreanulación de créditos ni transferencias controvertidas.",
+    "oficialista": "La Administración cumplimenta estrictamente los controles previstos en la Ley de Administración Financiera, demostrando transparencia y subordinación a los órganos de control establecidos por ley.",
+    "opositora": "Falta publicar los anexos con los números reales para que el público pueda auditar qué se redistribuyó; la opacidad del detalle dificulta el control ciudadano y legislativo."
+   },
+   "texto_oficial": "MINISTERIO DE JUSTICIA Y TRABAJO Resolución N° 154 Córdoba, 17 de junio de 2026.- VISTO: El Expediente Digital Nº 0493-024916/2026 en el que se propicia la formalización de las compensaciones de recursos financieros autorizadas en el mes de febrero de 2026, de los Programas Presupuestarios correspondientes a este Ministerio de Justicia y Trabajo, Unidades Administrativas N° 35 –Servicio Penitenciario de Córdoba- y N° 40 –Ministerio de Justicia y Trabajo-, atento haberse cumplimentado las previsiones con respecto a Modificaciones Presupuestarias, que establece la Resolución N° 2023/SAF-00000001 de la Secretaría de Administración Financiera. Por ello, atento las actuaciones cumplidas, la estructura orgánica dispuesta por el Decreto N° 2206/2023, ratificado por la Ley N°10.956 y sus modificatorios, lo dictaminado por la Dirección General de Asuntos Legales de este Ministerio de Justicia y Trabajo bajo el Dictamen N° 2026/00000242, y en ejercicio de sus atribuciones EL MINISTRO DE JUSTICIA Y TRABAJO RESUELVE: 1°.- FORMALÍZASE la modificación en la asignación de Recursos Financieros del Presupuesto General de la Administración Pública Provincial año 2026, de conformidad con el reporte compactado que incluye las compensaciones de recursos financieros correspondientes al mes de Febrero de 2026, de las Unidades Administrativas N° 35 -Servicio Penitenciario de Córdoba- y N° 40 -Ministerio de Justicia y Trabajo- de esta Jurisdicción Ministerial, de acuerdo a la estructura orgánica dispuesta por el Decreto N° 2206/2023, ratificado por la Ley N° 10.956 y sus modificatorios, el que como Anexo Único compuesto de tres (03) fojas útiles, forma parte integrante de la presente Resolución. 2º.- PROTOCOLÍCESE, pase a la Dirección de Jurisdicción de Administración de este Ministerio de Justicia y Trabajo, comuníquese a la Secretaría de Administración Financiera del Ministerio de Economía y Gestión Pública, al Tribunal de Cuentas de la Provincia y a la Legislatura, publíquese en el Boletín Oficial y oportunamente archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_230726.pdf"
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "171",
+   "titulo": "Formalización de compensaciones de recursos financieros marzo 2026 - Ministerio de Justicia y Trabajo",
+   "importa": "Segundo cierre mensual de modificaciones presupuestarias; patrón similar al de febrero requiere vigilancia de consistencia presupuestaria en el ejercicio anual.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Resolución ministerial análoga a la N° 154, basada en Decreto N° 486/2023 y Ley N° 10.835, que formaliza compensaciones autorizadas en marzo 2026 entre Unidades Administrativas N° 35 y N° 40. El expediente tramita documentos de autorización de crédito presupuestario numerados 14-24 (Penitenciario) y 5-24 (Ministerio), en expedientes relacionados electrónicamente. Controles de Economía y Gestión Pública y Tribunal de Cuentas verificados. Mismo vicio formal: ausencia del anexo de detalle en el boletín.",
+    "politica": "Patrón de dos meses de compensaciones mensuales sugiere rutina administrativa establecida. Sin datos específicos de los montos, no puede evaluarse si hay desviaciones presupuestarias o reorientaciones de gasto sensibles. El Tribunal de Cuentas está involucrado, lo que ofrece garantía de auditoría posterior.",
+    "oficialista": "Nueva demostración de cumplimiento estricto de normativas de control presupuestario y transferencia de información a órganos de control y Legislatura; gestión ordenada del presupuesto anual.",
+    "opositora": "Repetición mensual de compensaciones sin publicidad de detalles impide que legisladores y ciudadanía cuestionen antes de que el gasto se ejecute; el control es posterior y, si hay irregularidades, ya están consumadas."
+   },
+   "texto_oficial": "MINISTERIO DE JUSTICIA Y TRABAJO Resolución N° 171 Córdoba, 23 de junio de 2026.- VISTO: El Expediente Digital Nº 0493-025460/2026 en el que se propicia la formalización de las compensaciones de recursos financieros autorizadas en el mes de marzo de 2026, de los Programas Presupuestarios correspondientes a este Ministerio de Justicia y Trabajo, Unidades Administrativas N° 35 –Servicio Penitenciario de Córdoba- y N° 40 –Ministerio de Justicia y Trabajo-, atento haberse cumplimentado las previsiones con respecto a Modificaciones Presupuestarias, que establece la Resolución N° 2023/SAF-00000001 de la Secretaría de Administración Financiera. Por ello, atento las actuaciones cumplidas, la estructura orgánica dispuesta por el Decreto N° 2206/2023, ratificado por la Ley N° 10.956 y sus modificatorios, lo dictaminado por la Dirección General de Asuntos Legales de este Ministerio de Justicia y Trabajo bajo el Dictamen N° 2026/00000251, y en ejercicio de sus atribuciones EL MINISTRO DE JUSTICIA Y TRABAJO RESUELVE: 1°.- FORMALÍZASE la modificación en la asignación de Recursos Financieros del Presupuesto General de la Administración Pública Provincial año 2026, de conformidad con el reporte compactado que incluye las compensaciones de recursos financieros correspondientes al mes de Marzo de 2026, de las Unidades Administrativas N° 35 -Servicio Penitenciario de Córdoba- y N° 40 -Ministerio de Justicia y Trabajo- de esta Jurisdicción Ministerial, de acuerdo a la estructura orgánica dispuesta por el Decreto N° 2206/2023, ratificado por la Ley N° 10.956, el que como Anexo Único compuesto de tres (3) fojas útiles, forma parte integrante de la presente Resolución. 2º.- PROTOCOLÍCESE, pase a la Dirección de Jurisdicción de Administración de este Ministerio de Justicia y Trabajo, comuníquese a la Secretaría de Administración Financiera del Ministerio de Economía y Gestión Pública, al Tribunal de Cuentas de la Provincia y a la Legislatura, publíquese en el Boletín Oficial y oportunamente archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_230726.pdf"
+  },
+  {
+   "tipo": "Resolución Secretaría de Ingresos Públicos",
+   "clase": "resolucion",
+   "numero": "15 - Letra D",
+   "titulo": "Modificación de umbral SIRTAC para operaciones digitales: de $ 200.000 a $ 750.000",
+   "importa": "Cambio tributario que afecta directamente a comerciantes y plataformas de e-commerce; armonización con régimen federal de IVA: requiere análisis de impacto recaudatorio y cumplimiento.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Resolución de la Secretaría de Ingresos Públicos que modifica el Decreto N° 2445/2023 (art. 386, inciso b, tercer párrafo), elevando de $ 200.000 a $ 750.000 el monto que activa la retención vía SIRTAC (Sistema de Recaudación sobre Tarjetas de Crédito y Compra) en operaciones electrónicas. Fundamento técnico: armonización con Resolución General ARCA N° 5319 de percepción de IVA federal para sujetos no inscriptos en plataformas digitales. La facultad de modificación al Secretario está contenida en art. 399 del Decreto N° 2445/2023. Acto formalmente válido: dictamen de Servicio Jurídico del Ministerio de Economía (N° 2026/DAL-00000408), nota de la Unidad de Asesoramiento Fiscal. No hay vicios aparentes de competencia ni procedimiento.",
+    "politica": "Decisión técnica que beneficia a pequeños y medianos vendedores digitales al reducir la presión tributaria de detección de ingresos (sube el piso de captura de 200 a 750 mil pesos). Tiempos (julio 2026) sugieren implementación para segunda mitad del año fiscal. Probable coordinación con ARCA federal para evitar doble retención. Posible beneficiario: PyMEs del comercio electrónico; posible perdedor: recaudación tributaria provincial a corto plazo (recuperable con crecimiento de base de ingresos declarados).",
+    "oficialista": "Medida de simplificación administrativa que alinea Córdoba con estándares federales, reduce cargas innecesarias a pequeños comerciantes digitales y evita distorsiones tributarias que desalentaban formalización en plataformas de venta en línea.",
+    "opositora": "Baja discrecional del umbral de detección tributaria reduce recaudación provincial sin compensación manifiesta; favorece a grandes plataformas de e-commerce que concentran volúmenes superiores a 750 mil pesos, mientras pequeños vendedores que no alcanzan ese monto quedan fuera del control."
+   },
+   "texto_oficial": "SECRETARÍA DE INGRESOS PÚBLICOS Resolución N° 15 - Letra:D Córdoba, 21 de julio de 2026.- Que por el Título IX del Decreto N° 2445/2023 y sus modificatorios se establece la adhesión al Sistema informático unificado de retención denominado \"Sistema de Recaudación sobre Tarjetas de Crédito y Compra\" (SIRTAC) aprobado por Resolución General N° 02 de la Comisión Arbitral, fechada 13 de marzo de 2019, y su modificatoria. Que, mediante el tercer párrafo del artículo 386 del citado Decreto, se establece la alícuota y la condiciones que se deben aplicar en aquellos casos de operaciones realizadas a través de plataformas online, páginas de internet (sitios web), aplicaciones tecnológicas, dispositivos y/o plataformas digitales y/o móviles o similares cuando el sujeto no se encuentre en el padrón de sujetos pasibles. Que la Agencia de Recaudación y Control Aduanero (ARCA) mediante la Resolución General N° 5319 y sus modificatorias, estableció un régimen de Percepción del Impuesto al Valor Agregado para las operaciones de venta de cosas muebles no registrables nuevas y/o usadas, locaciones y prestaciones de obras y/o servicios, concertadas y/o perfeccionadas electrónicamente a través de plataformas digitales. EL SECRETARIO DE INGRESOS PÚBLICOS RESUELVE: Artículo 1° MODIFÍCASE el monto establecido en el inciso b) del tercer párrafo del artículo 386 del Decreto N° 2445/23 y sus modificatorios, como sigue: donde dice: \"…y su monto total resulte igual o superior a Pesos Doscientos Mil ($ 200.000,00) …\" debe decir: \"…y su monto total resulte igual o superior a Pesos Setecientos Cincuenta Mil ($ 750.000,00) …\" . Artículo 2° PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_230726.pdf"
+  },
+  {
+   "tipo": "Resolución Secretaría General de la Gobernación",
+   "clase": "resolucion",
+   "numero": "743",
+   "titulo": "Designación de Gabriel Raúl Bermúdez como Secretario de la Delegación Oficial en Buenos Aires",
+   "importa": "Movimiento de personal en cargo directivo de Administración: Bermúdez cesa como vocal de Agencia Córdoba Deportes y asume secretaría de delegación en CABA; requiere seguimiento de estructura.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Resolución de designación basada en Decreto Provincial N° 2206/2023 (aprobado por Ley N° 10.956) y facultades otorgadas al Secretario General de la Gobernación por Decreto N° 2449/2023 (art. 3, incs. i y q, incorporado por Decreto N° 233/2025). El acto incluye verificación previa de cumplimiento de Ley N° 11.031 (\"Ficha Limpia\") por la Fiscalía de Estado. Refrendación exigida por Ministro de Economía y Gestión Pública (Guillermo Constancio Acosta). Acto formalmente válido: hay certificación de cumplimiento de requisitos y control jurisdiccional. DNI del designado: 17.845.519.",
+    "politica": "Cambio de posición de Bermúdez de un organismo de cultura/deportes a rol diplomático-institucional de relaciones con gobierno nacional (delegación en Buenos Aires) sugiere reasignación de confianza o especialidad funcional. La suscripción conjunta del Ministro de Economía indica línea de mando clara entre áreas. No hay datos de conflictividad, pero el timing en julio puede relacionarse con reacomodamientos de equipo frente a cambios de agenda legislativa federal.",
+    "oficialista": "Designación de funcionario que ha cumplido requisitos de \"Ficha Limpia\" es garantía de idoneidad; la reubicación responde a necesidades de personal especializado en gestión de relaciones intergubernamentales en la capital federal.",
+    "opositora": "Opacidad sobre causa de cambio de puesto y criterios de selección; falta de publicación de CV o antecedentes del designado; carrusel de cargos puede ser señal de rotación política sin meritocracia."
+   },
+   "texto_oficial": "SECRETARÍA GENERAL DE LA GOBERNACIÓN Resolución N° 743 Córdoba, 21 de julio de 2026. VISTO: La renuncia presentada por el Señor BERMUDEZ, Gabriel Raúl al cargo de vocal del directorio de la Agencia Córdoba Deportes dependiente del Ministerio de Vinculación y Gestión Institucional y la propuesta de designación efectuada por esta Secretaría, para cubrir el cargo de Secretario de la Delegación Oficial del Gobierno de la Provincia de Córdoba en la Ciudad Autónoma de Buenos Aires en el ámbito de esta Secretaría General de la Gobernación dependiente del Ministerio de Economía y Gestión Pública de la Provincia de Córdoba. Y CONSIDERANDO: Que se dio intervención a la Fiscalía de Estado a fin de que efectúe el contralor de lo previsto en el art. 4° de la Ley N° 11.031 de \"Ficha Limpia\" y que habiéndose cumplimentado al día de la fecha las observancias allí dispuestas, corresponde se proceda a la designación del Señor BERMUDEZ, Gabriel Raúl (D.N.I. N° 17.845.519) en el cargo mencionado ut supra. EL SECRETARIO GENERAL DE LA GOBERNACIÓN RESUELVE: Artículo 1º DESÍGNASE, a partir del presente instrumento legal, al Señor BERMUDEZ, Gabriel Raúl (D.N.I. N° 17.845.519) en el cargo de Secretario de la Delegación Oficial del Gobierno de la Provincia de Córdoba en la Ciudad Autónoma de Buenos Aires en el ámbito de la Secretaría General de la Gobernación dependiente del Ministerio de Economía y Gestión Pública de la Provincia de Córdoba, quien cesa en sus funciones como vocal del directorio de la Agencia Córdoba Deportes dependiente del Ministerio de Vinculación y Gestión Institucional; dejándose constancia de que se ha verificado el cumplimiento de lo dispuesto en el artículo 4° de la Ley N° 11.031. Artículo 2º LA presente Resolución será refrendada por el Señor Ministro de Economía y Gestión Pública. Artículo 3º PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_230726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0047-000591/2026",
+   "titulo": "Reparación, refuncionalización y puesta en valor de infraestructura en parques y plazas - Zona N° 2, ciudad de Córdoba",
+   "importa": "Obra pública de casi $ 2 mil millones en espacios verdes céntricos de la capital; impacto urbano significativo requiere vigilancia de ejecución y transparencia licitadora.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública convocada por ACIF (Agencia Córdoba de Inversión y Financiamiento, SEM) mediante Resolución N° 2026/ACIFR-00000210 (20 de julio 2026). Procedimiento conforme Decreto N° 583/2016 (plataforma digital). Categoría Primera (arquitectura 100%). Presupuesto oficial: $ 1.999.985.624 IVA incluido. Plazo ejecución: 365 días corridos. Garantía de mantenimiento de oferta: 1% del presupuesto oficial. Pliego disponible en portal de compras públicas https://webecommerce.cba.gov.ar (Servicio \"115 - ACIF\"). Presentación: hasta 12:00 h. del 5 de agosto 2026 en plataforma digital. Apertura: 6 de agosto 2026, 10:00 h., en Sala de Reuniones de ACIF (Rosario de Santa Fe N° 231, PH 107, Córdoba). Procedimiento técnicamente regular: plazos hábiles, publicidad clara, sistema de consultas online, soporte digital. Enmienda N° 1 publicada el 28 de julio 2026. La norma es lícita.",
+    "politica": "Inversión de casi $ 2 mil millones en infraestructura verde de la zona céntrica (parques y plazas) alineada con agendas urbanas de calidad de vida y reactivación de espacios públicos. Timing en julio para apertura en agosto es dentro de plazo normal de licitación estival. ACIF es ente de economía mixta (participación municipal, probable), lo que sugiere coordinación con municipalidad para obras en radio céntrico de Córdoba ciudad. Beneficiarios probables: constructoras locales, proveedores de paisajismo y mantenimiento.",
+    "oficialista": "Inversión pública en mejora de espacios comunitarios refleja compromiso con calidad urbana; procedimiento licitatorio transparente y competitivo garantiza mejor precio y ejecución; publicidad digital amplía acceso de oferentes.",
+    "opositora": "Presupuesto oficial muy elevado para mantenimiento de plazas sin justificación de desglose; ausencia de participación previa de vecinos o auditoría de necesidades reales; ACIF como ente de economía mixta puede favorecer proveedores cercanos a poder político."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL EXPTE. ELECTRÓNICO N° 0047-000591/2026. OBJETO: \"REPARACIÓN, REFUNCIONALIZACIÓN Y PUESTA EN VALOR DE LA INFRAESTRUCTURA EXISTENTE EN LOS PARQUES Y PLAZAS COMPRENDIDOS DENTRO DE LA ZONA N° 2 DE LA CIUDAD DE CÓRDOBA\". De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000210, de fecha 20 de julio de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"REPARACIÓN, REFUNCIONALIZACIÓN Y PUESTA EN VALOR DE LA INFRAESTRUCTURA EXISTENTE EN LOS PARQUES Y PLAZAS COMPRENDIDOS DENTRO DE LA ZONA N° 2 DE LA CIUDAD DE CÓRDOBA\". 1.- ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). 2.- CATEGORÍA DE LA OBRA: PRIMERA. Calificación: ARQUITECTURA (100%). 3.- PROCEDIMIENTO DE SELECCIÓN: La Licitación se efectuará conforme lo normado por el Decreto Nº 583/2016, que implementa la utilización de una plataforma digital en el procedimiento de Licitación Pública para la ejecución de Obras Públicas previsto por la Ley Nº 8.614 y sus disposiciones reglamentarias y complementarias, y está abierta a todos los Oferentes, según se define en los Documentos de Licitación. 4.- DOCUMENTOS DE LICITACIÓN: El Pliego y Legajo de la Licitación Pública estarán disponibles en el portal web oficial de compras y contrataciones: https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx - Servicio Administrativo \"115 - Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta\". 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS MIL NOVECIENTOS NOVENTA Y NUEVE MILLONES NOVECIENTOS OCHENTA Y CINCO MIL SEISCIENTOS VEINTICUATRO CON 00/100 ($1.999.985.624,00), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de trescientos sesenta y cinco (365) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_230726.pdf"
+  },
+  {
+   "tipo": "Licitaciones Públicas EPEC",
+   "clase": "licitacion",
+   "numero": "1418-1433, 5576",
+   "titulo": "Múltiples licitaciones EPEC: infraestructura térmica, hidroeléctrica, líneas de transmisión e inteligencia artificial",
+   "importa": "Batería de licitaciones de empresa energética estatal por más de $ 6 mil millones: seguimiento de transparencia y ejecución en infraestructura crítica.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "EPEC publica 15 licitaciones públicas y electrónicas con procedimientos de doble apertura (técnica-económica) o apertura simple. Presupuestos relevantes: Licitación N° 5576 (Aumento disponibilidad potencia Complejo Hidroeléctrico Río Grande): $ 237.291.285.000,01 (presupuesto mayor); N° 1422 (Renovación sistema incendios): $ 503.360.000; N° 1425 (Provisión cañerías contraincendios Central San Francisco): $ 342.430.000; N° 1429 (Plataforma inteligencia artificial empresarial): $ 105.907.670; N° 1433 (Poda árboles en BT/MT zona Bell Ville): $ 1.022.450.000. Todas utilizan portal electrónico de compras (https://compraspublicas.cba.gov.ar). Procedimientos ajustados a normativa de Ley N° 8.614. Plazos de presentación y apertura publicados con precisión. Sin vicios formales aparentes; transparencia de presupuestos oficiales.",
+    "politica": "Inversión agregada de EPEC superior a $ 6 mil millones en ejercicio 2026 refleja focalización en modernización térmica (San Francisco, San Roque) e hidroeléctrica (Río Grande, proyecto mayor). La implementación de IA empresarial (Licitación 1429, $ 105 millones) es consistente con agenda federal de transformación digital del estado. Poda de líneas de alta tensión (zona norte, san francisco, villa maría: $ 3.7 mil millones agregados) responde a mantenimiento preventivo y reducción de riesgos de interrupciones. Timing: julio-septiembre sugiere cierre de presupuesto de inversión antes de 4Q. Beneficiarios: constructoras, proveedores especializados en energía e IT.",
+    "oficialista": "EPEC demuestra capacidad de planificación estratégica de inversiones en infraestructura crítica; licitaciones digitales garantizan competencia y transparencia; modernización de sistemas energéticos es fundamental para crecimiento económico provincial.",
+    "opositora": "Ausencia de estudios de impacto ambiental publicados en licitaciones; discrecionalidad en selección de contratistas no asegurada por auditoría ciudadana; megaproyecto Río Grande ($ 237 mil millones) requiere debate legislativo previo sobre financiamiento y ROI; IA empresarial puede sustituir empleo público sin justificación de costos-beneficios."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U. [Múltiples licitaciones compiladas del boletín secciones 4, págs. 2-3]. Ejemplos de extractos: LICITACION PUBLICA ELECTRONICA N.º 1422 - Objeto: \"RENOVACIÓN Y AMPLIACIÓN DEL SISTEMA DE INCENDIOS.\". PRESUPUESTO OFICIAL: $503.360.000,00. IVA incluido- PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 30-07-2026 en el Portal Electrónico de Compras y Contrataciones de la EPEC. LICITACION PUBLICA Nº 5576 DOBLE APERTURA: 21-09-26 HORA: 11. OBJETO: \"AUMENTO DE DISPONIBILIDAD DE POTENCIA Y MEJORA TECNOLOGICA DEL COMPLEJO HIDROELECTRICO RIO GRANDE.\". ENTREGA DE SOBRES HASTA EL 21-09-26 HORA 10 – PRESUPUESTO OFICIAL: $237.291.285.000,01.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_230726.pdf"
+  },
+  {
+   "tipo": "Resoluciones Seguridad Privada",
+   "clase": "resolucion",
+   "numero": "320-325",
+   "titulo": "Habilitaciones y renovaciones de empresas prestadoras de servicios de seguridad privada",
+   "importa": "Trámites administrativos de rutina en sector regulado de seguridad privada; requieren seguimiento de cumplimiento de obligaciones y actualizaciones de registro.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Conjunto de seis resoluciones del Director de Control y Gestión Operativa en Seguridad Privada (Franco Alexis Fajardo) que habilitan y renuevan empresas conforme Ley N° 10.571 y Resolución Reglamentaria 970/2025. Resoluciones N° 320 (MATTEONI Y CIA S.R.L., renovación sin armas), 321 (MATCHLESS SERVICIO INTEGRAL, renovación sin armas), 322 (SICHERHEIT S.A.S., habilitación sin armas), 323 (VIRTUS SERVICIOS S.A.S., habilitación sin armas), 324 (ALERTA RED SEGURIDAD PRIVADA, renovación sin armas), 325 (FCA S.A.S., renovación sin armas). Todos los actos especifican: cumplimiento de requisitos arts. 8-18 y 29 de Ley N° 10.571; designación de Directores/Directoras Técnicos; registro en Ciudadano Digital (C.I.D.I.) Nivel 2; plazo de acreditación de obligaciones (30-60 días según caso); ninguna de las empresas obtiene autorización para uso de armas. Procedimientos formalmente válidos según jurisprudencia administrativa provincial; competencia verificada (Dirección de Asuntos Legales del Ministerio de Seguridad).",
+    "politica": "Régimen de habilitación de seguridad privada en Córdoba refleja estricta regulación estatal: requiere directores técnicos, prohíbe armas salvo excepción, exige registración digital para notificaciones. Las renovaciones (4 de 6 actos) y nuevas habilitaciones (2) indican mercado activo y estable de empresas de vigilancia. Absence de armas en todas las empresas publicadas sugiere que seguridad privada en provincia se enfoca en vigilancia y monitoreo (típico de oficinas, comercios, residencias) más que en servicios armados.",
+    "oficialista": "Sistema de habilitación y renovación es riguroso y garantiza control de calidad y cumplimiento normativo; directores técnicos especializados y prohibición de armas reducen riesgos de uso ilegítimo de fuerza privada.",
+    "opositora": "Falta de información pública sobre antecedentes de empresas y directores; criterios de denegación no publicados; sistema de notificación digital (C.I.D.I.) excluye a actores sin acceso a plataforma; acumulación de poder privado de vigilancia sin transparencia ciudadana."
+   },
+   "texto_oficial": "[Extracto representativo] DIRECCIÓN CONTROL Y GESTIÓN OPERATIVA EN SEGURIDAD PRIVADA Resolución N° 320 Córdoba, 21 de julio de 2026.- VISTO: el Expediente Digital N° 0531-080526/2026. Que por las presentes actuaciones, se tramita la renovación de la habilitación para funcionar como Prestadora de Servicios de Seguridad Privada de la empresa MATTEONI Y CIA S.R.L., CUIT 30-71459323-0, como así también la renovación en el cargo de Director Técnico del Sr. Diego Luis MATTEONI, DNI 27.177.103. [..] EL DIRECTOR DE CONTROL Y GESTIÓN OPERATIVA EN SEGURIDAD PRIVADA DEL MINISTERIO DE SEGURIDAD RESUELVE: Artículo 1°.- DISPÓNESE la renovación de la habilitación de la empresa \"MATTEONI Y CIA S.R.L.\", CUIT 30-71459323-0 con domicilio en calle Santa Rosa N° 116, ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_230726.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 743/2026 - Secretaría General de la Gobernación",
+   "titulo": "Secretario de la Delegación Oficial en Buenos Aires",
+   "detalle": "Gabriel Raúl Bermúdez (DNI 17.845.519), designado Secretario de la Delegación Oficial del Gobierno de Córdoba en CABA; cesa como vocal del directorio de Agencia Córdoba Deportes",
+   "organismo": "Secretaría General de la Gobernación - Ministerio de Economía y Gestión Pública",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_230726.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "154",
+   "titulo": "Formalización de compensaciones presupuestarias febrero 2026",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "171",
+   "titulo": "Formalización de compensaciones presupuestarias marzo 2026",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "15 - Letra D",
+   "titulo": "Modificación umbral SIRTAC - operaciones digitales",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "743",
+   "titulo": "Designación Gabriel Raúl Bermúdez - Delegación en Buenos Aires",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "320",
+   "titulo": "Habilitación MATTEONI Y CIA S.R.L. - Seguridad Privada",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "321",
+   "titulo": "Habilitación MATCHLESS SERVICIO INTEGRAL - Seguridad Privada",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "322",
+   "titulo": "Habilitación SICHERHEIT S.A.S. - Seguridad Privada",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "323",
+   "titulo": "Habilitación VIRTUS SERVICIOS S.A.S. - Seguridad Privada",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "324",
+   "titulo": "Habilitación ALERTA RED SEGURIDAD PRIVADA - Seguridad Privada",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "325",
+   "titulo": "Habilitación FCA S.A.S. - Seguridad Privada",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0047-000591/2026",
+   "titulo": "Reparación infraestructura parques y plazas Zona 2 Córdoba ciudad",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "1",
+   "titulo": "Aclaración Biotransformador - Estación Transformadora Arroyo Cabral",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Circular Aclaratoria",
+   "numero": "2",
+   "titulo": "Prórroga presentación ofertas - Refuncionalización Sistema Bombeo San Francisco",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Enmienda",
+   "numero": "1",
+   "titulo": "Enmienda Licitación Parques y Plazas Zona 2",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1422",
+   "titulo": "Renovación y ampliación sistema incendios EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1424",
+   "titulo": "Renovación protección generador 12MKA01",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1427",
+   "titulo": "Acondicionamiento puente grúa central Zanichelli",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1425",
+   "titulo": "Provisión y reemplazo cañerías contraincendios Central San Francisco",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1428",
+   "titulo": "Adquisición radio mando accionamiento grúa TKA 27.700",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1426",
+   "titulo": "Poda limpieza cañerías principales Central San Roque",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1430",
+   "titulo": "Adquisición cables de comando y señalización teleoperaciones",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1429",
+   "titulo": "Implementación plataforma inteligencia artificial empresarial",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1423",
+   "titulo": "Módulo deshumificador para espectro IR",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1432",
+   "titulo": "Retiro y traslado generador 2 Central Hidroeléctrica Ing. Fitz Simón",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1431",
+   "titulo": "Adquisición materiales eléctricos sistema energía salas comunicaciones",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica EPEC",
+   "numero": "1433",
+   "titulo": "Poda árboles BT/MT delegación zona G Bell Ville",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública EPEC",
+   "numero": "5576",
+   "titulo": "Aumento disponibilidad potencia Complejo Hidroeléctrico Río Grande",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria EPEC",
+   "numero": "4 y 5",
+   "titulo": "Poda alta tensión 2026 zona San Francisco",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria EPEC",
+   "numero": "4 y 5",
+   "titulo": "Poda alta tensión 2026 zona norte provincial",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria EPEC",
+   "numero": "4 y 5",
+   "titulo": "Poda alta tensión 2026 zona Villa María",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000004",
+   "titulo": "Uniformes Fuerza Policial Antinarcotráfico",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000024",
+   "titulo": "Pañales Programa Salas Cuna",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Contratación Directa",
+   "numero": "49/2026",
+   "titulo": "Reparación cubierta tejas Facultad Odontología UNC (Declarada desierta)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Estado Patrimonial Partidario",
+   "numero": "2025",
+   "titulo": "Partido Justicialista - Ejercicio 2025",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Estado Patrimonial Partidario",
+   "numero": "2025",
+   "titulo": "Partido Movimiento Al Socialismo - Ejercicio 2025",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Estado Patrimonial Partidario",
+   "numero": "2025",
+   "titulo": "Partido Demócrata - Ejercicio 2025",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Estado Patrimonial Partidario",
+   "numero": "2024",
+   "titulo": "Unión del Centro Democrático - Ejercicio 2024",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución Partidaria",
+   "numero": "s/n",
+   "titulo": "UCR - Convocatoria elecciones internas 20 de septiembre 2026",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "s/n",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción posesión Denisse Aymeth Aliaga Li",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "00000925/26",
+   "titulo": "Baja por fallecimiento docente Elsa Irma Briganti - Ministerio de Educación",
+   "seccion": "4",
+   "pagina": 6
+  }
+ ],
+ "telegram": "🔔 Boletín Oficial N° 140 | 23/7/2026 — 38 normas. Destaque: ACIF licita $ 2 mil millones en parques y plazas (Zona 2 Córdoba); EPEC invierte $ 6+ mil millones en infraestructura energética; umbral SIRTAC sube de $ 200k a $ 750k. Más en app: http://boletinoficial.cba.gov.ar",
+ "hora_procesado": "20:34",
+ "estado": "publicado"
+}
