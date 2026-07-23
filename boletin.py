@@ -63,7 +63,7 @@ CABECERAS_NAVEGADOR = {
     "Sec-Fetch-Site": "same-origin",
     "Upgrade-Insecure-Requests": "1",
 }
-
+}
 # ------------------------------- Descarga --------------------------------
 
 # Patrón de URL de los PDF del Boletín, verificado contra ediciones reales:
