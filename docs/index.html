@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Despacho Diario · Boletín Oficial de Córdoba</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700;800&family=Archivo:wght@400;500;600&family=Chivo+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --tinta:#182339;        /* azul tinta notarial: texto y estructura */
+    --papel:#F6F5F1;        /* papel de expediente, frío */
+    --sello:#A83226;        /* rojo sello de goma: la firma visual */
+    --celeste:#3E7CB1;      /* celeste Córdoba: lo político */
+    --grafito:#5A6478;      /* texto secundario */
+    --linea:rgba(24,35,57,.14);
+    --linea-fuerte:rgba(24,35,57,.30);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--papel);
+    color:var(--tinta);
+    font-family:'Archivo',system-ui,sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--tinta)}
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible{
+    outline:2px solid var(--sello);outline-offset:3px;border-radius:2px;
+  }
+
+  .marco{max-width:960px;margin:0 auto;padding:0 24px}
+
+  /* ---------- Cabecera ---------- */
+  header{padding:40px 0 0}
+  .eyebrow{
+    font-family:'Chivo Mono',monospace;
+    font-size:12px;letter-spacing:.14em;
+    color:var(--grafito);text-transform:uppercase;
+  }
+  .cabecera-fila{
+    display:flex;align-items:flex-end;justify-content:space-between;
+    gap:24px;margin-top:10px;flex-wrap:wrap;
+  }
+  h1{
+    font-family:'Bitter',serif;font-weight:800;
+    font-size:clamp(30px,5vw,46px);line-height:1.08;
+    max-width:560px;
+  }
+  h1 .fecha{display:block;font-weight:500;font-size:.5em;color:var(--grafito);margin-top:8px;font-family:'Archivo',sans-serif}
+
+  /* El sello: firma visual de la página */
+  .sello{
+    --tinta-sello:var(--sello);
+    flex:none;width:158px;height:158px;border-radius:50%;
+    border:2px solid var(--tinta-sello);
+    box-shadow:inset 0 0 0 5px var(--papel), inset 0 0 0 7px var(--tinta-sello);
+    color:var(--tinta-sello);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;gap:4px;
+    transform:rotate(-7deg);
+    font-family:'Chivo Mono',monospace;
+    mix-blend-mode:multiply;
+    animation:estampar .45s cubic-bezier(.2,1.4,.4,1) both;
+    animation-delay:.25s;
+  }
+  .sello .estado{font-size:15px;font-weight:500;letter-spacing:.22em}
+  .sello .detalle{font-size:11px;letter-spacing:.06em;line-height:1.5}
+  .sello.pendiente{--tinta-sello:var(--grafito)}
+  @keyframes estampar{
+    0%{opacity:0;transform:rotate(-7deg) scale(1.5)}
+    100%{opacity:1;transform:rotate(-7deg) scale(1)}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .sello{animation:none}
+    html{scroll-behavior:auto}
+  }
+
+  /* ---------- Estado del sistema ---------- */
+  .estado-strip{
+    margin-top:32px;border-top:2px solid var(--tinta);border-bottom:1px solid var(--linea);
+    padding:10px 0;display:flex;gap:8px 28px;flex-wrap:wrap;
+    font-family:'Chivo Mono',monospace;font-size:12px;color:var(--grafito);
+  }
+  .estado-strip strong{color:var(--tinta);font-weight:500}
+  .punto{color:var(--sello)}
+
+  /* ---------- Aviso de edición anterior ---------- */
+  .aviso-pasado{
+    display:none;margin-top:26px;border:1px solid var(--celeste);
+    background:rgba(62,124,177,.08);padding:12px 16px;
+    font-family:'Chivo Mono',monospace;font-size:12px;color:var(--tinta);
+    align-items:center;gap:12px 14px;flex-wrap:wrap;justify-content:space-between;
+  }
+  .aviso-pasado.visible{display:flex}
+
+  /* ---------- Secciones ---------- */
+  section{padding:44px 0 0}
+  .titulo-seccion{
+    font-family:'Bitter',serif;font-weight:700;font-size:22px;
+    display:flex;align-items:baseline;gap:14px;margin-bottom:20px;flex-wrap:wrap;
+  }
+  .titulo-seccion small{
+    font-family:'Chivo Mono',monospace;font-weight:400;font-size:11px;
+    letter-spacing:.12em;color:var(--grafito);text-transform:uppercase;
+  }
+
+  /* ---------- Síntesis del día ---------- */
+  .sintesis{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  @media(max-width:760px){.sintesis{grid-template-columns:1fr}}
+  .lectura{
+    background:#fff;border:1px solid var(--linea);
+    padding:24px 26px 26px;position:relative;
+  }
+  .lectura::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+    background:var(--tinta);
+  }
+  .lectura.politica::before{background:var(--celeste)}
+  .lectura h3{font-family:'Bitter',serif;font-size:17px;font-weight:700;margin-bottom:4px}
+  .lectura .rotulo{
+    font-family:'Chivo Mono',monospace;font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--grafito);
+  }
+  .lectura p{margin-top:12px;font-size:15px;color:#2A3550}
+  .lectura.politica .rotulo{color:var(--celeste)}
+
+  /* ---------- Normas destacadas (fichas expandibles) ---------- */
+  .norma-det{border-bottom:1px solid var(--linea)}
+  .norma-det:first-of-type{border-top:1px solid var(--linea-fuerte)}
+  summary.norma{
+    display:grid;grid-template-columns:118px 1fr 128px;gap:18px;
+    padding:18px 26px 18px 0;align-items:start;
+    cursor:pointer;list-style:none;position:relative;
+  }
+  summary.norma::-webkit-details-marker{display:none}
+  summary.norma:hover{background:rgba(24,35,57,.035)}
+  summary.norma::after{
+    content:"+";position:absolute;right:2px;top:16px;
+    font-family:'Chivo Mono',monospace;font-size:17px;color:var(--grafito);
+  }
+  .norma-det[open]>summary.norma::after{content:"−"}
+  @media(max-width:640px){
+    summary.norma{grid-template-columns:1fr;gap:6px}
+    summary.norma .seccion-bo{text-align:left}
+  }
+  .chip{
+    display:inline-block;font-family:'Chivo Mono',monospace;font-size:11px;
+    letter-spacing:.08em;padding:3px 8px;border:1px solid var(--tinta);
+    text-transform:uppercase;margin-bottom:6px;
+  }
+  .chip.ley{background:var(--tinta);color:var(--papel)}
+  .chip.licitacion{border-color:var(--celeste);color:var(--celeste)}
+  .chip.creacion{border-color:var(--sello);color:var(--sello)}
+  .chip.renuncia{border-color:var(--grafito);color:var(--grafito)}
+  .numero{font-family:'Chivo Mono',monospace;font-size:12px;color:var(--grafito);display:block}
+  summary.norma h4{font-family:'Bitter',serif;font-size:16.5px;font-weight:700;line-height:1.3}
+  .importa{font-size:14px;color:#39445E;margin-top:5px}
+  .importa b{font-weight:600;color:var(--sello)}
+  .seccion-bo{
+    font-family:'Chivo Mono',monospace;font-size:11px;color:var(--grafito);
+    text-align:right;letter-spacing:.04em;line-height:1.5;
+  }
+  .norma-panel{padding:2px 0 22px 136px}
+  @media(max-width:640px){.norma-panel{padding-left:0}}
+  .norma-panel .rotulo{
+    font-family:'Chivo Mono',monospace;font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--grafito);margin-bottom:8px;
+  }
+  .amp{font-size:14.5px;color:#2A3550;margin-top:8px;max-width:640px}
+  .amp b{font-weight:600}
+  .amp .lab-j{color:var(--tinta)}
+  .amp .lab-p{color:var(--celeste)}
+  .amp.mirada{border-left:2px solid var(--linea-fuerte);padding-left:12px;font-size:14px}
+  .enlaces{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{
+    font-family:'Chivo Mono',monospace;font-size:11.5px;letter-spacing:.06em;
+    border:1px solid var(--tinta);padding:6px 11px;text-decoration:none;
+    color:var(--tinta);background:transparent;cursor:pointer;
+  }
+  .btn:hover{background:rgba(24,35,57,.06)}
+  .btn.oficial{background:var(--tinta);color:var(--papel)}
+  .btn.oficial:hover{background:#243352}
+  .btn.mini{padding:4px 9px;font-size:11px;flex:none}
+  details.texto-oficial{margin-top:14px}
+  details.texto-oficial summary{
+    font-family:'Chivo Mono',monospace;font-size:11.5px;letter-spacing:.06em;
+    cursor:pointer;color:var(--tinta);border:1px solid var(--tinta);
+    display:inline-block;padding:6px 11px;list-style:none;
+  }
+  details.texto-oficial summary::-webkit-details-marker{display:none}
+  details.texto-oficial summary:hover{background:rgba(24,35,57,.06)}
+  details.texto-oficial[open] summary{background:var(--tinta);color:var(--papel)}
+  .texto-cuerpo{
+    margin-top:12px;background:#fff;border:1px solid var(--linea);
+    border-left:3px solid var(--sello);max-width:640px;
+    padding:18px 20px;font-size:13.5px;line-height:1.7;color:#2A3550;
+    white-space:pre-line;font-family:'Bitter',serif;
+  }
+  .texto-aviso{
+    font-family:'Chivo Mono',monospace;font-size:10.5px;color:var(--grafito);
+    margin-top:8px;letter-spacing:.03em;
+  }
+
+  /* ---------- Movimientos en la administración ---------- */
+  .mov-fila{
+    display:grid;grid-template-columns:118px 1fr auto;gap:18px;
+    padding:16px 0;border-bottom:1px solid var(--linea);align-items:start;
+  }
+  .mov-fila:first-of-type{border-top:1px solid var(--linea-fuerte)}
+  @media(max-width:640px){.mov-fila{grid-template-columns:1fr;gap:6px}}
+  .mov-fila h4{font-family:'Bitter',serif;font-size:15.5px;font-weight:700;line-height:1.3}
+  .mov-detalle{font-size:14px;color:#39445E;margin-top:4px}
+  .mov-org{font-family:'Chivo Mono',monospace;font-size:11px;color:var(--grafito);display:block;margin-top:5px}
+  .vacio{
+    padding:18px 0;font-size:14px;color:var(--grafito);
+    border-top:1px solid var(--linea-fuerte);border-bottom:1px solid var(--linea);
+  }
+
+  /* ---------- Buscador ---------- */
+  .busca-caja{background:#fff;border:1px solid var(--linea);padding:22px 24px 24px}
+  .busca-fila{display:flex;gap:10px;flex-wrap:wrap}
+  #busca{
+    flex:1;min-width:220px;padding:10px 13px;
+    border:1px solid var(--linea-fuerte);background:var(--papel);
+    font-family:'Archivo',sans-serif;font-size:15px;color:var(--tinta);
+  }
+  #busca::placeholder{color:#8A93A8}
+  #filtro-tipo{
+    padding:10px 12px;border:1px solid var(--linea-fuerte);background:var(--papel);
+    font-family:'Chivo Mono',monospace;font-size:12.5px;color:var(--tinta);
+  }
+  .busca-nota{
+    font-family:'Chivo Mono',monospace;font-size:11px;color:var(--grafito);
+    margin-top:12px;letter-spacing:.03em;
+  }
+  #resultados{margin-top:6px}
+  .resultado{
+    display:flex;gap:14px;align-items:baseline;padding:13px 0;
+    border-bottom:1px solid var(--linea);flex-wrap:wrap;
+  }
+  .resultado:first-of-type{margin-top:14px;border-top:1px solid var(--linea-fuerte)}
+  .resultado .f-fecha{font-family:'Chivo Mono',monospace;font-size:12px;color:var(--grafito);flex:none;width:96px}
+  .resultado .f-cuerpo{flex:1;min-width:220px;font-size:14.5px}
+  .mini-chip{
+    font-family:'Chivo Mono',monospace;font-size:10px;letter-spacing:.08em;
+    text-transform:uppercase;border:1px solid var(--linea-fuerte);
+    padding:1px 6px;margin-right:6px;color:var(--grafito);
+  }
+  .resultado .f-num{font-family:'Chivo Mono',monospace;font-size:11.5px;color:var(--grafito)}
+  .sin-resultados{padding:16px 0 4px;font-size:14px;color:var(--grafito)}
+
+  /* ---------- Archivo ---------- */
+  .archivo-fila{
+    display:flex;gap:14px 18px;align-items:baseline;padding:12px 0;
+    border-bottom:1px solid var(--linea);flex-wrap:wrap;
+  }
+  .archivo-fila:first-of-type{border-top:1px solid var(--linea-fuerte)}
+  .archivo-fila.activa{background:rgba(62,124,177,.07)}
+  .archivo-fila .f-fecha{font-family:'Chivo Mono',monospace;font-size:12px;color:var(--grafito);flex:none;width:118px}
+  .archivo-fila .f-titular{font-size:14.5px;flex:1;min-width:220px}
+  .archivo-fila .f-num{font-family:'Chivo Mono',monospace;font-size:11px;color:var(--grafito)}
+  .btn.demo{border-color:var(--linea-fuerte);color:var(--grafito);cursor:not-allowed}
+  .btn.demo:hover{background:transparent}
+
+  /* ---------- Pie ---------- */
+  footer{
+    margin-top:60px;border-top:2px solid var(--tinta);
+    padding:18px 0 46px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    font-family:'Chivo Mono',monospace;font-size:11.5px;color:var(--grafito);
+  }
+  footer a{color:var(--grafito)}
+</style>
+</head>
+<body>
+<div class="marco">
+
+  <header>
+    <p class="eyebrow">Despacho diario · Boletín Oficial de la Provincia de Córdoba</p>
+    <div class="cabecera-fila">
+      <h1 id="titular">La lectura del Boletín, resuelta antes del primer mate.
+        <span class="fecha" id="fecha-hoy"></span>
+      </h1>
+      <div class="sello" id="sello" role="status" aria-label="Estado de publicación del boletín">
+        <span class="estado">PUBLICADO</span>
+        <span class="detalle" id="sello-detalle"></span>
+      </div>
+    </div>
+    <div class="estado-strip">
+      <span id="estado-corrida"><span class="punto">●</span> Última corrida <strong>hoy 07:40</strong></span>
+      <span>Próxima <strong>mañana 07:30</strong></span>
+      <span>Aviso enviado <strong>Telegram + correo</strong></span>
+      <span>Fuente <strong>boletinoficial.cba.gov.ar</strong></span>
+      <span id="estado-modo">Datos <strong>de demostración</strong></span>
+    </div>
+    <div class="aviso-pasado" id="aviso-pasado">
+      <span id="aviso-texto"></span>
+      <button class="btn mini" id="volver-hoy">Volver al despacho de hoy →</button>
+    </div>
+  </header>
+
+  <section aria-labelledby="t-sintesis">
+    <h2 class="titulo-seccion" id="t-sintesis">Lectura del día <small>generada por IA · revisar contra el texto oficial</small></h2>
+    <div class="sintesis" id="sintesis"></div>
+  </section>
+
+  <section aria-labelledby="t-normas">
+    <h2 class="titulo-seccion" id="t-normas">Normas destacadas <small id="conteo-normas"></small></h2>
+    <div id="normas"></div>
+  </section>
+
+  <section aria-labelledby="t-mov">
+    <h2 class="titulo-seccion" id="t-mov">Movimientos en la administración <small>designaciones · renuncias · estructura del Estado</small></h2>
+    <div id="movimientos"></div>
+  </section>
+
+  <section aria-labelledby="t-busca">
+    <h2 class="titulo-seccion" id="t-busca">Buscador de normativa <small>ediciones anteriores</small></h2>
+    <div class="busca-caja">
+      <div class="busca-fila">
+        <input type="search" id="busca" aria-label="Buscar normativa por número o palabra clave"
+               placeholder="Buscar por número o palabra clave — ej.: 812/2026, emergencia hídrica, APROSS">
+        <select id="filtro-tipo" aria-label="Filtrar por tipo de norma">
+          <option value="">Todos los tipos</option>
+          <option value="Ley">Leyes</option>
+          <option value="Decreto">Decretos</option>
+          <option value="Resolución">Resoluciones</option>
+          <option value="Licitación">Licitaciones</option>
+          <option value="Designación">Designaciones</option>
+        </select>
+      </div>
+      <p class="busca-nota" id="busca-nota"></p>
+      <div id="resultados"></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-archivo">
+    <h2 class="titulo-seccion" id="t-archivo">Archivo <small>tocá un día para abrir su despacho completo</small></h2>
+    <div id="archivo"></div>
+  </section>
+
+  <footer>
+    <span>Generado automáticamente · GitHub Actions + API de Anthropic</span>
+    <span>Si ves datos de ejemplo, la app aún no encontró <code>data/ultimo.json</code> (modo demostración)</span>
+  </footer>
+
+</div>
+
+<script>
+/* ============================================================
+   ARQUITECTURA DE DATOS (producción)
+
+   - data/AAAA/MM/DD.json → un archivo por día con TODO el
+     despacho de esa edición: lectura del día, normas destacadas
+     (con síntesis ampliada y texto oficial completo) y los
+     movimientos de la administración. El Archivo navega entre
+     esos archivos: cada día queda guardado para siempre.
+   - data/indice.json → índice acumulado de TODAS las normas:
+     solo metadatos + URL del PDF + página exacta (#page=N).
+   Acá van embebidos dos días como ejemplo.
+   ============================================================ */
+let HOY = "2026-07-18";
+let MODO = "demo"; // pasa a "prod" si la app encuentra data/ultimo.json
+
+let DESPACHOS = {
+  "2026-07-18": {
+    numero_boletin: "13.412",
+    hora_procesado: "07:42",
+    estado: "publicado",
+    sintesis_juridica: [
+      "El Poder Ejecutivo reglamentó por decreto el régimen de contrataciones directas por emergencia hídrica, fijando topes por objeto y un deber de publicación en el portal de compras dentro de los cinco días hábiles.",
+      "Se promulgó la ley que modifica el Código Tributario provincial en materia de exenciones a entidades sin fines de lucro: el punto sensible es la delegación amplia en la Dirección General de Rentas para definir requisitos por resolución."
+    ],
+    sintesis_politica: [
+      "La reglamentación de emergencia llega una semana antes de la sesión donde la oposición pidió informes sobre obra hídrica: el Ejecutivo se anticipa y ordena el terreno antes del debate.",
+      "La creación de la nueva agencia de gobierno digital y las designaciones en Economía consolidan el reacomodamiento posterior al convenio Provincia–ACIF–Municipalidad."
+    ],
+    normas: [
+      {
+        tipo: "Decreto", clase: "decreto", numero: "N° 812/2026",
+        titulo: "Reglamentación del régimen de contrataciones por emergencia hídrica",
+        importa: "Habilita contratación directa con topes: insumo directo para un pedido de informe sobre criterios objetivos de adjudicación.",
+        seccion: "1ª Sección · Legislación",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 3,
+        ampliada: {
+          juridica: "Fija topes por objeto contractual, exige informe técnico previo del área requirente y ordena publicar cada adjudicación en el portal de compras en cinco días hábiles. No prevé intervención previa del Tribunal de Cuentas: el control queda diferido a la rendición posterior.",
+          politica: "Le da al Ejecutivo un instrumento ágil justo antes del debate legislativo sobre obra hídrica. El punto a seguir en comisión: si los topes son lo bastante altos como para canalizar obra significativa por fuera de la licitación pública.",
+          oficialista: "Herramienta necesaria para responder con rapidez a una emergencia declarada por ley: la agilidad ahorra tiempo y costos frente a la licitación ordinaria.",
+          opositora: "La excepción puede volverse regla: sin topes bajos ni control previo, habilita el direccionamiento de contrataciones bajo el paraguas de la emergencia."
+        },
+        texto_oficial: "CÓRDOBA, 17 de julio de 2026.\nVISTO: el Expediente N° 0423-067812/2026 y la Ley N° 11.081 de Emergencia Hídrica Provincial.\nY CONSIDERANDO: que resulta necesario reglamentar el procedimiento de contratación directa previsto en el artículo 4° de la ley citada;\nEL GOBERNADOR DE LA PROVINCIA DECRETA:\nARTÍCULO 1°.- APRUÉBASE la reglamentación del régimen de contrataciones por emergencia hídrica que como Anexo I forma parte del presente.\nARTÍCULO 2°.- Los procedimientos quedan sujetos a los topes por objeto del Anexo II y a su publicación en el Portal de Compras Públicas dentro de los cinco (5) días hábiles de perfeccionados.\nARTÍCULO 3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese."
+      },
+      {
+        tipo: "Ley", clase: "ley", numero: "N° 11.084",
+        titulo: "Modificación del Código Tributario — exenciones a entidades civiles",
+        importa: "Delegación reglamentaria amplia en DGR: posible tensión con el principio de legalidad tributaria (art. 71 CP).",
+        seccion: "1ª Sección · Legislación",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 5,
+        ampliada: {
+          juridica: "El nuevo texto remite a la DGR la definición de requisitos, plazos y causales de caducidad de las exenciones. La delegación de elementos que hacen a la existencia misma del beneficio roza el límite del principio de reserva de ley en materia tributaria.",
+          politica: "Salió con acompañamiento de bloques del interior a cambio de incluir a los clubes y bibliotecas populares. La reglamentación de la DGR va a ser el verdadero campo de disputa en los próximos meses.",
+          oficialista: "Simplifica y ordena un régimen disperso de exenciones, dando a Rentas flexibilidad para actualizar requisitos sin reformar la ley cada vez.",
+          opositora: "Vacía a la Legislatura de una competencia propia: los beneficios tributarios quedan al arbitrio de una dirección del Poder Ejecutivo."
+        },
+        texto_oficial: "LA LEGISLATURA DE LA PROVINCIA DE CÓRDOBA SANCIONA CON FUERZA DE LEY: 11.084\nARTÍCULO 1°.- Modifícase el inciso pertinente del Código Tributario Provincial (Ley N° 6006, t.o. vigente), el que queda redactado: \"Las entidades civiles sin fines de lucro con personería vigente gozarán de exención en los términos y bajo los requisitos que establezca la Dirección General de Rentas\".\nARTÍCULO 2°.- La Dirección General de Rentas fijará los plazos de acreditación y las causales de caducidad del beneficio.\nARTÍCULO 3°.- Comuníquese al Poder Ejecutivo Provincial."
+      },
+      {
+        tipo: "Resolución", clase: "resolucion", numero: "ME N° 455/2026",
+        titulo: "Calendario extraordinario de recuperación de clases",
+        importa: "Impacto directo en paritaria docente: probable respuesta gremial de UEPC esta semana.",
+        seccion: "1ª Sección · Legislación",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 8,
+        ampliada: {
+          juridica: "Dispone jornadas de recuperación en sábados alternos sin definir su naturaleza salarial: no aclara si constituyen horas extraordinarias ni cómo se liquidan, un vacío que puede judicializarse.",
+          politica: "Publicada sin acuerdo paritario previo, es una señal de firmeza del Ministerio frente a UEPC. Esperable un pedido de conciliación obligatoria o medidas de acción directa en el corto plazo.",
+          oficialista: "Prioriza el derecho a la educación: los contenidos perdidos se recuperan dentro del mismo ciclo lectivo.",
+          opositora: "Impone trabajo en día no laborable sin acuerdo paritario ni definición salarial: un conflicto anunciado y judicializable."
+        },
+        texto_oficial: "VISTO: la necesidad de garantizar los contenidos mínimos del ciclo lectivo 2026 en los establecimientos alcanzados por las suspensiones de clases;\nLA MINISTRA DE EDUCACIÓN RESUELVE:\nARTÍCULO 1°.- ESTABLÉCESE un calendario extraordinario de recuperación de clases los días sábados detallados en el Anexo I de la presente.\nARTÍCULO 2°.- Las jornadas alcanzan a los establecimientos de gestión estatal de los niveles primario y secundario.\nARTÍCULO 3°.- Protocolícese, comuníquese, publíquese en el Boletín Oficial y archívese."
+      },
+      {
+        tipo: "Licitación", clase: "licitacion", numero: "Exp. 0045-231/26",
+        titulo: "Caminos de las Sierras — repavimentación Ruta Provincial N° 1, tramo Porteña–Freyre",
+        importa: "Coincide con el proyecto de resolución presentado sobre ese tramo: conviene seguir plazos y presupuesto oficial.",
+        seccion: "4ª Sección · Licitaciones",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 2,
+        ampliada: {
+          juridica: "Apertura de sobres el 14 de agosto; presupuesto oficial y pliego disponibles en el portal de compras. Verificar que el objeto coincida con el tramo completo reclamado y no solo con sectores parciales.",
+          politica: "La publicación llega semanas después del reclamo legislativo por el estado del tramo: un caso concreto de pedido que se traduce en obra. Vale documentarlo como resultado del trabajo parlamentario.",
+          oficialista: "Respuesta concreta a un reclamo territorial de larga data, con procedimiento competitivo y pliego público.",
+          opositora: "Llega tarde y sin un cronograma integral para la red vial del este provincial; atento a que el presupuesto oficial no quede desactualizado."
+        },
+        texto_oficial: "CAMINOS DE LAS SIERRAS S.A. — LICITACIÓN PÚBLICA\nObjeto: repavimentación de Ruta Provincial N° 1, tramo Porteña–Freyre (prog. 0+000 a 22+400).\nPresupuesto oficial: conforme pliego disponible en el Portal de Compras Públicas.\nApertura de sobres: 14 de agosto de 2026, 11:00 h, sede central.\nConsultas y adquisición de pliegos: hasta cinco (5) días hábiles antes de la fecha de apertura."
+      }
+    ],
+    movimientos: [
+      {
+        tipo: "Creación", clase: "creacion", instrumento: "Decreto N° 810/2026",
+        titulo: "Agencia Córdoba de Gobierno Digital",
+        detalle: "Nuevo ente con autarquía administrativa bajo la órbita del Ministerio de Economía; absorbe la Secretaría de Innovación y sus programas vigentes.",
+        organismo: "Poder Ejecutivo · estructura del Estado",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 2
+      },
+      {
+        tipo: "Designación", clase: "designacion", instrumento: "Decreto N° 815/2026",
+        titulo: "Directora General de Presupuesto",
+        detalle: "Cra. María Laura Bustos, hasta ahora subdirectora del área.",
+        organismo: "Ministerio de Economía y Gestión Pública",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 6
+      },
+      {
+        tipo: "Designación", clase: "designacion", instrumento: "Decreto N° 816/2026",
+        titulo: "Vocal del Directorio del ERSeP",
+        detalle: "Ab. Julián Soria, en la vacante producida por renuncia aceptada en la misma edición.",
+        organismo: "Ente Regulador de los Servicios Públicos",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 6
+      }
+    ]
+  },
+
+  "2026-07-17": {
+    numero_boletin: "13.411",
+    hora_procesado: "07:38",
+    estado: "publicado",
+    sintesis_juridica: [
+      "Se prorrogó por decreto la emergencia sanitaria en el ámbito de APROSS por 180 días, manteniendo las facultades excepcionales de contratación directa de medicamentos e insumos críticos.",
+      "Dos convenios con municipios del norte provincial formalizan la transferencia del mantenimiento de rutas terciarias, con compensación económica mensual a cargo de la Provincia."
+    ],
+    sintesis_politica: [
+      "La prórroga llega en paralelo a la discusión por el aporte adicional de afiliados: el oficialismo consolida herramientas antes del debate sobre el financiamiento de la obra social.",
+      "Los convenios viales refuerzan el vínculo con intendencias del norte, una señal territorial en un año de reacomodamiento político."
+    ],
+    normas: [
+      {
+        tipo: "Decreto", clase: "decreto", numero: "N° 798/2026",
+        titulo: "Prórroga de la emergencia sanitaria en el ámbito de APROSS",
+        importa: "Extiende por 180 días las facultades de contratación directa: seguimiento clave para el pedido de informe en curso sobre APROSS.",
+        seccion: "1ª Sección · Legislación",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 4,
+        ampliada: {
+          juridica: "Mantiene la habilitación de compras directas de medicamentos e insumos sin tope expreso, con rendición trimestral ante el Directorio. La reiteración de prórrogas sin ley marco consolida un régimen de excepción que ya lleva más de un año.",
+          politica: "Publicada la víspera del tratamiento en comisión del financiamiento de APROSS: fija posición antes del debate y reduce el margen para condicionar las facultades del Directorio.",
+          oficialista: "Garantiza la continuidad de compras críticas de medicamentos sin la demora de los procedimientos ordinarios.",
+          opositora: "Un año de emergencia renovada sin ley marco ni topes: el estado de excepción se institucionaliza."
+        },
+        texto_oficial: "CÓRDOBA, 16 de julio de 2026.\nVISTO: la situación de la Administración Provincial del Seguro de Salud (APROSS) y el Decreto N° 102/2026;\nEL GOBERNADOR DE LA PROVINCIA DECRETA:\nARTÍCULO 1°.- PRORRÓGASE por el término de ciento ochenta (180) días la emergencia sanitaria declarada en el ámbito de la APROSS.\nARTÍCULO 2°.- Mantiénense vigentes las facultades excepcionales de contratación conferidas al Directorio.\nARTÍCULO 3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese."
+      },
+      {
+        tipo: "Resolución", clase: "resolucion", numero: "MIySP N° 388/2026",
+        titulo: "Convenios de mantenimiento vial con municipios del norte",
+        importa: "Transfiere mantenimiento de rutas terciarias con compensación mensual: antecedente útil para la discusión sobre criterios objetivos de distribución.",
+        seccion: "1ª Sección · Legislación",
+        url_oficial: "https://boletinoficial.cba.gov.ar/", pagina: 7,
+        ampliada: {
+          juridica: "Aprueba convenios tipo de delegación de mantenimiento con compensación fijada por kilómetro. No se publican los criterios de cálculo del monto: un punto opaco comparable al del Convenio Marco con ACIF.",
+          politica: "Beneficia a intendencias del norte de distinto signo político: gesto de amplitud territorial que conviene leer junto al mapa de obras del semestre.",
+          oficialista: "Descentraliza el mantenimiento en quien está más cerca del territorio y compensa económicamente al municipio.",
+          opositora: "Sin criterios públicos de cálculo, la compensación puede volverse una herramienta de disciplinamiento político."
+        },
+        texto_oficial: "VISTO: los convenios suscriptos con las Municipalidades detalladas en el Anexo I;\nEL MINISTRO DE INFRAESTRUCTURA Y SERVICIOS PÚBLICOS RESUELVE:\nARTÍCULO 1°.- APRUÉBANSE los convenios de transferencia de mantenimiento de rutas terciarias celebrados con los municipios del Anexo I.\nARTÍCULO 2°.- La compensación económica se liquidará mensualmente conforme la metodología del Anexo II.\nARTÍCULO 3°.- Protocolícese, comuníquese y archívese."
+      }
+    ],
+    movimientos: []
+  }
+};
+
+/* Titulares del archivo — un renglón por edición procesada */
+let ARCHIVO = [
+  { fecha: "2026-07-18", numero: "13.412", titular: "Reglamentación de contrataciones por emergencia hídrica; nueva agencia de gobierno digital." },
+  { fecha: "2026-07-17", numero: "13.411", titular: "Prórroga de la emergencia sanitaria en APROSS y convenios viales con municipios del norte." },
+  { fecha: "2026-07-16", numero: "13.410", titular: "Reglamento de audiencias públicas ambientales; designaciones en el Tribunal de Cuentas." },
+  { fecha: "2026-07-15", numero: "13.409", titular: "Adhesión provincial al régimen nacional de firma digital para trámites registrales." }
+];
+
+/* Índice acumulado de ejemplo — solo metadatos + PDF y página exacta */
+let INDICE = [
+  { fecha:"2026-07-18", boletin:"13.412", tipo:"Designación", numero:"Decreto N° 815/2026", titulo:"María Laura Bustos — Directora General de Presupuesto (Economía)", pagina:6,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-18", boletin:"13.412", tipo:"Designación", numero:"Decreto N° 816/2026", titulo:"Julián Soria — Vocal del Directorio del ERSeP", pagina:6,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-17", boletin:"13.411", tipo:"Decreto",    numero:"798/2026",          titulo:"Prórroga de la emergencia sanitaria en el ámbito de APROSS", pagina:4,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-16", boletin:"13.410", tipo:"Resolución", numero:"TC N° 122/2026",    titulo:"Designaciones de personal en el Tribunal de Cuentas de la Provincia", pagina:12, url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-15", boletin:"13.409", tipo:"Ley",        numero:"11.072",            titulo:"Adhesión al régimen nacional de firma digital para trámites registrales", pagina:2,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-10", boletin:"13.406", tipo:"Licitación", numero:"Exp. 0045-198/26",  titulo:"Caminos de las Sierras — bacheo y sellado en Ruta Provincial N° 3", pagina:3,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-08", boletin:"13.404", tipo:"Decreto",    numero:"761/2026",          titulo:"Declaración de emergencia hídrica en departamentos del norte provincial", pagina:5,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-07-02", boletin:"13.400", tipo:"Resolución", numero:"APROSS N° 0311/2026", titulo:"Actualización del aporte adicional de afiliados voluntarios", pagina:9,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-06-27", boletin:"13.397", tipo:"Ley",        numero:"11.069",            titulo:"Régimen de audiencias públicas ambientales — modificación de la Ley 10.208", pagina:2,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-06-19", boletin:"13.391", tipo:"Decreto",    numero:"688/2026",          titulo:"Aprobación del Convenio Marco Provincia – ACIF – Municipalidad de Córdoba", pagina:6,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-06-12", boletin:"13.386", tipo:"Resolución", numero:"ME N° 402/2026",    titulo:"Concurso de cargos directivos en escuelas de gestión estatal", pagina:7,  url:"https://boletinoficial.cba.gov.ar/" },
+  { fecha:"2026-06-05", boletin:"13.381", tipo:"Licitación", numero:"Exp. 0045-154/26",  titulo:"Repavimentación Ruta Provincial N° 1, tramo Porteña–Freyre — llamado", pagina:4,  url:"https://boletinoficial.cba.gov.ar/" }
+];
+
+/* ---------- Utilidades ---------- */
+const fechaLarga = (iso) => {
+  const d = new Date(iso + "T12:00:00-03:00");
+  const s = d.toLocaleDateString("es-AR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
+const normalizar = (t) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+
+/* ---------- Render del despacho de un día ---------- */
+function renderDespacho(fecha){
+  const d = DESPACHOS[fecha];
+  if (!d) return;
+
+  document.getElementById("fecha-hoy").textContent = fechaLarga(fecha);
+
+  const sello = document.getElementById("sello");
+  sello.classList.toggle("pendiente", d.estado === "pendiente");
+  sello.querySelector(".estado").textContent = d.estado === "pendiente" ? "EN ESPERA" : "PUBLICADO";
+  document.getElementById("sello-detalle").innerHTML = d.estado === "pendiente"
+    ? "sin boletín aún<br>reintento 09:30"
+    : `B.O. N° ${d.numero_boletin}<br>procesado ${d.hora_procesado}`;
+
+  const aviso = document.getElementById("aviso-pasado");
+  aviso.classList.toggle("visible", fecha !== HOY);
+  document.getElementById("aviso-texto").textContent =
+    `Estás viendo el despacho del ${fecha} · B.O. N° ${d.numero_boletin}`;
+
+  document.getElementById("sintesis").innerHTML = `
+    <article class="lectura">
+      <p class="rotulo">Síntesis jurídica</p>
+      <h3>Qué cambió en el derecho vigente</h3>
+      ${d.sintesis_juridica.map(p=>`<p>${p}</p>`).join("")}
+    </article>
+    <article class="lectura politica">
+      <p class="rotulo">Síntesis política</p>
+      <h3>Qué se mueve detrás de las normas</h3>
+      ${d.sintesis_politica.map(p=>`<p>${p}</p>`).join("")}
+    </article>`;
+
+  document.getElementById("conteo-normas").textContent =
+    `${d.normas.length} seleccionadas · tocá una para ampliar`;
+
+  document.getElementById("normas").innerHTML = d.normas.map((n,i)=>`
+    <details class="norma-det"${i===0?" open":""}>
+      <summary class="norma">
+        <span>
+          <span class="chip ${n.clase}">${n.tipo}</span>
+          <span class="numero">${n.numero}</span>
+        </span>
+        <span>
+          <h4>${n.titulo}</h4>
+          <span class="importa"><b>Por qué importa:</b> ${n.importa}</span>
+        </span>
+        <span class="seccion-bo">${n.seccion}</span>
+      </summary>
+      <div class="norma-panel">
+        <p class="rotulo">Síntesis ampliada</p>
+        <p class="amp"><b class="lab-j">Lo jurídico.</b> ${n.ampliada.juridica}</p>
+        <p class="amp"><b class="lab-p">Lo político.</b> ${n.ampliada.politica}</p>
+        <p class="amp mirada"><b>Mirada oficialista.</b> ${n.ampliada.oficialista}</p>
+        <p class="amp mirada"><b>Mirada opositora.</b> ${n.ampliada.opositora}</p>
+        <details class="texto-oficial">
+          <summary>Leer el texto completo de la norma</summary>
+          <div class="texto-cuerpo">${n.texto_oficial}</div>
+          <p class="texto-aviso">Texto de ejemplo — en producción se extrae del PDF oficial del día.</p>
+        </details>
+        <div class="enlaces">
+          <a class="btn oficial" href="${n.url_oficial}#page=${n.pagina}" target="_blank" rel="noopener"
+             title="Demo: en producción abre el PDF exacto de la edición, en esta página">Abrir PDF oficial · ${n.seccion.split(" · ")[0]}, pág. ${n.pagina} ↗</a>
+          <a class="btn" href="#t-sintesis">Volver a la lectura del día</a>
+        </div>
+      </div>
+    </details>`).join("");
+
+  document.getElementById("movimientos").innerHTML = d.movimientos.length
+    ? d.movimientos.map(m=>`
+        <div class="mov-fila">
+          <span>
+            <span class="chip ${m.clase}">${m.tipo}</span>
+            <span class="numero">${m.instrumento}</span>
+          </span>
+          <span>
+            <h4>${m.titulo}</h4>
+            <p class="mov-detalle">${m.detalle}</p>
+            <span class="mov-org">${m.organismo}</span>
+          </span>
+          <a class="btn mini" href="${m.url_oficial}#page=${m.pagina}" target="_blank" rel="noopener"
+             title="Demo: en producción abre el PDF exacto de la edición">PDF · pág. ${m.pagina} ↗</a>
+        </div>`).join("")
+    : `<p class="vacio">Sin designaciones, renuncias ni cambios de estructura en esta edición.</p>`;
+
+  renderArchivo(fecha);
+}
+
+/* ---------- Archivo navegable ---------- */
+function renderArchivo(fechaActiva){
+  document.getElementById("archivo").innerHTML = ARCHIVO.map(a=>{
+    const tieneDatos = !!DESPACHOS[a.fecha] || MODO === "prod";
+    const boton = tieneDatos
+      ? `<button class="btn mini abrir-dia" data-fecha="${a.fecha}">${a.fecha===fechaActiva?"Abierto":"Abrir"}</button>`
+      : `<span class="btn mini demo" title="Sin datos cargados en esta demo — en producción todos los días abren">demo</span>`;
+    return `
+      <div class="archivo-fila${a.fecha===fechaActiva?" activa":""}">
+        <span class="f-fecha">${a.fecha}</span>
+        <span class="f-titular">${a.titular}</span>
+        <span class="f-num">B.O. ${a.numero}</span>
+        ${boton}
+      </div>`;
+  }).join("");
+
+  document.querySelectorAll(".abrir-dia").forEach(b=>{
+    b.addEventListener("click", async ()=>{
+      const f = b.dataset.fecha;
+      if (!DESPACHOS[f] && MODO === "prod"){
+        try{ DESPACHOS[f] = await (await fetch(`data/${f}.json`, {cache:"no-store"})).json(); }
+        catch(e){ b.textContent = "sin datos"; return; }
+      }
+      renderDespacho(f);
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  });
+}
+
+document.getElementById("volver-hoy").addEventListener("click", ()=>renderDespacho(HOY));
+
+/* ---------- Buscador (índice liviano, corre en el navegador) ---------- */
+const inputBusca = document.getElementById("busca");
+const filtroTipo = document.getElementById("filtro-tipo");
+const contResultados = document.getElementById("resultados");
+const nota = document.getElementById("busca-nota");
+
+let notaBase = "";
+function actualizarNota(){
+  notaBase = `Índice: ${INDICE.length} normas de ediciones anteriores · solo metadatos · cada enlace abre el PDF oficial en la página exacta de la norma`;
+  nota.textContent = notaBase;
+}
+actualizarNota();
+
+function buscar(){
+  const q = normalizar(inputBusca.value.trim());
+  const tipo = filtroTipo.value;
+  if (!q && !tipo){ contResultados.innerHTML = ""; nota.textContent = notaBase; return; }
+
+  const hallados = INDICE.filter(r=>{
+    const coincideTipo = !tipo || r.tipo === tipo;
+    const pajar = normalizar(`${r.tipo} ${r.numero} ${r.titulo} ${r.boletin}`);
+    const coincideTexto = !q || q.split(/\s+/).every(pal => pajar.includes(pal));
+    return coincideTipo && coincideTexto;
+  });
+
+  nota.textContent = hallados.length
+    ? `${hallados.length} resultado${hallados.length===1?"":"s"} en el índice`
+    : notaBase;
+
+  contResultados.innerHTML = hallados.length
+    ? hallados.map(r=>`
+        <div class="resultado">
+          <span class="f-fecha">${r.fecha}</span>
+          <span class="f-cuerpo"><span class="mini-chip">${r.tipo}</span>${r.titulo} <span class="f-num">· ${r.numero}</span></span>
+          <a class="btn mini" href="${r.url}#page=${r.pagina}" target="_blank" rel="noopener"
+             title="Demo: en producción abre el PDF de esa edición, en esta página">B.O. ${r.boletin} · pág. ${r.pagina} ↗</a>
+        </div>`).join("")
+    : `<p class="sin-resultados">Sin resultados para esa búsqueda en el índice de ejemplo. Probá con el número de la norma o una palabra del título.</p>`;
+}
+inputBusca.addEventListener("input", buscar);
+filtroTipo.addEventListener("change", buscar);
+
+/* ---------- Arranque: datos reales si existen; si no, demo ---------- */
+async function init(){
+  try{
+    const u = await (await fetch("data/ultimo.json", {cache:"no-store"})).json();
+    const d = await (await fetch(`data/${u.hoy}.json`, {cache:"no-store"})).json();
+    HOY = u.hoy;
+    DESPACHOS = { [u.hoy]: d };
+    ARCHIVO = u.archivo || [];
+    MODO = "prod";
+    try{ INDICE = await (await fetch("data/indice.json", {cache:"no-store"})).json(); }
+    catch(e){ INDICE = []; }
+    document.getElementById("estado-corrida").innerHTML =
+      `<span class="punto">●</span> Última edición procesada <strong>${u.hoy}</strong>`;
+    document.getElementById("estado-modo").innerHTML = "Datos <strong>reales</strong>";
+    actualizarNota();
+  }catch(e){ /* sin data/: queda el modo demostración embebido */ }
+  renderDespacho(HOY);
+}
+init();
+</script>
+</body>
+</html>
