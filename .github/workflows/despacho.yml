@@ -1,0 +1,46 @@
+name: Despacho Diario — Boletín Oficial de Córdoba
+
+on:
+  schedule:
+    - cron: "30 10 * * 1-5"
+    - cron: "30 12 * * 1-5"
+    - cron: "30 14 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  despacho:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar el despacho del día
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GMAIL_USUARIO: ${{ secrets.GMAIL_USUARIO }}
+          GMAIL_CLAVE_APP: ${{ secrets.GMAIL_CLAVE_APP }}
+          APP_URL: ${{ secrets.APP_URL }}
+        run: python boletin.py
+
+      - name: Publicar datos nuevos
+        run: |
+          git config user.name "despacho-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "Sin cambios que publicar."
+          else
+            git commit -m "Despacho $(date -u +%F)"
+            git push
+          fi
