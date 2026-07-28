@@ -1,0 +1,262 @@
+{
+ "fecha": "2026-07-28",
+ "numero_boletin": "143",
+ "sintesis_juridica": [
+  "El boletín contiene fundamentalmente actos administrativos de gestión: aceptación de renuncias de funcionarios (Res. 117/2026), habilitación de empresa de seguridad privada (Res. 326/2026), rectificaciones administrativas en bases concursales de elencos artísticos (Res. 223/2026 de Agencia Córdoba Cultura), e inscripción de peritos oficiales en el Poder Judicial (Res. Administrativa 185/2026). No hay leyes nuevas ni modificaciones al régimen normativo vigente en materia sustantiva.",
+  "En materia de contrataciones, se publican convocatorias de licitaciones públicas de significativo monto fiscal: EPEC convoca licitación por $1.432 millones para adquisición de sistema de medición inteligente (Licitación 1435), y $189 millones para ejecución de pavimento en líneas aéreas (Licitación 5578); el Ministerio de Seguridad abre subasta inversa por $606 millones para contratación de horas de vuelo en operaciones de emergencia. También se publican convocatorias a audiencia pública ambiental para loteo en Río Cuarto y notificación de movimientos de personal en educación."
+ ],
+ "sintesis_politica": [
+  "La edición del 28 de julio registra cuatro renuncias simultáneas de funcionarios (BRANDÁN, ACOSTA, CALVO, FRIZZA) aceptadas por Secretaría General de Gobernación a partir del 23 de julio, sin que el boletín aclare sus áreas ni los motivos. El timing de publicación tardía de estas bajas sugiere posible reacomodo administrativo en la estructura del Ejecutivo provincial, aunque no hay información pública que lo explique.",
+  "Las contrataciones de gran monto —especialmente la subasta de $606 millones para vuelos de emergencia ante incendios forestales— responden al ciclo estival de riesgo climático en la provincia. La licitación de EPEC por infraestructura de medición inteligente ($1.432 millones) representa inversión en modernización tecnológica del servicio eléctrico. Estos actos no generan controversia visible en el boletín, pero movilizan recursos públicos significativos sin debate legislativo explícito en el período."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "117/2026",
+   "titulo": "Aceptación de renuncias de funcionarios",
+   "importa": "Cuatro funcionarios del Gobierno Provincial renuncian simultáneamente; el acto no explica cargos ni motivaciones, generando incertidumbre sobre reacomodos en la estructura del Ejecutivo.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto administrativo que acepta renuncias invocando delegación del art. 3° inc. i) del Decreto 2449/2023. El instrumento refiere a un Anexo I ('compuesto de una (1) foja útil') que contendría los datos personales de los renunciantes, pero no transcribe sus nombres de manera completa en el articulado, lo que dificulta verificación posterior. Texto sin defectos formales aparentes, pero impreciso en cuanto a identificación de cargos vacados.",
+    "politica": "La aceptación de cuatro renuncias en la misma fecha sugiere posible reacomodo de la gestión provincial. Sin información sobre las carteras ni las causas, resulta imposible evaluar si responde a cambio de rumbo político, saneamiento administrativo o presiones locales. La simultaneidad y el silencio de motivación generan especulación.",
+    "oficialista": "Se trata de un acto ordenado y rápido que refleja la prerogativa del Ejecutivo de aceptar renuncias voluntarias sin necesidad de explicación pública. Los funcionarios cumplen su obligación de presentar declaración jurada patrimonial conforme la Ley 8.198, respetando estándares de transparencia.",
+    "opositora": "La aceptación de renuncias sin motivación pública ni identificación clara de cargos vaciados evita rendición de cuentas. ¿Por qué cuatro funcionarios renuncian el mismo día? ¿Hay crisis administrativa silenciada? La falta de transparencia alimenta desconfianza institucional."
+   },
+   "texto_oficial": "VISTO: Las renuncias presentadas por distintos funcionarios del Gobierno de la Provincia de Córdoba. Y CONSIDERANDO: Que, en virtud de las renuncias presentadas por los Sres. BRANDÁN, Gustavo Horacio (D.N.I. N° 26.482.900), ACOSTA, Guillermo Constancio (D.N.I. N° 25.196.560), CALVO, Manuel Fernando (D.N.I. N° 26.105.186) y FRIZZA, Gabriel Alberto (D.N.I. N° 20.074.158), a sus respectivos cargos, toma intervención esta Secretaría General de la Gobernación a los efectos de disponer su aceptación. Que a mérito de lo expuesto y conforme a las facultades delegadas por el artículo 3° inciso i) del Decreto N° 2449/2023; EL SECRETARIO GENERAL DE LA GOBERNACIÓN RESUELVE: Artículo 1º: ACÉPTANSE, a partir del 23 de julio de 2026, las renuncias presentadas por los funcionarios que se nominan en el Anexo I, el que compuesto de una (1) foja útil forma parte del presente instrumento legal; haciéndole saber que deberán presentar su declaración jurada patrimonial en los términos de la Ley N° 8.198 y su reglamentación. Artículo 2º: PROTOCOLÍCESE, comuníquese a la unidad de recursos humanos correspondiente, dese intervención a la Secretaría de Capital Humano de la Secretaría General de la Gobernación, notifíquese y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_280726.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "326/2026",
+   "titulo": "Habilitación de empresa de seguridad privada G-SEGURIDAD S.R.L.",
+   "importa": "Acto de control administrativo sobre actividad regulada (seguridad privada) que verifica cumplimiento normativo previo a habilitar a empresa y designar director técnico, sin autorización para uso de armas.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Resolución dictada por la Dirección de Control y Gestión Operativa en Seguridad Privada que declara cumplidos los requisitos de la Ley 10.571 y su reglamentación (Res. 970/2025). Acto condicionado: exige cumplimiento de obligaciones (arts. 9 inc. d), 14, 15 y 16 de Ley 10.571) en plazo de 60 días; requiere registración en Ciudadano Digital (CIDI) Nivel 2 para notificaciones futuras (Ley 5.350, Decreto 1280/14, Ley 10.618 y Decreto 750/19). Motivación suficiente; competencia clara del órgano. Sin vicios formales detectables.",
+    "politica": "Tramitación administrativa rutinaria de habilitación empresarial. La prohibición explícita de 'autorización para uso de armas' al Director Técnico refleja política de control restrictivo en seguridad privada. No hay controversia aparente ni impacto político significativo.",
+    "oficialista": "El acto verifica cumplimiento riguroso de requisitos legales, inspecciona documentación exhaustivamente, y exige nivel alto de registración digital para transparencia administrativa. La prohibición de armas refleja criterio prudente de seguridad pública.",
+    "opositora": "El texto no aporta crítica; se trata de un acto rutinario de habilitación administrativa sin elementos controvertibles en sí mismo."
+   },
+   "texto_oficial": "VISTO: el Expediente Digital N° 0531-080500/2026. Y CONSIDERANDO: Que por las presentes actuaciones, se tramita la habilitación de la empresa 'G-SEGURIDAD S.R.L.' C.U.I.T. 30-71888571-6 así también la designación en el cargo de Director Técnico del Sr. MARQUEZ Rodolfo Marcelo D.N.I. N° 21.324.920... EL DIRECTOR DE CONTROL Y GESTIÓN OPERATIVA EN SEGURIDAD PRIVADA DEL MINISTERIO DE SEGURIDAD RESUELVE: Artículo 1°.- DISPÓNESE la habilitación de la empresa 'G-SEGURIDAD S.R.L.' C.U.I.T. 30-71888571-6, con domicilio legal en calle Correa Olegario N° 789 Barrio Alto Alberdi de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa al Sr. MARQUEZ Rodolfo Marcelo D.N.I. N° 21.324.920, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_280726.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "223/2026",
+   "titulo": "Rectificaciones de bases y condiciones de concursos públicos para elencos artísticos (Coro Polifónico y Coro de Cámara)",
+   "importa": "Correcciones administrativas en convocatorias para cobertura de 12 cargos en Coro Polifónico y 4 en Coro de Cámara; rectifica composición de jurados y pruebas técnicas sin modificación sustancial del proceso.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Resolución del Directorio de Agencia Córdoba Cultura que rectifica cuatro aspectos de bases de concursos públicos de oposición, títulos y antecedentes aprobadas por Res. 2026/RC-00000189: (1) sustituye miembros titulares y suplentes de jurados (reemplaza a Juan Manuel Brarda y Hadrián Ávila Arzuza por Cecilia Croce y Santiago Serna en ambas especialidades); (2) amplía prueba técnica de copistas-archivistas con tareas adicionales (confección de parte general para Director y uso de software de imágenes tipo Photoshop); (3) corrige referencia de archivo de destino en tercera etapa (de 'Coro de Cámara' a 'Coro Polifónico'). El acto invoca que las rectificaciones 'no significan modificación sustancial', pero la sustitución de jurados después de apertura de inscripciones puede afectar expectativas de recusación (que se ejercen 'finalizado plazo de inscripciones'). Técnica legislativa clara; competencia propia del Directorio.",
+    "politica": "Cambios en composición de jurados que sustituyen directores de elencos provinciales por docentes universitarios (FCEFyN y Psicología de UNC). Sugiere apertura hacia criterios académicos neutrales frente a estructura interna de la Agencia, posiblemente para evitar conflictos de interés o mejorar legitimidad de selección. Las ampliaciones de prueba técnica elevan exigencias de especialización.",
+    "oficialista": "Las rectificaciones responden a necesidad legítima de corregir errores materiales (nombres confundidos en subanexo) y ajustar jurados para mayor imparcialidad e independencia profesional. Las pruebas ampliadas reflejan estándares más rigurosos en selección de especialistas.",
+    "opositora": "La sustitución de jurados tras apertura de inscripciones puede desestabilizar expectativas de los concursantes. El cambio de referencia de 'Coro de Cámara' a 'Coro Polifónico' en tercera etapa sugiere desorden administrativo previo. Las ampliaciones de prueba podrían disadvantajear candidatos ya preparados para versión original."
+   },
+   "texto_oficial": "Artículos 1 a 4 rectifican: (1) Subanexo I (coreutas): sustituye representante titular de Agencia de Juan Manuel Brarda (Director Coro de Cámara) por Cecilia Croce (Directora Coro FCEFyN-UNC) y suplente de Hadrián Ávila Arzuza (Director Orquesta Académica) por Santiago Serna (Director Coro Psicología-UNC). (2) Subanexo II (copistas-archivistas): idéntica sustitución de jurado. (3) Subanexo II, segunda etapa: amplía prueba con 'Confección de una parte general para el Director/a. Utilización de software para manejo de imágenes (Photoshop o similar)'. (4) Subanexo II, tercera etapa: cambia 'archivo del Coro de Cámara' por 'archivo del Coro Polifónico'. Artículo 5 ordena notificación de inscriptos y difusión por todos los medios de la convocatoria original.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_280726.pdf"
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "clase": "resolucion",
+   "numero": "185/2026",
+   "titulo": "Inscripción de Peritos Oficiales en diversas especialidades ante Tribunal Superior de Justicia",
+   "importa": "Acto de habilitación profesional que inscribe 9 peritos en 7 especialidades (Contadores, Criminología, Higiene y Seguridad, Informática, Ingeniería Civil, Ingeniería Mecánica, Medicina Legal) para actuar ante el Poder Judicial en múltiples circunscripciones.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Resolución Administrativa de la Administración General del Poder Judicial que inscribe peritos conforme Acuerdos Reglamentarios 916, Serie A (2007) y sus modificatorios, y 163 y 164, Serie B (2020 y 2020). Invoca cumplimiento de requisitos verificados por Colegios Profesionales suscritos bajo Convenio (CPCE, COPHISEC, CIEC) y certificación de otros especialistas. Acto de alcance limitado (habilitación profesional, no normativo); competencia clara del Tribunal Superior. Sin defectos formales; referencia detallada a circunscripciones judiciales. Cumple requisito de 'Juramento de Ley' previo.",
+    "politica": "Acto administrativo rutinario de habilitación de peritos. Refleja sistema de control profesional mediante convenios con colegios especializados. Sin implicancia política aparente.",
+    "oficialista": "Proceso ordenado que verifica calificación de profesionales mediante sus órganos colegiales de control. Garantiza experticia técnica imparcial en causas judicales.",
+    "opositora": "Sin materia controvertible; acto técnico de habilitación profesional."
+   },
+   "texto_oficial": "I) INSCRIBIR como PERITOS OFICIALES, previo Juramento de Ley, a los siguientes profesionales: A) CONTADORES: GACHE HECTOR JORGE (Primera Circunscripción - Córdoba Capital); MACHADO SABRINA LILIANA (Primera Circunscripción - Alta Gracia, Córdoba Capital); MORICHETTI ALEXIS ANDREAS ALBERTO (Primera a Décima Circunscripciones en múltiples sedes). B) CRIMINOLOGÍA: ANGELINI LAUTARO EMANUEL (Cuarta Circunscripción - Río Cuarto). C) HIGIENE Y SEGURIDAD EN EL TRABAJO (LICENCIADA): AGÜERO EUGENIA DEL CARMEN (Primera Circunscripción - Córdoba Capital). D) INFORMÁTICA: SANCHEZ HÉCTOR DANIEL (Primera Circunscripción - Alta Gracia, Córdoba Capital). E) INGENIERÍA CIVIL: MARTINEZ KING ROLAND VÍCTOR (Primera Circunscripción - Córdoba Capital). F) INGENIERÍA MECÁNICA: GAUTERO MATÍAS LUIS (Cuarta Circunscripción - Río Cuarto). G) MEDICINA LEGAL: ALIAGA GARZÓN FRANCISCO JOSÉ (Primera Circunscripción - Córdoba Capital). II) PROTOCOLIZAR Y COMUNICAR a los interesados.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_280726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "1435/EPEC",
+   "titulo": "Adquisición de sistema de medición inteligente para Infraestructura Avanzada de Medición (EPEC)",
+   "importa": "Licitación de alto monto fiscal ($1.432 millones, IVA incluido) para modernización tecnológica del sistema de medición de distribución eléctrica y alumbrado público en Córdoba.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Convocatoria a licitación pública electrónica con doble apertura de ofertas (vencido plazo de presentación, 04-08-2026 a las 12:00 hs). Presupuesto Oficial $1.432.026.960,00 IVA incluido. Portal de Compras Públicas es sitio de presentación. Pliego disponible sin valor en portal EPEC. Procedimiento estándar conforme Decreto Reglamentario 305/2014 y Resolución 8/2020 de Dirección General de Compras Públicas. Competencia de EPEC clara; término publicado.",
+    "politica": "Inversión significativa en modernización de infraestructura eléctrica provincial. 'Infraestructura Avanzada de Medición' sugiere migración hacia tecnología digital para gestión de activos de distribución y alumbrado público; probable objetivos de eficiencia, reducción de pérdidas técnicas, mejora de facturación. No hay controversia visible sobre la necesidad o alcance.",
+    "oficialista": "Inversión estratégica en modernización de servicios públicos esenciales (energía) que mejora precisión, reduce pérdidas y eleva competitividad de la empresa estatal EPEC.",
+    "opositora": "Licitación de monto muy elevado sin debate previo visible en la Legislatura. ¿Hay financiamiento identificado? ¿Cuál es el horizonte de endeudamiento? Riesgo de obra pública sin supervisión parlamentaria."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1435 - Objeto: 'Adquisición de sistema de medición inteligente para conformar una Infraestructura Avanzada de Medición para la gestión de activos de distribución y alumbrado público-'. PRESUPUESTO OFICIAL: $ 1.432.026.960,00. IVA incluido- PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 04-08-2026 en el Portal Electrónico de Compras y Contrataciones de la EPEC. DOBLE APERTURA DE OFERTAS: Vencido el plazo de presentación, a las 12:00 hs. del día 04-08-2026 en el referido Portal. Consultas: conforme Pliego Particular de Condiciones – ADQUISICIÓN DE PLIEGOS: Portal Electrónico de Compras y Contrataciones de la EPEC o Pagina WEB de EPEC/Proveedores/Contrataciones. Pliego sin valor.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_280726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5578/EPEC",
+   "titulo": "Ejecución de pavimento en líneas aéreas norte (EPEC)",
+   "importa": "Licitación de $189 millones para obra vial en infraestructura de distribución eléctrica líneas aéreas norte de la provincia.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación Pública con doble apertura. Presupuesto Oficial: $189.032.641,86. Entrega de sobres hasta 11-08-26 hora 10. Apertura 11-08-26 hora 11. Consultas en https://www.epec.com.ar/perfiles/proveedores/concursos-y-licitaciones. Pliego sin valor. Competencia de EPEC; procedimiento estándar. Publicado conforme regulación de compras públicas.",
+    "politica": "Inversión en infraestructura de distribución eléctrica en zona norte provincial. Probable respuesta a demanda de servicio en zonas periféricas o modernización de líneas envejecidas. Sin controversia aparente.",
+    "oficialista": "Ampliación y mejora de infraestructura de distribución eléctrica en zonas de crecimiento o áreas con deficit histórico.",
+    "opositora": "Otra licitación de monto elevado sin contexto parlamentario explícito. Acumulación de contratos EPEC sin supervisión legislativa visible."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5578 DOBLE APERTURA: 11-08-26 HORA: 11.- OBJETO: 'EJECUCION DE PAVIMENTO EN LINEAS AEREAS NORTE-' - ENTREGA DE SOBRES HASTA EL 11-08-26 HORA 10 – PRESUPUESTO OFICIAL: $189.032.641,86. - LUGAR: Administración Central, Área Compras y Contrataciones, La Tablada N° 350 – Córdoba – CONSULTA: https://www.epec.com.ar/perfiles/proveedores/concursos-y-licitaciones PLIEGO SIN VALOR.-",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_280726.pdf"
+  },
+  {
+   "tipo": "Subasta Inversa Electrónica",
+   "clase": "licitacion",
+   "numero": "2026/000009",
+   "titulo": "Contratación de horas de vuelo de aeronaves (Ministerio de Seguridad)",
+   "importa": "Subasta inversa por $606 millones para contratación de horas de vuelo en operaciones de emergencia, incendios forestales y catástrofes en período de riesgo.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Subasta Electrónica Inversa N° 2026/000009, Expte. 0683-080008/2026. Presupuesto Oficial: $606.060.000,00. Fecha 30-07-2026, 08:00 a 12:00 hs. Margen mínimo mejora oferta 0,50%. Oferentes registrados en ComprasPublicas pueden participar por portal web según Decreto Reglamentario 305/2014 y Resolución 8/2020. Procedimiento estándar de emergencia (incendios forestales, catástrofes). Competencia clara del Ministerio de Seguridad. Publicado.",
+    "politica": "Contratación para operaciones críticas de seguridad ante riesgos climáticos (incendios forestales) y desastres naturales. Ciclo de demanda estival típico en Córdoba. Monto muy significativo refleja prioridad del Ejecutivo en capacidad de respuesta aérea.",
+    "oficialista": "Inversión estratégica en capacidad operativa de emergencia; subasta inversa reduce costos; período de riesgo justifica urgencia.",
+    "opositora": "Contratación por $606 millones en emergencia, sin debate legislativo previo. Riesgo de sobreprecio en procedimiento de emergencia; falta transparencia de competidores y ofertas históricas."
+   },
+   "texto_oficial": "MINISTERIO DE SEGURIDAD SUBASTA ELECTRONICA INVERSA Nº 2026/000009 EXPTE. Nº: 0683-080008/2026 'Contratación de horas de vuelo de aeronaves de alas fijas y alas rotativas, para uso en el período de riesgo de incendios forestales, catástrofes, siniestros o situaciones de desastre, en la provincia de Córdoba'. PRESUPUESTO OFICIAL: Pesos Seiscientos Seis Millones Sesenta Mil con 00/100 ($606.060.000,00). FECHA DE SUBASTA: 30/07/2026. HORA DE INICIO DE LA SUBASTA: 08:00HS. HORA DE FINALIZACIÓN DE LA SUBASTA: 12:00HS. MARGEN MINIMO DE MEJORA DE OFERTA: 0,50%.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_280726.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Renuncia",
+   "clase": "renuncia",
+   "instrumento": "Resolución 117/2026",
+   "titulo": "Aceptación de renuncias de cuatro funcionarios del Gobierno Provincial",
+   "detalle": "BRANDÁN, Gustavo Horacio (DNI 26.482.900); ACOSTA, Guillermo Constancio (DNI 25.196.560); CALVO, Manuel Fernando (DNI 26.105.186); FRIZZA, Gabriel Alberto (DNI 20.074.158)",
+   "organismo": "Gobierno de la Provincia de Córdoba (cargos no especificados en el articulado)",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_280726.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "117/2026",
+   "titulo": "Aceptación de renuncias de funcionarios del Gobierno Provincial",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Audiencia Pública",
+   "numero": "—",
+   "titulo": "Comunicación de la Secretaría Parlamentaria del H. Senado de la Nación sobre designación de Vocales de Cámara Federal de Apelaciones de Córdoba",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "326/2026",
+   "titulo": "Habilitación de empresa G-SEGURIDAD S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "223/2026",
+   "titulo": "Rectificaciones de bases y condiciones de concursos públicos para Coro Polifónico y Coro de Cámara (Agencia Córdoba Cultura)",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "numero": "185/2026",
+   "titulo": "Inscripción de Peritos Oficiales en diversas especialidades ante Tribunal Superior de Justicia",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Enmienda 1 a EXPTE. 0047-000591/2026",
+   "titulo": "Reparación, refuncionalización y puesta en valor de infraestructura en parques y plazas Zona N° 2 de Córdoba Capital (ACIF)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1434/EPEC",
+   "titulo": "Contratación del servicio de pasajes/hoteles (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5578/EPEC",
+   "titulo": "Ejecución de pavimento en líneas aéreas norte (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1435/EPEC",
+   "titulo": "Adquisición de sistema de medición inteligente para Infraestructura Avanzada de Medición (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "1 a Licitación 1434/EPEC",
+   "titulo": "Prórroga de plazo de presentación y apertura de ofertas a 05-08-2026",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "—",
+   "titulo": "Licitación Pública de Inmueble (Manzana N° 1) - Municipalidad de Brinkmann",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000009",
+   "titulo": "Contratación de horas de vuelo de aeronaves (Ministerio de Seguridad)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000012",
+   "titulo": "Contratación de dos (2) profesionales para unidades de Vinculación Tecnológica y Microbiología (CEPROCOR)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Convocatoria a Audiencia Pública Ambiental",
+   "numero": "—",
+   "titulo": "Audiencia Pública Ambiental Digital - Proyecto 'Loteo Ayres de la Antonia' (Río Cuarto)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Edicto - Partidos Políticos",
+   "numero": "—",
+   "titulo": "Elecciones internas y estados patrimoniales de agrupaciones políticas (MSYT, Compromiso Federal, Nueva Izquierda, MST, Estamos con Vos)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Res. (M) 00000925/26",
+   "titulo": "Baja por fallecimiento de docente Elsa Irma BRIGANTI (Ministerio de Educación)",
+   "seccion": "4",
+   "pagina": 3
+  }
+ ],
+ "telegram": "📋 BOE Nº 143 (28-7-2026): 15 normas. Destacado: Licitación EPEC $1.432M sistema medición inteligente + Subasta $606M horas vuelo emergencias + 4 renuncias funcionarios sin especificar cargos. Más en → boletinoficial.cba.gov.ar",
+ "hora_procesado": "14:45",
+ "estado": "publicado"
+}
