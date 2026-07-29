@@ -1,0 +1,168 @@
+{
+ "fecha": "2026-07-29",
+ "numero_boletin": "144",
+ "sintesis_juridica": [
+  "La edición del 29 de julio de 2026 es de carácter operativo y administrativo, centrada en concesiones, licitaciones y servicios públicos (Sección 4). Se publican tres licitaciones públicas de la Empresa Provincial de Energía de Córdoba (EPEC) por montos significativos: una para contratación de pasajes y hoteles por $314.721.000; otra para ejecución de pavimento en líneas aéreas norte por $189.032.641,86; y una tercera para adquisición de sistema de medición inteligente por $1.432.026.960. También se publica una licitación municipal de Brinkmann para venta de inmueble en zona semiindustrial por USD 198.860 (contado) o USD 200.000 (financiado). Se incluyen además subastas electrónicas diversas y convocatorias de asambleas de organismos públicos.",
+  "No se registran reformas legislativas, derogaciones ni cambios normativos de rango legal en esta edición. Todas las publicaciones son actos administrativos de gestión corriente: llamados a licititar bienes y servicios conforme a procedimientos establecidos, convocatorias a asambleas ordinarias de consorcios y órganos electorales, y rendición de cuentas de partidos políticos. El texto no revela ambigüedades técnico-jurídicas relevantes ni vicios formales de procedimiento en los instrumentos publicados."
+ ],
+ "sintesis_politica": [
+  "La presencia de tres licitaciones de EPEC de gran volumen (total superior a $1.900 millones) en una única edición sugiere que la empresa estatal ha acelerado su calendario de contrataciones en el segundo semestre de 2026, posiblemente como respuesta a planes de modernización de infraestructura eléctrica o de ampliación de capacidad. La licitación de medición inteligente (casi $1.500 millones) es coherente con las prioridades de digitalización del Estado anunciadas en instrumentos anteriores y con estándares internacionales de gestión de redes de distribución. Estos actos no exhiben señales de controversia política explícita.",
+  "La licitación municipal de Brinkmann para venta de inmueble semiindustrial refleja ejecución de ordenanzas municipales de años anteriores (Nº 3.628 y 3.631) y puede formar parte de estrategia local de generación de ingresos o reasignación de patrimonio. La convocatoria a audiencia electoral sobre el partido «Transparencia en Línea en Tiempo Real - TELETR» (Villa Carlos Paz) y los reportes de partidos políticos son actos de rutina del Juzgado Electoral Provincial. No se detectan movimientos de gobiernos copartidarios rivales o tensiones interinstitucionales en esta edición."
+ ],
+ "normas": [
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1434",
+   "titulo": "Contratación del servicio de pasajes/hoteles",
+   "importa": "EPEC licita por $314 millones un servicio esencial de gestión de movilidad y alojamiento para sus operaciones; volumen fiscal relevante y plazo breve (apertura 03-08-2026).",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública electrónica publicada conforme procedimientos de contratación estatal. El pliego está disponible sin costo en el portal electrónico de EPEC. Presupuesto oficial: $314.721.000 IVA incluido. Plazo de presentación de ofertas: hasta las 12:00 hs del 03-08-2026 en portal electrónico; apertura inmediata del mismo día. Competencia de EPEC según su carácter de empresa provincial. No se observan vicios formales en la publicación ni delegaciones excesivas.",
+    "politica": "La contratación de pasajes y hoteles por suma relevante puede reflejar plan de capacitación, desplazamientos de personal o funcionamiento de operaciones en múltiples sedes. El timing (convocatoria en julio para agosto) sugiere aceleración presupuestaria de fin de semestre. No hay controversia política visible.",
+    "oficialista": "EPEC ejecuta procedimiento licitatorio transparente y abierto a competencia, conforme estándares de contratación estatal. El servicio es operacionalmente necesario para el funcionamiento de la empresa.",
+    "opositora": "Sin elementos en el texto para una crítica de fondo; podría cuestionarse si el volumen ($314 M) guarda proporcionalidad con servicios de pasajes/hoteles o si obedece a sobreevaluación presupuestaria."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U. LICITACION PUBLICA ELECTRONICA N.º 1434 - Objeto: \"CONTRATACION DEL SERVICIO DE PASAJES/HOTELES-\" . Presupuesto Oficial: $314.721 .000,00. IVA incluido- Presentación de ofertas: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 12:00 hs del día 03-08-2026. Apertura de Ofertas: 03-08-2026. Consultas: Área de Compras y Contrataciones de la EPEC, La Tablada N° 350 – primer piso – Córdoba o al correo electrónico comprasycontrat@epec.com.ar – Lugar de retiro de Pliego: Portal Electrónico de Compras y Contrataciones de la EPEC o Pagina WEB de EPEC/Proveedores/Contrataciones. Pliego sin valor.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_290726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5578",
+   "titulo": "Ejecución de pavimento en líneas aéreas norte",
+   "importa": "EPEC licita por $189 millones obra vial de infraestructura eléctrica (líneas aéreas norte); presupuesto significativo y plazo para apertura 11-08-2026.",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública de doble apertura conforme procedimientos de contratación estatal de EPEC. Presupuesto oficial: $189.032.641,86. Plazo de entrega de sobres: hasta las 10:00 hs del 11-08-2026 en Administración Central (La Tablada N° 350). Apertura: 11:00 hs del mismo día. Pliego disponible sin costo en el sitio web de EPEC/perfiles/proveedores. No se registran vicios formales ni delegaciones excesivas en el texto.",
+    "politica": "Obra de infraestructura vial de líneas aéreas de distribución eléctrica es coherente con plan de modernización de redes de EPEC. El «norte» de la jurisdicción sugiere expansión territorial. Plazo breve (convocatoria fin de julio, apertura mediados de agosto) indica calendario presupuestario concentrado.",
+    "oficialista": "EPEC avanza en modernización de infraestructura de distribución eléctrica mediante procedimiento licitatorio abierto. Obra estratégica de ampliación territorial de servicios.",
+    "opositora": "Podría cuestionarse si presupuesto de $189 M resulta adecuado para alcance de obra en «líneas aéreas norte» sin pliego disponible en el acta de publicación; falta especificación técnica en el texto."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U. LICITACION PUBLICA Nº 5578 DOBLE APERTURA: 11-08-26 HORA: 11 .- OBJETO: \"EJECUCION DE PAVIMENTO EN LINEAS AEREAS NORTE-\" - ENTREGA DE SOBRES HASTA EL 11-08-26 HORA 10 – PRESUPUESTO OFICIAL: $189.032.641,86. - LUGAR: Administración Central, Área Compras y Contrataciones, La Tablada N° 350 – Córdoba – CONSULTA: https://www.epec.com.ar/perfiles/proveedores/concursos-y-licitaciones PLIEGO SIN VALOR.-",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_290726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1435",
+   "titulo": "Adquisición de sistema de medición inteligente para infraestructura avanzada de medición",
+   "importa": "EPEC licita por $1.432 millones la mayor contratación de la edición: sistema de medición inteligente (smart metering) para gestión de activos de distribución y alumbrado público; prioridad de modernización digital estatal.",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública electrónica de doble apertura conforme procedimientos estándar de EPEC. Presupuesto oficial: $1.432.026.960 IVA incluido. Presentación de ofertas: hasta 12:00 hs del 04-08-2026 en portal electrónico. Apertura: misma hora y día en portal. Objeto: adquisición de sistema de medición inteligente para infraestructura avanzada de medición (AMI) en distribución y alumbrado. Pliego disponible sin costo en portal y web de EPEC. La publicación no revela vicios formales; competencia de EPEC según su naturaleza de empresa prestadora.",
+    "politica": "Inversión de casi $1.500 millones en sistema de medición inteligente responde a agenda internacional de modernización de redes eléctricas y a prioridades de «gobierno digital» del Estado provincial (mencionadas en el marco normativo). Sistema permite teletransmisión de datos, detección de fraudes, optimización de consumo y facturación automática. El timing acelerado (convocatoria fin de julio, cierre 04-08) es compatible con necesidad de ejecución presupuestaria de semestre. Potencial controversia: costo y selección de proveedores tecnológicos.",
+    "oficialista": "EPEC ejecuta modernización de infraestructura de medición mediante licitación abierta y electrónica, en línea con estándares internacionales de eficiencia energética y gobernanza digital. Sistema de medición inteligente reduce pérdidas técnicas y comerciales, mejora servicio al cliente y optimiza gestión de red.",
+    "opositora": "Presupuesto de $1.432 M es extraordinario y requiere escrutinio sobre justificación técnica, comparación de oferentes y riesgos de sobrecostos. Pliego no transcrito en acta; imposible verificar cláusulas de garantía, mantenimiento, interoperabilidad y transferencia de datos de usuarios."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U. LICITACION PUBLICA ELECTRONICA N.º 1435 - Objeto: \" Adquisición de sistema de medición inteligente para conformar una Infraestructura Avanzada de Medición para la gestión de activos de distribución y alumbrado público-\" . PRESUPUESTO OFICIAL: $ 1 .432.026.960,00. IVA incluido- PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 04-08-2026 en el Portal Electrónico de Compras y Contrataciones de la EPEC. DOBLE APERTURA DE OFERTAS: Vencido el plazo de presentación, a las 12:00 hs. del día 04-08-2026 en el referido Portal. Consultas: conforme Pliego Particular de Condiciones – ADQUISICIÓN DE PLIEGOS: Portal Electrónico de Compras y Contrataciones de la EPEC o Pagina WEB de EPEC/ Proveedores/Contrataciones. Pliego sin valor.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_290726.pdf"
+  },
+  {
+   "tipo": "Decreto Municipal",
+   "clase": "decreto",
+   "numero": "85/26",
+   "titulo": "Fijación de fecha y hora para apertura de ofertas de licitación pública de inmueble (Manzana N°1) en Brinkmann",
+   "importa": "Municipalidad de Brinkmann ejecuta venta de inmueble semiindustrial de 65.400 m² por USD 198.860 (contado) o USD 200.000 (financiado); acto de disposición patrimonial municipal conforme ordenanzas anteriores.",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Decreto municipal que fija apertura de ofertas para 05-08-2026 a las 13:00 hs en Edificio Municipal de Brinkmann. Se autoriza conforme Ordenanzas Nº 3.628 y 3.631, con las siguientes características: inmueble identificado como Manzana N°1 (65.400 m²), zona semiindustrial con área de amortización ambiental de 10 m × 1000 m en sector este. Presupuesto oficial: USD 198.860 contado o USD 200.000 financiado (50% en 5 días; resto en 10 cuotas de USD 10.000). Superficie sujeta a aprobación de Dirección Provincial de Catastro; diferencias compensadas en última cuota. Posesión tras pago total. Pliego disponible sin costo desde 21-07-2026. Ofertas en sobre cerrado, tamaño A4, papel madera. Validez mínima: 15 días corridos post-apertura. Decreto contiene estructura licitatoria completa y no exhibe vicios formales.",
+    "politica": "Venta de inmueble municipal de superficie relevante (65.400 m²) en zona semiindustrial refleja decisión de municipalidad de Brinkmann de monetizar patrimonio o reasignar usos del suelo conforme ordenanzas de años anteriores (Nº 3.628 y 3.631). El plazo de convocatoria (abierto desde 21-07, cierre 05-08) es estándar. Zona semiindustrial con exigencia de amortización ambiental (vegetación protectora) sugiere sensibilidad a impacto ambiental de futuros usos. Sin controversia política visible en el acta.",
+    "oficialista": "Municipalidad ejecuta procedimiento licitatorio transparente para venta de activo municipal conforme normas de años anteriores. Exigencia de amortización ambiental demuestra responsabilidad ecológica. Ingresos contribuyen a caja municipal.",
+    "opositora": "Venta de inmueble público de gran superficie en zona semiindustrial requiere escrutinio sobre valor de mercado; cotización en dólares sugiere posible cobertura cambiaria pero dificulta comparación con valores locales. Falta información sobre cantidad y perfil de potenciales compradores."
+   },
+   "texto_oficial": "MUNICIPAL DE BRINKMANN INMUEBLE IDENTIFICADO COMO MANZANA NÚMERO 1 Ordenanza 3.628 y 3.631 7 Decreto 85/26 Artículo 1º: FÍJESE el día 05 de agosto de 2.026 a las 13,00 horas en el Edificio Municipal de la ciudad de Brinkmann, como fecha y hora para la apertura de las ofertas que se reciban en relación al llamado a Licitación Pública establecido por Ordenanza Nº 3.628 y su modificatoria Ordenanza Nº 3.631 . [Artículos 2-10 según texto publicado]",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_290726.pdf"
+  },
+  {
+   "tipo": "Convocatoria a Asamblea General Ordinaria",
+   "clase": "resolucion",
+   "numero": "676564",
+   "titulo": "Consorcio Caminero N° 85 — Asamblea General Ordinaria",
+   "importa": "Consorcio Caminero de Huinca Renanco (Depto. Gral. Roca) convoca a asamblea ordinaria para 01-07-2026 (fecha aparentemente retroactiva en acta); incluye designación de nuevas autoridades, balance 2025 y revisión estatutaria.",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Convocatoria a Asamblea General Ordinaria conforme Ley N° 11.059 (Ley de Consorcios Camineros) arts. 24, 25, 26 y concordantes. Fecha: 01-07-2026 a las 18:00 hs (aparentemente retroactiva respecto a fecha de publicación 29-07-2026; el texto no aclara si es errata o si la asamblea ya tuvo lugar). Sede: José Hernández 280, Huinca Renanco, Depto. Gral. Roca. Orden del día: 12 puntos que incluyen lectura de registro de socios, designación de asambleístas, consideración de balance 2025 (cierre 31-12-2025), informe de comisión revisora, revisión de estatuto, elección de comisión directiva (vacancia por fallecimiento de secretario anterior) y tratamiento de cuota societaria. Estructura conforme a procedimientos de asambleas de consorcios.",
+    "politica": "Consorcio Caminero N° 85 es ente local de obras viales de Huinca Renanco. Convocatoria ordinaria de renovación de autoridades, incluyendo elección de nuevo secretario por fallecimiento del anterior, es función normal de gobernanza consorcial. Balance 2025 y revisión estatutaria sugieren ciclo administrativo regular. Sin controversia política detectable.",
+    "oficialista": "Consorcio avanza en renovación democrática de autoridades y cumple con publicidad de asambleas conforme ley.",
+    "opositora": "Sin elementos de crítica en acta; fecha aparentemente retroactiva de asamblea (01-07-2026) respecto a publicación (29-07-2026) requeriría aclaración si fue error de transcripción o si asamblea se realizó sin publicidad previa."
+   },
+   "texto_oficial": "CONSORCIO CAMINERO N° 85 CONVOCATORIA A ASAMBLEA GENERAL ORDINARIA. De acuerdo con las disposiciones legales vigentes, la Ley N° 11 .059, Arts. 24, 25, 26 y concordantes, y su Reglamentación, CONVOCASE a los señores Socios Consorcistas, Adherentes y Vecinos de la jurisdicción del Consorcio, a Asamblea General Ordinaria el día 01 de julio de 2026, a las 18:00 horas en las instalaciones de la sede social sito en calle José Hernández 280 de la ciudad de Huinca Renanco, departamento General Roca, Provincia de Córdoba, para tratar el siguiente orden del día: [Puntos 1-12 según texto publicado]",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_290726.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1434",
+   "titulo": "Contratación del servicio de pasajes/hoteles — EPEC",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5578",
+   "titulo": "Ejecución de pavimento en líneas aéreas norte — EPEC",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1435",
+   "titulo": "Adquisición de sistema de medición inteligente — EPEC",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto Municipal",
+   "numero": "85/26",
+   "titulo": "Apertura de ofertas — Licitación de inmueble Manzana N°1, Brinkmann",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "676564",
+   "titulo": "Asamblea General Ordinaria — Consorcio Caminero N° 85",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Rendición de Cuentas",
+   "numero": "676684",
+   "titulo": "Estado Anual Patrimonial — Partido Estamos con Vos (Ejercicio 2025)",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 4
+  },
+  {
+   "tipo": "Acto Electoral",
+   "numero": "676685",
+   "titulo": "Autoridades Electas — Partido Encuentro Cívico Oliva (Período 2025/2027)",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 4
+  },
+  {
+   "tipo": "Providencia Electoral",
+   "numero": "676690",
+   "titulo": "Audiencia — Partido Transparencia en Línea en Tiempo Real - TELETR (Villa Carlos Paz)",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subastas Electrónicas",
+   "numero": "676264, 676523, 676715, 676718, 676774, 676775, 676776, 676778, 676782",
+   "titulo": "Subastas electrónicas diversas",
+   "seccion": "4 — Concesiones, Licitaciones, Servicios Públicos y Contrataciones",
+   "pagina": 2
+  }
+ ],
+ "telegram": "📰 Boletín Oficial Nº 144 (29-07-2026): EPEC licita $1.900+ millones en infraestructura eléctrica y servicios. Destaca adquisición de sistema de medición inteligente ($1.432 M) y obra de líneas aéreas norte ($189 M). Brinkmann vende inmueble semiindustrial. → Consulta completa en la app.",
+ "hora_procesado": "13:43",
+ "estado": "publicado"
+}
