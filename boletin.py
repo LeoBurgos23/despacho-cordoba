@@ -158,14 +158,17 @@ def llamar_api(texto_boletin: str) -> dict:
     instrucciones = (RAIZ / "instrucciones.md").read_text(encoding="utf-8")
     cliente = anthropic.Anthropic()  # toma ANTHROPIC_API_KEY del entorno
 
-    respuesta = cliente.messages.create(
+    # Streaming: obligatorio cuando max_tokens es alto (el SDK lo exige si
+    # estima que la respuesta puede tardar más de 10 minutos).
+    with cliente.messages.stream(
         model=MODELO,
         max_tokens=MAX_TOKENS_SALIDA,
         messages=[{
             "role": "user",
             "content": instrucciones + "\n\n=== BOLETÍN DE HOY ===\n\n" + texto_boletin,
         }],
-    )
+    ) as flujo:
+        respuesta = flujo.get_final_message()
     if getattr(respuesta, "stop_reason", "") == "max_tokens":
         raise RuntimeError("La respuesta de la IA quedó truncada: subir MAX_TOKENS_SALIDA.")
     bruto = "".join(b.text for b in respuesta.content if b.type == "text").strip()
