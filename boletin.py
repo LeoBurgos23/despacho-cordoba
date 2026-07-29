@@ -42,8 +42,10 @@ DOCS = RAIZ / "docs"
 DATA = DOCS / "data"
 
 MODELO = "claude-haiku-4-5"
-MAX_TOKENS_SALIDA = 16000
+MAX_TOKENS_SALIDA = 32000
 
+# 1ª Legislación · 2ª Judiciales · 3ª Sociedades · 4ª Licitaciones · 5ª Varios.
+# Ninguna es obligatoria: se procesa lo que haya publicado ese día.
 SECCIONES = ["1", "4"]
 
 CABECERAS_NAVEGADOR = {
@@ -105,9 +107,9 @@ def descargar_pdfs():
     Devuelve [(seccion, bytes_del_pdf, url), ...] o [] si el boletín
     todavía no salió (en ese caso el workflow reintenta más tarde).
 
-    La 1ª Sección (Legislación) es obligatoria: si no está, se considera
-    que la edición aún no se publicó. Las demás son opcionales, porque
-    hay días en que una sección no se edita.
+    Ninguna sección es obligatoria: hay días en que se publica una y no
+    otra (por ejemplo, solo licitaciones sin legislación nueva). Solo se
+    considera "no publicado" cuando no apareció ninguna de las configuradas.
     """
     pdfs = []
 
@@ -117,14 +119,16 @@ def descargar_pdfs():
         contenido = _bajar_pdf(url)
 
         if contenido is None:
-            if seccion == SECCIONES[0]:
-                print("   La edición de hoy todavía no está publicada.")
-                return []
-            print(f"   Sección {seccion} no disponible hoy; se continúa sin ella.")
+            # Ninguna sección es obligatoria: hay días sin 1ª Sección
+            # (sin legislación nueva) pero con licitaciones o judiciales.
+            print(f"   Sección {seccion} no está publicada hoy; se continúa sin ella.")
             continue
 
         print(f"   ✓ {len(contenido) // 1024} KB descargados")
         pdfs.append((seccion, contenido, url))
+
+    if not pdfs:
+        print("   Ninguna de las secciones configuradas está publicada todavía.")
 
     return pdfs
 
@@ -141,6 +145,10 @@ def extraer_texto(pdf_bytes: bytes) -> str:
 
 
 def detectar_numero_boletin(texto: str) -> str:
+    # Cabecera real: "AÑO CXIII - TOMO DCCXXXIX - N° 140"
+    m = re.search(r"TOMO[^\n]{0,40}?N[°ºo]\s*(\d{1,4})", texto)
+    if m:
+        return m.group(1)
     m = re.search(r"BOLET[ÍI]N\s+OFICIAL[^\n]{0,40}?N[°ºo]?\s*([\d\.]+)", texto, re.I)
     return m.group(1) if m else "s/d"
 
@@ -158,6 +166,8 @@ def llamar_api(texto_boletin: str) -> dict:
             "content": instrucciones + "\n\n=== BOLETÍN DE HOY ===\n\n" + texto_boletin,
         }],
     )
+    if getattr(respuesta, "stop_reason", "") == "max_tokens":
+        raise RuntimeError("La respuesta de la IA quedó truncada: subir MAX_TOKENS_SALIDA.")
     bruto = "".join(b.text for b in respuesta.content if b.type == "text").strip()
     bruto = re.sub(r"^```(?:json)?\s*|\s*```$", "", bruto)  # por si envuelve en ```
     try:
@@ -166,6 +176,17 @@ def llamar_api(texto_boletin: str) -> dict:
         # Guardar la salida cruda para diagnóstico y abortar con error real.
         (RAIZ / f"salida_invalida_{HOY}.txt").write_text(bruto, encoding="utf-8")
         raise
+
+def sanear_valores(v):
+    """Neutraliza cualquier HTML que pudiera venir en los textos generados
+    (defensa ante inyecciones en el documento fuente)."""
+    if isinstance(v, str):
+        return v.replace("<", "\u2039").replace(">", "\u203a")
+    if isinstance(v, list):
+        return [sanear_valores(x) for x in v]
+    if isinstance(v, dict):
+        return {k: sanear_valores(x) for k, x in v.items()}
+    return v
 
 # ------------------------------- Persistencia -----------------------------
 
@@ -178,6 +199,7 @@ def _url_de_seccion(etiqueta_seccion: str, urls: dict) -> str:
 
 
 def guardar(despacho: dict, urls: dict) -> None:
+    despacho = sanear_valores(despacho)
     DATA.mkdir(parents=True, exist_ok=True)
     ahora = dt.datetime.now(TZ_CORDOBA).strftime("%H:%M")
 
@@ -275,6 +297,18 @@ def avisar(despacho: dict) -> None:
         except Exception as e:
             print(f"⚠️  Correo falló: {e}")
 
+def avisar_error(mensaje: str) -> None:
+    """Aviso de emergencia por Telegram cuando la corrida falla."""
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat = os.environ.get("TELEGRAM_CHAT_ID")
+    if not (token and chat):
+        return
+    try:
+        requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                      json={"chat_id": chat, "text": mensaje}, timeout=30)
+    except Exception:
+        pass
+
 # ---------------------------------- Main ----------------------------------
 
 def main() -> None:
@@ -299,6 +333,8 @@ def main() -> None:
         urls[seccion] = url
         partes.append(f"\n\n##### SECCIÓN {seccion} #####\n\n" + extraer_texto(contenido))
     texto = "".join(partes)
+    if len(texto) < 2000:
+        raise RuntimeError("El texto extraído vino casi vacío (¿PDF escaneado o dañado?).")
 
     nro = detectar_numero_boletin(texto)
     print(f"Boletín N° {nro} · ~{len(texto) // 1000} mil caracteres · consultando {MODELO}…")
@@ -316,4 +352,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print(f"❌ Error: {e}")
+        avisar_error(f"⚠️ Despacho Diario: la corrida de hoy FALLÓ.\n{e}\nRevisá: cat ~/despacho-cordoba/despacho.log")
         sys.exit(1)

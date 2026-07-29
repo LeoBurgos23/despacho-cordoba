@@ -330,6 +330,7 @@
           <option value="Resolución">Resoluciones</option>
           <option value="Licitación">Licitaciones</option>
           <option value="Designación">Designaciones</option>
+          <option value="Subasta">Subastas</option>
         </select>
       </div>
       <p class="busca-nota" id="busca-nota"></p>
@@ -531,6 +532,34 @@ let INDICE = [
   { fecha:"2026-06-05", boletin:"13.381", tipo:"Licitación", numero:"Exp. 0045-154/26",  titulo:"Repavimentación Ruta Provincial N° 1, tramo Porteña–Freyre — llamado", pagina:4,  url:"https://boletinoficial.cba.gov.ar/" }
 ];
 
+/* ---------- Saneo (defensa XSS) y etiquetas ---------- */
+function sanear(v){
+  if (typeof v === "string"){
+    return v.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+            .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+  if (Array.isArray(v)) return v.map(sanear);
+  if (v && typeof v === "object"){
+    const o = {};
+    for (const k in v){
+      let x = sanear(v[k]);
+      if (/url/i.test(k) && typeof x === "string" && !/^https?:\/\//.test(x)) x = "#";
+      o[k] = x;
+    }
+    return o;
+  }
+  return v;
+}
+const NOMBRES_SECCION = {"1":"1ª Sección · Legislación","2":"2ª Sección · Judiciales",
+  "3":"3ª Sección · Sociedades","4":"4ª Sección · Licitaciones","5":"5ª Sección · Varios"};
+function etiquetaSeccion(s){
+  s = String(s || "");
+  return /^\d$/.test(s) ? (NOMBRES_SECCION[s] || s + "ª Sección") : s;
+}
+DESPACHOS = sanear(DESPACHOS);
+ARCHIVO = sanear(ARCHIVO);
+INDICE = sanear(INDICE);
+
 /* ---------- Utilidades ---------- */
 const fechaLarga = (iso) => {
   const d = new Date(iso + "T12:00:00-03:00");
@@ -584,7 +613,7 @@ function renderDespacho(fecha){
           <h4>${n.titulo}</h4>
           <span class="importa"><b>Por qué importa:</b> ${n.importa}</span>
         </span>
-        <span class="seccion-bo">${n.seccion}</span>
+        <span class="seccion-bo">${etiquetaSeccion(n.seccion)}</span>
       </summary>
       <div class="norma-panel">
         <p class="rotulo">Síntesis ampliada</p>
@@ -599,7 +628,7 @@ function renderDespacho(fecha){
         </details>
         <div class="enlaces">
           <a class="btn oficial" href="${n.url_oficial}#page=${n.pagina}" target="_blank" rel="noopener"
-             title="Demo: en producción abre el PDF exacto de la edición, en esta página">Abrir PDF oficial · ${n.seccion.split(" · ")[0]}, pág. ${n.pagina} ↗</a>
+             title="Demo: en producción abre el PDF exacto de la edición, en esta página">Abrir PDF oficial · ${etiquetaSeccion(n.seccion).split(" · ")[0]}, pág. ${n.pagina} ↗</a>
           <a class="btn" href="#t-sintesis">Volver a la lectura del día</a>
         </div>
       </div>
@@ -645,7 +674,7 @@ function renderArchivo(fechaActiva){
     b.addEventListener("click", async ()=>{
       const f = b.dataset.fecha;
       if (!DESPACHOS[f] && MODO === "prod"){
-        try{ DESPACHOS[f] = await (await fetch(`data/${f}.json`, {cache:"no-store"})).json(); }
+        try{ DESPACHOS[f] = sanear(await (await fetch(`data/${f}.json`, {cache:"no-store"})).json()); }
         catch(e){ b.textContent = "sin datos"; return; }
       }
       renderDespacho(f);
@@ -675,7 +704,7 @@ function buscar(){
   if (!q && !tipo){ contResultados.innerHTML = ""; nota.textContent = notaBase; return; }
 
   const hallados = INDICE.filter(r=>{
-    const coincideTipo = !tipo || r.tipo === tipo;
+    const coincideTipo = !tipo || (r.tipo || "").startsWith(tipo);
     const pajar = normalizar(`${r.tipo} ${r.numero} ${r.titulo} ${r.boletin}`);
     const coincideTexto = !q || q.split(/\s+/).every(pal => pajar.includes(pal));
     return coincideTipo && coincideTexto;
@@ -704,10 +733,10 @@ async function init(){
     const u = await (await fetch("data/ultimo.json", {cache:"no-store"})).json();
     const d = await (await fetch(`data/${u.hoy}.json`, {cache:"no-store"})).json();
     HOY = u.hoy;
-    DESPACHOS = { [u.hoy]: d };
-    ARCHIVO = u.archivo || [];
+    DESPACHOS = sanear({ [u.hoy]: d });
+    ARCHIVO = sanear(u.archivo || []);
     MODO = "prod";
-    try{ INDICE = await (await fetch("data/indice.json", {cache:"no-store"})).json(); }
+    try{ INDICE = sanear(await (await fetch("data/indice.json", {cache:"no-store"})).json()); }
     catch(e){ INDICE = []; }
     document.getElementById("estado-corrida").innerHTML =
       `<span class="punto">●</span> Última edición procesada <strong>${u.hoy}</strong>`;

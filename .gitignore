@@ -1,0 +1,14 @@
+# Claves privadas — NUNCA se suben a GitHub
+.env
+
+# Entorno de Python local
+.venv/
+__pycache__/
+*.pyc
+
+# Registro de ejecución local
+despacho.log
+salida_invalida_*.txt
+
+# Archivos de macOS
+.DS_Store
