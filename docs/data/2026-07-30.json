@@ -1,0 +1,273 @@
+{
+ "fecha": "2026-07-30",
+ "numero_boletin": "145",
+ "sintesis_juridica": [
+  "El boletín contiene tres normas principales: (1) Resolución N° 251 del Ministerio de Economía que establece tasas retributivas para servicios complementarios en la Terminal de Ómnibus Córdoba (canon por plataforma equivalente a 3 litros de diésel YPF y tasa de $50 por encomienda/paquetería); (2) Resolución N° 339 de la Dirección de Seguridad Privada que habilita a REBOR SEGURIDAD S.A. como prestadora de servicios sin autorización para uso de armas, designando a Julio Enrique Barrera como Director Técnico; (3) múltiples licitaciones públicas de EPEC por servicios y obras, con presupuestos que rondan desde $31,6 millones hasta $1.573 millones (poda de alta tensión, medición inteligente, aire acondicionado, cables de comando); y (4) convocatorias de asambleas de consorcios camineros y resoluciones de partidos políticos sobre calendarios electorales internos.",
+  "En materia tributaria y fiscal, destaca la delegación en TOCSAU de la percepción y administración de nuevas tasas retributivas de servicios públicos sin perjuicio de competencias provinciales, operando con indexación a precios de combustible. En seguridad privada, se formaliza habilitación con obligación de registro en Ciudadano Digital (CIDI) Nivel 2 y acreditación de cumplimientos dentro de 60 días. Las licitaciones de EPEC reflejan plan de infraestructura energética significativo: más de $4.600 millones en obras y servicios con doble apertura y notas aclaratorias reiteradas (indicios de dificultades en convocatoria inicial). No se identifican contradicciones constitucionales manifiestas, aunque la delegación de percepción tributaria en TOCSAU requiere supervisión de cumplimiento de recaudación."
+ ],
+ "sintesis_politica": [
+  "La Resolución N° 251 operacionaliza transferencia de costos de gestión de la Terminal de Ómnibus hacia empresas transportistas mediante tasas variables (diésel) y fijas ($50), impactando directamente en operadores de transporte nacional e internacional. El timing post-julio coincide con presión fiscal permanente sobre servicios públicos. La habilitación de REBOR SEGURIDAD refleja continuidad en regularización del sector privado de seguridad bajo nuevo marco CIDI, sin indicios de controversia política manifiesta.",
+  "El grueso del boletín corresponde a plan de inversión de EPEC: cuatro licitaciones de poda de alta tensión por $4.283 millones (Villa María, Norte Provincial, San Francisco) reflejan estrategia de mantenimiento preventivo en red de distribución. Las reiteradas prórrogas y notas aclaratorias sugieren dificultad de mercado para obtener oferentes competitivos en montos elevados, patrón conocido en contextos de volatilidad cambiaria. Las convocatorias de consorcios camineros (5 asambleas ordinarias) y la resolución de la UCR sobre cronograma electoral (reajustado tras intervención judicial federal) revelan tránsito institucional sin conflictividad aparente. Ausencia de normas sobre APROSS, educación docente o emergencia hídrica sugiere etapa de continuidad administrativa más que de crisis."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "251",
+   "titulo": "Establece tasas retributivas de servicios complementarios en Estación Terminal de Ómnibus Córdoba",
+   "importa": "Crea nuevas tasas a cargo de empresas permisionarias/concesionarias de transporte (canon por plataforma indexado a precio YPF y tasa fija $50 por encomienda), delegando percepción y administración en TOCSAU, con impacto fiscal directo en operadores.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto fundado en art. 111 de Ley Impositiva N° 11090 (2026) que faculta al Ministerio de Economía para adecuar descripción y valores de tasas retributivas. La norma opera delegación de percepción tributaria en TOCSAU (sociedad anónima unipersonal, continuadora de Sociedad del Estado) sin perjuicio de competencias provinciales, fórmula que requiere verificación de compatibilidad constitucional respecto a principios de reserva tributaria estatal. Vicio formal potencial: el art. 1° punto 1 vincula canon a precio 'surtidor o precio final al público' de YPF Córdoba sin especificar mecanismo de actualización ni periodicidad de consulta, generando indeterminación del quantum de la obligación. Entrada en vigencia inmediata desde publicación (art. 2°).",
+    "politica": "Medida típica de trasferencia de costos operacionales hacia usuarios finales (empresas de transporte) mediante estructura de tasa variable + tasa fija. Beneficiados: TOCSAU (percepción administrativa), Estado (recaudación). Perjudicados: operadores de transporte, con traslación probable a pasajeros. Controversia esperada: empresas de transporte cuestionarán determinación del canon vinculado a combustible en contexto de volatilidad de precios, particularmente si YPF aumenta tarifas entre actos de percepción.",
+    "oficialista": "Medida de modernización de gestión operacional: TOCSAU, como administradora de la Terminal y colaboradora de Secretaría de Transporte en fiscalización, tiene capacidad operativa para recaudar tasas directamente, reduciendo costos de intermediación estatal. Canon variable refleja principio de cost recovery: empresas transportistas pagan en función de consumo efectivo de servicios (plataforma, seguridad, control). Tasa de $50 por encomienda es módulo para servicios diferenciados sin penalidad desproporcionada.",
+    "opositora": "Resolución adolece de vicio de determinación: no especifica cómo se consulta precio YPF diariamente ni qué sucede si empresa no tiene acceso a esa información. Canon variable índexado a combustible traslada volatilidad macro a operadores de transporte, generando incertidumbre tarifaria. TOCSAU, persona jurídica privada, no tiene facultad tributaria propia: delegación en recaudación sin garantías de transparencia contable o auditoria independiente puede vulnerar art. 9 Constitución Córdoba (publicidad de actos)."
+   },
+   "texto_oficial": "Artículo 1º: ESTABLECER que por los servicios complementarios vinculados al Servicio Público de Transporte que se prestan en el ámbito de la Estación Terminal Ómnibus Córdoba y cuya percepción y administración se encomienda a la Terminal de Ómnibus Córdoba Sociedad Anónima Unipersonal (TOCSAU), se pagarán las siguientes tasas: 1.- Las personas humanas o jurídicas permisionarias y/o concesionarias del servicio de transporte de pasajeros, nacionales o internacionales, abonarán en concepto de canon por la utilización de plataforma en la Estación Terminal de Ómnibus Córdoba un importe equivalente a tres (3) litros de combustible diésel de mayor octanaje, valor surtidor o precio final al público, de la empresa Yacimientos Petrolíferos Fiscales SA (YPF) plaza Córdoba. Los importes que resulten por aplicación de este punto deben ser ingresados en la Terminal de Ómnibus Córdoba Sociedad Anónima Unipersonal (TOCSAU) mensualmente hasta el día diez (10) del mes inmediato siguiente. 2.- Se establece una tasa de Pesos Cincuenta ($ 50,00) a cargo de las empresas prestatarias por cada unidad de encomienda o paquetería transportada. Estos importes deben ser ingresados en la Terminal de Ómnibus Córdoba Sociedad Anónima Unipersonal (TOCSAU) mensualmente hasta el día veinte (20) del mes inmediato siguiente. Artículo 2º: LA presente Resolución entrará en vigencia el día de su publicación. Artículo 3º: PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_300726.pdf"
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "clase": "resolucion",
+   "numero": "339",
+   "titulo": "Habilita a REBOR SEGURIDAD S.A. como prestadora de servicios de seguridad privada y designa Director Técnico",
+   "importa": "Acto de policía administrativa que autoriza funcionamiento de empresa de seguridad privada sin armas; refleja aplicación sistemática de Ley N° 10.571 y nuevo régimen de notificación electrónica (CIDI Nivel 2).",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Resolución dictada por Director de Control y Gestión Operativa en Seguridad Privada en virtud de atribuciones del art. 22 Ley N° 10.571 y Resolución N° 159 (19/02/2026). Acto verifica cumplimiento de requisitos formales (arts. 8, 9, 10, 13, 18, 29 inc. a) punto 1 Ley N° 10.571 y Resolución Reglamentaria 970/2025). Condición suspensiva: empresa debe acreditar cumplimiento arts. 9 inc. d), 14, 15, 16 Ley N° 10.571 en plazo de 60 días. Obligación administrativa nueva: registro en CIDI Nivel 2, bajo régimen electrónico (arts. 25, 55 Ley N° 5.350; art. 7 Decreto N° 1280/14; arts. 6 Ley N° 10.618 y Decreto N° 750/19). Vicio formal potencial: plazo de 60 días para acreditación posterior a habilitación es excesivo respecto a estándares de control previo.",
+    "politica": "Continuidad en regularización de sector de seguridad privada. Beneficiados: REBOR SEGURIDAD S.A. (CUIT 33-69021196-9, Naciones Unidas 1084, Barrio Suárez, Córdoba). Sin indicios de polémica política. Empresa opera sin autorización de armas (barrera de control). Transición a CIDI Nivel 2 refleja política provincial de gobierno digital y trazabilidad de notificaciones. Julio Enrique Barrera (DNI 10.773.918) asume riesgo reputacional como director técnico responsable.",
+    "oficialista": "Acto de regularización y control efectivo: habilitación se otorga tras verificación completa de requisitos legales por Subdirección de Control y Registro (Informe Técnico favorable). CIDI Nivel 2 asegura trazabilidad y transparencia de notificaciones futuras, evitando evasiones por correo postal. Plazo de 60 días para acreditación post-habilitación es razonable en contextos de documentación compleja (seguros, certificaciones, registros laborales).",
+    "opositora": "Modalidad de 'habilitación condicionada' invertida: se autoriza funcionamiento antes de completar verificación de cumplimientos. Arts. 9 inc. d), 14, 15, 16 Ley N° 10.571 (probablemente póliza de seguros, capacitación de personal, registro de armas, actas de inspección) debieron ser certificados antes de habilitación. Delegación de notificaciones en CIDI sin papel impone carga técnica sobre empresas pequeñas. Ausencia de acto de designación específico para Barrera como responsable de sanciones administrativas."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa 'REBOR SEGURIDAD S.A.' CUIT 33-69021196-9, con domicilio legal en calle Naciones Unidas N° 1084 Barrio Suárez de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa al Sr. BARRERA, Julio Enrique D.N.I. N° 10.773.918, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas. Artículo 2°.- Los responsables de la empresa 'REBOR SEGURIDAD S.A.' CUIT 33-69021196-9, en el plazo de sesenta (60) días corridos a partir de la fecha del presente acto, deberá acreditar el cumplimiento de las obligaciones previstas en los artículos 9 inc. d), 14, 15 y 16 de la Ley N° 10.571, como así, deberán realizar la registración en el Ciudadano Digital (C.I.D.I.) – Nivel N°2, en razón de que todas las notificaciones derivadas del presente, se efectuarán al Domicilio Electrónico previamente constituido, de conformidad a lo previsto en los artículos 25 y 55 de la Ley N° 5.350, por el Art. 7 del Decreto N° 1280/14 y por el Art. 6 de la Ley N° 10.618 y su Decreto reglamentario N° 750/19. Artículo 3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_300726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1435",
+   "titulo": "Adquisición de sistema de medición inteligente para Infraestructura Avanzada de Medición (EPEC)",
+   "importa": "Inversión de $1.432 millones (IVA incluido) en modernización de infraestructura de medición de red eléctrica; es el presupuesto más alto del boletín y refleja prioridad de transformación digital de distribución.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública electrónica bajo régimen de doble apertura (técnica y económica). Presentación hasta 12:00 hs del 04-08-2026. Base de datos: Portal Electrónico de Compras y Contrataciones de EPEC. Presupuesto oficial $1.432.026.960,00 IVA incluido. Objeto técnico: 'sistema de medición inteligente' para gestión de activos de distribución y alumbrado público. Vicio potencial: descripción del objeto es vaga ('sistema de medición inteligente' requiere especificación de estándares técnicos, capacidades de transmisión, interoperabilidad). Pliego disponible sin costo. Régimen de contratación estándar para empresa provincial sin indicios de delegaciones excesivas.",
+    "politica": "Obra estructural de EPEC en contexto de modernización de red de distribución eléctrica provincial. Presupuesto significativo ($1.432 millones) es indicador de prioridad en transformación digital e inteligencia de redes. Beneficiados: fabricantes/integradores de sistemas de medición (probablemente multinacionales o consorcios locales con licencias). Timing post-julio sugiere alineación con ciclo presupuestario anual. Costo percápita elevado podría generar escrutinio fiscal si penetración de medición inteligente es limitada.",
+    "oficialista": "Licitación pública electrónica asegura competencia abierta y transparencia de procesos de contratación de EPEC. Sistema de medición inteligente reduce pérdidas no técnicas, mejora facturación, permite gestión predictiva de demanda. Inversión alineada con objetivos de modernización infraestructural y eficiencia operacional estatal.",
+    "opositora": "Presupuesto de $1.432 millones es monto crítico sin análisis de costo-beneficio publicado en boletín. Fórmula de 'doble apertura' puede favorecer a licititantes con experiencia previa si criterios técnicos no son claros. Objeto vago ('sistema de medición inteligente') no especifica compatibilidad con sistemas existentes ni riesgos de obsolescencia tecnológica. Ausencia de mención a plazos de ejecución o garantías de funcionalidad."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1435 - Objeto: 'Adquisición de sistema de medición inteligente para conformar una Infraestructura Avanzada de Medición para la gestión de activos de distribución y alumbrado público-'. PRESUPUESTO OFICIAL: $ 1.432.026.960,00. IVA incluido- PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 04-08-2026 en el Portal Electrónico de Compras y Contrataciones de la EPEC. DOBLE APERTURA DE OFERTAS: Vencido el plazo de presentación, a las 12:00 hs. del día 04-08-2026 en el referido Portal. Consultas: conforme Pliego Particular de Condiciones – ADQUISICIÓN DE PLIEGOS: Portal Electrónico de Compras y Contrataciones de la EPEC o Pagina WEB de EPEC/Proveedores/Contrataciones. Pliego sin valor.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_300726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5579",
+   "titulo": "Obra: Provisión e instalación de sistema de aire acondicionado en primer piso - Edificio de Administración Central (EPEC)",
+   "importa": "Obra de arquitectura por $690,6 millones con plazo de 120 días en edificio sede de EPEC; inversión en infraestructura de confort laboral de la administración central.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública (no electrónica) de obra de arquitectura de Primera Categoría. Doble apertura 18-08-2026 a las 11:00 hs. Entrega de sobres hasta 18-08-2026 10:00 hs. Presupuesto oficial $690.642.956,60. Plazo de ejecución 120 días. Lugar: Administración Central, Área Compras y Contrataciones, La Tablada N° 350, Córdoba. Consulta vía portal de proveedores de EPEC. Pliego sin valor. Vicio formal: presupuesto es extremadamente elevado para 'aire acondicionado' de una planta única, sugiriendo reformas mayores no expresadas en objeto. Falta de especificación de capacidad frigorífica, normas de eficiencia energética, compatibilidad con instalaciones existentes.",
+    "politica": "Obra de mantenimiento/mejora de confort en sede central de EPEC. Presupuesto elevado ($690 millones) podría reflejar ampliación de alcance más allá de climatización básica. Beneficiados: contratistas de obras civiles/instalaciones. Sin indicios de presión política inmediata, pero timing post-julio en contexto de presupuesto municipal/provincial sugiere cierre de asignaciones de ejercicio. Obra de 120 días coincide con ciclo administrativo estándar.",
+    "oficialista": "Obra necesaria para asegurar condiciones laborales apropiadas en edificio administrativo provincial que atiende público. Licitación pública garantiza acceso competitivo. Plazo de 120 días es razonable para instalación de sistemas complejos de climatización.",
+    "opositora": "Presupuesto de $690 millones para 'aire acondicionado' de primer piso es desproporcionado e indica deficiencias en descripción técnica. Falta especificación de metros cuadrados a climatizar, normas IRAM, o comparación con costos de mercado. Tiempos justos (doble apertura antes de 10 días) reducen competencia. Ausencia de requisito de garantía post-ejecución mencionada explícitamente en pliegos."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5579   DOBLE APERTURA: 18-08-26 HORA: 11 .-   OBJETO: 'OBRA:  PROVISIÓN E INSTALACIÓN DE SISTEMA DE AIRE ACONDICIONADO EN PRIMER PISO - EDIFICIO DE ADMINISTRACIÓN CENTRAL-' -  ENTREGA DE SOBRES HASTA EL 18-08-26 HORA 10 – PRESUPUESTO OFICIAL: $     690.642.956,60.-Especialidad: OBRA DE ARQUITECTURA.  - Categoría: PRIMERA CATEGORÍA- Plazo: 120 días- LUGAR: Administración Central, Área Compras y Contrataciones, La Tablada N° 350 – Córdoba – CONSULTA: https://www.epec.com.ar/perfiles/proveedores/concursos-y-licitaciones  PLIEGO SIN VALOR.-",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_300726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1416 (Nota Aclaratoria N° 6 y 7)",
+   "titulo": "Poda Alta Tensión 2026 - Zona Norte Provincial (EPEC)",
+   "importa": "Licitación de servicio crítico de mantenimiento de red eléctrica; presupuesto de $1.573 millones refleja escala significativa de operaciones de poda preventiva en zona norte.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública electrónica con doble apertura, presentación prórroga hasta 12:30 hs del 03-08-2026. Presupuesto oficial $1.573.000.000,00 IVA incluido. Objeto: 'Poda Alta Tensión 2026 - Zona Norte Provincial'. Notas aclaratorias N° 6 y 7 indican reiteración de solicitudes de aclaración por licicitantes, sugiriendo ambigüedad en especificaciones técnicas o términos de referencia. Vicio potencial: múltiples notas aclaratorias antes de apertura pueden indicar deficiencia en redacción inicial del pliego, generando riesgo de controversia post-adjudicación sobre alcances reales.",
+    "politica": "Obra de mantenimiento preventivo de red de alta tensión en zona norte provincial (departamentos: Río Primero, Norte de Córdoba, posiblemente Rivera, Tulumba). Presupuesto elevado ($1.573 millones) refleja alcance geográfico y complejidad técnica. Beneficiados: contratistas especializados en poda de líneas eléctricas. Sin controversia política aparente. Notas aclaratorias reiteradas sugieren mercado con pocos oferentes calificados o deficiencias de especificación que generan incertidumbre de costos.",
+    "oficialista": "Poda de alta tensión es operación esencial de seguridad y mantenimiento preventivo de red. Zona norte provincial requiere atención sistemática. Notas aclaratorias reflejan transparencia: EPEC responde preguntas de licicitantes antes de apertura, reduciendo riesgos de recursos posteriores.",
+    "opositora": "Siete notas aclaratorias (N° 1-7 implícitas en numeración) indican que especificaciones iniciales del pliego eran insuficientes o contradictorias. Presupuesto de $1.573 millones requiere justificación clara de metros de línea a podar, técnicas a usar, y cronograma. Ausencia de información sobre contratación anterior permite evaluar variación de costos."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1416 DOBLE APERTURA – NOTA ACLARATORIA N° 6 y 7 - Objeto: 'PODA ALTA TENSION 2026 - ZONA NORTE PROVINCIAL.' . Presupuesto Oficial: $ 1 .573.000.000,00 IVA incluido- Presentación de ofertas apertura prorrogada: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 12:30 hs del día 03-08-2026. Apertura de Ofertas técnicas: 03-08-2026. Consultas: Área de Compras y Contrataciones de la EPEC, La Tablada N° 350 – primer piso – Córdoba o al correo electrónico comprasycontrat@epec.com.ar – Lugar de retiro de Pliego: Portal Electrónico de Compras y Contrataciones de la EPEC o Pagina WEB de EPEC/Proveedores/Contrataciones. Pliego sin valor.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_300726.pdf"
+  },
+  {
+   "tipo": "Convocatoria de Asamblea",
+   "clase": "resolucion",
+   "numero": "s/n (Comité Central UCR)",
+   "titulo": "Convocatoria a elecciones internas de la Unión Cívica Radical - Córdoba (20 de septiembre de 2026)",
+   "importa": "Resolución de Comité Central UCR que fija cronograma electoral reajustado tras nulidad judicial; impacto político en renovación de autoridades partidarias provinciales con vigencia de 4 años.",
+   "seccion": "4",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Resolución del Comité Central de la Provincia de la UCR que reajusta cronograma electoral conforme facultad delegada por Congreso Partidario (sesión 11 de julio 2026, aprobada 95 votos a favor + 1 abstención) y Resolución del Juzgado Federal N° 1 con competencia electoral (24 de julio 2026) que anuló cronograma anterior por infracción art. 125 COP (Carta Orgánica Partidaria). Fundamento legal: art. 97 COP que autoriza Congreso Partidario a reajustar plazos cuando no pueda aplicarse cronograma completo. Cronograma fijado: Lunes 10 ago (plazo núcleos), jueves 13 ago (plazo alianzas), martes 18 ago (plazo listas), domingo 20 sept (elecciones). Objeto electoral: delegados a Comité Nacional (4 titulares + 2 suplentes), congresales departamentales (1 por cada 4.000 afiliados), autoridades de Comité Central Provincial, Tribunal de Conducta, Tribunal de Cuentas, autoridades de Comités Departamentales y de Circuito. Vicio potencial: intervalo de 6 semanas entre convocatoria y elecciones es reducido para campañas internas en partido de la magnitud de UCR provincial.",
+    "politica": "Crisis institucional resuelta judicialmente. Juzgado Federal anuló cronograma original por defecto procedimental (art. 125 COP). UCR reformula calendario manteniendo fecha de elecciones (20 septiembre) pero adelantando etapas previas (nucleamiento, alianzas, presentación de listas). Impacto político: renovación completa de estructura provincial con vencimiento de mandatos el 29 de septiembre. Timing simultáneo a elecciones nacionales (previsiblemente octubre 2027) genera concentración de procesos electorales internos. Facciones internas de UCR (reformismo, radicales K, peronismo radical) tendrán 6 semanas para articular listas, período breve que favorece candidatos ya posicionados.",
+    "oficialista": "Resolución respeta orden judicial y recupera plazo de elecciones (20 septiembre) que permitía completar acto electoral antes de vencimiento de mandatos (29 sept). Congreso Partidario delegó facultad explícita (95-1) de reajustar cronograma. Plazos son razonables para nuclemientos existentes (eximidos de nuevo trámite) y para presentación de listas.",
+    "opositora": "Intervención judicial señala deficiencias en regulación electoral interna de UCR. Seis semanas es plazo muy breve para competencia interna leal en partido con 15+ secretarios titulares a elegir en Comité Central. Ausencia de mención a mecanismos de fiscalización de voto o garantías de voto digital. Nucleamientos preexistentes no requieren reconocimiento nuevo (ventaja acumulativa para estructuras antes consolidadas)."
+   },
+   "texto_oficial": "ARTÍCULO 1°. - CONVOCAR a los afiliados a la Unión Cívica Radical a los fines que concurran a emitir sus sufragios el día 20 de setiembre de 2026, en el horario de 08,00 a 18,00 horas para que por medio del voto directo, secreto y obligatorio elijan: a) Cuatro (4) delegados titulares y dos (2) delegados suplentes al Comité Nacional, elegidos en la Provincia considerada como distrito único. - b) Congresales titulares, elegidos en cada uno de los Departamentos de la Provincia, en la proporción de uno (1) por cada cuatro mil (4000) afiliados o fracción no menor de mil quinientos (1500), e igual número de Congresales suplentes. Cada Departamento deberá tener por lo menos tres (3) congresales titulares y tres (3) congresales suplentes. - c) Un (1) Presidente, un (1) Vicepresidente primero, un (1) Vicepresidente segundo, quince (15) Secretarios titulares y diez (10) Secretarios suplentes del Comité Central de la Provincia, elegidos en la Provincia considerada como distrito único. - d) Cinco (5) Miembros titulares y cinco (5) Miembros suplentes del Tribunal de Conducta, elegidos en la Provincia considerada como distrito único. - e) Tres (3) Miembros titulares y tres (3) Miembros suplentes del Tribunal de Cuentas, elegidos en la Provincia considerada como distrito único. - f) Un (1) Presidente, un (1) Vicepresidente primero, un (1) Vicepresidente segundo, diez (10) Secretarios titulares y diez (10) Secretarios suplentes de los Comité Departamentales, elegidos en cada uno de los Departamentos. Cuando un Departamento tenga menos de cuatro mil (4000) afiliados, se elegirán un (1) Presidente, un (1) Vicepresidente, cinco (5) Secretarios titulares y cinco (5) Secretarios suplentes. - g) Un (1) Presidente, un (1) Vicepresidente primero, un (1) Vicepresidente segundo, diez (10) Secretarios titulares y cinco (5) Secretarios suplentes de los Comité de Circuito, elegidos en cada uno de los Circuitos. Cuando un circuito tenga menos de trescientos (300) afiliados, se elegirán un (1) Presidente, un (1) Vicepresidente, cinco (5) Secretarios titulares y tres (3) Secretarios suplentes.- i) Un Presidente, un Vicepresidente, cinco (5) Secretarios titulares y tres (3) Secretarios suplentes de los Comité de Subcircuito, elegidos en cada uno de los Subcircuitos con más de quinientos (500) afiliados. En caso que en el Subcircuito haya más de ciento cincuenta (150) y hasta quinientos (500) afiliados, se elegirán un Presidente, un Vicepresidente, tres (3) Secretarios titulares y dos (2) Secretarios suplentes. ARTÍCULO 2°. - FIJAR el cronograma para las elecciones internas convocadas en el artículo 1° de la presente, como se detalla a continuación: 1) Lunes 10 de agosto de 2026 – 20,00 horas: Vencimiento del plazo para solicitar al Comité Central de la Provincia el reconocimiento de núcleos internos. Estarán eximidos de solicitar un nuevo reconocimiento aquellos núcleos internos que participaron, individualmente o en alianza con otros en las últimas elecciones internas provinciales. 2) Jueves 13 de agosto de 2026 – 20,00 horas: Vencimiento del plazo para solicitar al Comité Central de la Provincia el reconocimiento de alianzas de núcleos internos. – 3) Martes 18 de agosto de 2026 – 20,00 horas: Vencimiento del plazo para presentar listas de candidatos. – 4) Domingo 20 de setiembre de 2026 – 8:00 a 18:00 horas: Elecciones internas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_300726.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 339 - Dirección Control y Gestión Operativa en Seguridad Privada",
+   "titulo": "Director Técnico - REBOR SEGURIDAD S.A.",
+   "detalle": "Designación de Julio Enrique Barrera (DNI 10.773.918) como Director Técnico de empresa de seguridad privada. Extensión de credencial habilitante sin autorización para uso de armas.",
+   "organismo": "Dirección Control y Gestión Operativa en Seguridad Privada - Ministerio de Seguridad",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_300726.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "251",
+   "titulo": "Establece tasas retributivas de servicios en Terminal de Ómnibus Córdoba",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "numero": "339",
+   "titulo": "Habilita REBOR SEGURIDAD S.A. y designa Director Técnico",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1434",
+   "titulo": "Contratación del servicio de pasajes/hoteles (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1435",
+   "titulo": "Adquisición de sistema de medición inteligente (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Brinkmann - Decreto 85/26",
+   "titulo": "Venta de inmueble identificado como Manzana N° 1 (Municipalidad de Brinkmann)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1430 - Nota Aclaratoria N° 1",
+   "titulo": "Adquisición de cables de comando y señalización para teleoperaciones (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1430 - Nota Aclaratoria N° 2",
+   "titulo": "Adquisición de cables de comando y señalización para teleoperaciones - Apertura prorrogada (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5579",
+   "titulo": "Obra: Provisión e instalación de aire acondicionado - Edificio Administración Central (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1436",
+   "titulo": "Elementos Izaje RAT 2026 (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1417 - Nota Aclaratoria N° 6 y 7",
+   "titulo": "Poda Alta Tensión 2026 - Zona Villa María (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1416 - Nota Aclaratoria N° 6 y 7",
+   "titulo": "Poda Alta Tensión 2026 - Zona Norte Provincial (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1418 - Nota Aclaratoria N° 6 y 7",
+   "titulo": "Poda Alta Tensión 2026 - Zona San Francisco (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "s/n",
+   "titulo": "Asamblea General Ordinaria - Consorcio Caminero N° 243 (Diego de Rojas)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "s/n",
+   "titulo": "Asamblea General Ordinaria - Consorcio Caminero N° 207 (La Puerta)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "s/n",
+   "titulo": "Asamblea General Ordinaria - Consorcio Caminero N° 351 (Villa Santa Rosa)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "s/n",
+   "titulo": "Asamblea General Ordinaria - Consorcio Caminero N° 292 (San Francisco)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "s/n",
+   "titulo": "Asamblea General Ordinaria - Consorcio Caminero N° 143 (Pacheco de Melo)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000013",
+   "titulo": "Contratación de cuatro (4) profesionales para CEPROCOR",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "s/n",
+   "titulo": "Estado Anual Patrimonial - Partido Fe (ejercicio 2025)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "s/n",
+   "titulo": "Convocatoria a elecciones internas - Unión Cívica Radical Córdoba",
+   "seccion": "4",
+   "pagina": 5
+  }
+ ],
+ "telegram": "Boletín 145 | 30-07-2026 | 20 normas. Destaca: Resolución de nuevas tasas en Terminal de Ómnibus (canon variable + $50/encomienda) y plan de inversión de EPEC por $4.600M (medición inteligente, poda de alta tensión, climatización). Consulta la app: http://boletinoficial.cba.gov.ar",
+ "hora_procesado": "07:58",
+ "estado": "publicado"
+}
