@@ -1,0 +1,272 @@
+{
+ "fecha": "2026-07-31",
+ "numero_boletin": "146",
+ "sintesis_juridica": [
+  "El boletín publica un Decreto de duelo provincial (Decreto Nº 69) por el siniestro aéreo en San Juan del 29 de julio de 2026, que declara un día de duelo y ordena izar banderas a media asta en organismos públicos. En educación, ratifica seis resoluciones ministeriales que aprueban y modifican planes de estudios en institutos privados de educación superior y secundaria (carreras en administración de recursos humanos, desarrollo personal, administración de empresas, educación secundaria a distancia y desarrollo de software), todas conforme a la Ley Nº 5326. También publica una resolución que ordena la titularización de docentes en cargos de coordinador de curso, preceptor, secretario docente y horas cátedra.",
+  "En materia de obras públicas e infraestructura, el boletín contiene dos licitaciones de la Secretaría de Infraestructura Hídrica y Gasífera: la limpieza y sistematización del Canal Arroyo Algodón (presupuesto $ 2.631.642.334,33) y la adecuación del Canal Flora (presupuesto $ 1.086.417.701,55), ambas con plazo de ejecución de 240 días. Se publican además licitaciones de la Empresa Provincial de Energía (EPEC) para aire acondicionado, elementos de izaje, poda de alta tensión en zona norte y San Francisco, y adquisición de termocuplas. Finalmente, se publica una obra de gas natural en El Tío y una rectificación de licitación de Caminos de las Sierras S.A."
+ ],
+ "sintesis_politica": [
+  "La declaración de duelo provincial por el siniestro aéreo constituye un acto de solidaridad interjurisdiccional con San Juan en contexto de crisis climática (incendios forestales). No genera controversia política evidente. En educación, el oficialismo ratifica un conjunto de resoluciones pendientes de institutos privados, normalizando situaciones administrativas rezagadas; la titularización docente refleja cumplimiento de marcos normativos establecidos (Ley Nº 10.729) sin elementos discrecionales manifiestos.",
+  "En infraestructura hídrica se observa continuidad de inversión en canales (zonas de riego Unión, Marcos Juárez), con montos significativos ($3.718 millones combinados). El timing de licitaciones de EPEC (poda de alta tensión por $2.928 millones) coincide con temporada estival y riesgo de incendios. La rectificación de Caminos de las Sierras ajusta plazos de consulta y carga de ofertas, probablemente ante baja participación inicial. No se detectan movimientos de autoridades o disputas institucionales relevantes en esta edición."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "69",
+   "titulo": "Declaración de duelo provincial por siniestro aéreo en San Juan",
+   "importa": "Acto ceremonial pero relevante para relaciones interjurisdiccionales y respuesta estatal a siniestros en misiones de combate de incendios forestales.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El decreto declara duelo provincial por un (1) día en virtud de atribuciones constitucionales del gobernador. Ordena izar banderas a media asta en establecimientos públicos. Está refrendado por el Ministro de Seguridad y el Fiscal de Estado, cumpliendo protocolo. No contiene delegaciones excesivas ni vicios formales detectables.",
+    "politica": "El siniestro aéreo del 29 de julio causó muertes de especialistas en manejo de fuego (Andrés Bosch y Rodrigo Aimetta) en el Parque Provincial Ischigualasto. La declaración de duelo expresa solidaridad con San Juan en contexto de crisis climática. El timing (publicación el 31 de julio) refleja respuesta ordenada a tragedia de alcance nacional.",
+    "oficialista": "La provincia demuestra empatía institucional con San Juan, honrando la labor de profesionales que arriesgan la vida en combate de incendios forestales. El gesto respeta protocolos y expresa valores públicos de responsabilidad estatal.",
+    "opositora": "Es un acto de duelo estándar sin componentes controversiales; la crítica podría apuntar a si la provincia hace suficiente en materia de prevención de incendios, pero la ceremonia en sí no genera objeciones obvias."
+   },
+   "texto_oficial": "Artículo 1°.- DECLÁRASE DUELO PROVINCIAL, por el término de un (1) día, con motivo del siniestro aéreo ocurrido en el Parque Provincial Ischigualasto, Provincia de San Juan, en la jornada del 29 de julio de 2026, en el que fallecieron los especialistas cordobeses del Sistema Nacional de Manejo del Fuego Andrés Bosch y Rodrigo Aimetta, autoridades de la Provincia hermana y personal civil, quienes integraban una misión de combate de incendios forestales. Artículo 2°.- DISPÓNESE que, en todos los establecimientos públicos dependientes de la Provincia, las Banderas Nacional y Provincial permanezcan izadas a media asta en señal de duelo, durante el período fijado en el artículo precedente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_310726.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "981 - Letra:D",
+   "titulo": "Ratificación de plan de estudios — Tecnicatura Superior en Desarrollo Personal y Organizacional (Instituto Siglo 21)",
+   "importa": "Normaliza oferta académica privada de nivel superior; ratifica plan aprobado en 2025 con efectos desde ciclo lectivo 2026.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Ratifica resoluciones previas (Nº 0479/2025 y su rectificatoria 2025/PRIVA-00000250) que aprueban plan de estudios de 2 años y medio, 1.437 horas reloj, opción presencial. Cumple requisitos de Ley Nº 5326. El acto es administrativo de confirmación conforme a Decreto Nº 2449/23. No se detectan vicios formales.",
+    "politica": "La ratificación es acto administrativo de cierre de expediente educativo. El timing (29 de julio de 2026, publicado 31 de julio) refleja gestión ordinaria del Ministerio de Educación sin elementos políticos salientes.",
+    "oficialista": "La administración ratifica planes pedagógicos conforme a ley, garantizando ofertas académicas claras para estudiantes e instituciones privadas; cumplimiento normativo.",
+    "opositora": "Sin elementos controversiales detectables; podría objetarse si hay falta de supervisión sobre calidad educativa, pero el documento no contiene indicios de irregularidades."
+   },
+   "texto_oficial": "Art. 1°.- RATIFICAR la Resolución N° 0479/2025 y su rectificatoria Resolución N° 2025/PRIVA-00000250, junto a su Anexo I emanadas de la entonces Dirección General de Institutos Privados de Enseñanza, por la que se aprueba el plan de estudios de la carrera 'Tecnicatura Superior en Desarrollo Personal y Organizacional' -opción pedagógica Educación Presencial-, de dos (2) años y medio (1/2) de duración y una carga horaria de 1437 horas reloj, que otorga el título de 'Técnico Superior en Desarrollo Personal y Organizacional', en el establecimiento educativo adscripto INSTITUTO DE ESTUDIOS SUPERIORES 'SIGLO 21' COLEGIO UNIVERSITARIO (I.E.S.) -Nivel Superior- de Córdoba, Departamento Capital, con efecto a partir del ciclo lectivo 2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_310726.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1020 - Letra:D",
+   "titulo": "Titularización de docentes en cargos de coordinador de curso, preceptor, secretario docente y horas cátedra",
+   "importa": "Acto de estabilización laboral docente; afecta carrera y seguridad social de profesores en educación media y técnica; impacto presupuestario en programa de personal permanente.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La titularización se dispone conforme Art. 3 de Ley Nº 10.729. Requiere verificación de incompatibilidades (Decretos 3489/1969 y 389/2011), documentación completa (títulos, aptitud psicofísica, antecedentes penales, registro de deudores alimentarios, registro de personas condenadas por delitos contra integridad sexual). La resolución condiciona efectivización a cumplimiento de requisitos. Adquisición de estabilidad ocurre desde publicación en Boletín Oficial. Imputación fiscal en partidas de personal permanente (Programa 355 y 365). El texto no contiene vicios formales detectables.",
+    "politica": "La titularización responde a normativa establecida (Ley 10.729) y refleja regularización de situaciones docentes pendientes. Sin elementos de favoritismo evidente; se menciona anexo con nómina (no transcripto) que requeriría análisis de cantidad y departamentos beneficiados para evaluar distribución política.",
+    "oficialista": "El Estado cumple con estabilización laboral de docentes conforme ley; reconoce trayectoria y compromiso profesional de educadores; genera previsibilidad laboral.",
+    "opositora": "Podría cuestionarse si el proceso de selección fue transparente y meritocrático, o si hubo preferencias políticas en la nómina; el anexo no está transcripto, impidiendo auditoría pública."
+   },
+   "texto_oficial": "Art. 1°.- DISPONER la titularización de los docentes nominados en el Anexo I, de cargos de Coordinador de Curso (código 13215), Preceptor (código 13520), Secretario Docente (código 13310) y Horas Cátedra (Enseñanza Media – Código 13910), dependientes de este Ministerio. Art. 4°.- La condición de titular del personal abarcado por la presente resolución, se adquiere de pleno derecho a partir de la fecha de publicación en el Boletín Oficial del presente dispositivo legal, debiendo los docentes titularizados poseer su situación de revista acorde al régimen de incompatibilidad vigente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_310726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000026",
+   "titulo": "Limpieza y sistematización de Canal Arroyo Algodón (Dpto. Unión y Marcos Juárez)",
+   "importa": "Obra de infraestructura hídrica de primera categoría con presupuesto significativo ($2.631 millones); afecta riego y drenaje regional; entra en temas vigilados (emergencia hídrica, obras viales/canales).",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto Nº 583/2016 (plataforma digital). Presupuesto oficial: $ 2.631.642.334,33 (IVA incluido). Plazo: 240 días corridos desde Acta de Replanteo. Garantía de mantenimiento de oferta: 1% del presupuesto. Presentación hasta 12:00 hs. 18/8/2026; apertura 19/8/2026. El texto no aclara si hubo actos previos (estudios de prefactibilidad, consulta ambiental); falta información sobre supervisión y regímenes de precios de reajuste.",
+    "politica": "Obra ubicada en departamentos de Unión y Marcos Juárez (zona de riego central). Timing (licitación julio 2026, ejecución 240 días = hasta marzo 2027) coincide con ciclos agrícolas. Beneficiarios: productores de esa región. Continuidad de inversión en infraestructura hídrica provincial.",
+    "oficialista": "Inversión pública en infraestructura crítica de riego; modernización y mantenimiento de canales; impacto multiplicador en producción regional.",
+    "opositora": "Podría cuestionarse: (1) si el presupuesto es realista en contexto inflacionario; (2) si hay suficiente competencia en licitación; (3) si la obra responde a prioridades reales o a favoritismo geográfico/político."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - Expte. N° 0733-012020/2026– SOLICITUD DE COTIZACÍON N° 2026/000026. De acuerdo a lo establecido mediante Resolución Nº 2026/RSI-HG-00000599... se efectúa el Llamado a Licitación Pública para la contratación de la obra 'PROYECTO LIMPIEZA Y SISTEMATIZACIÓN DE CANAL ARROYO ALGODÓN DESDE DESEMBOCADURA EN CANAL SAN ANTONIO HASTA RUTA PROVINCIAL N° 2 – DPTO. UNIÓN Y MARCOS JUÁREZ'. ... El PRESUPUESTO OFICIAL de la presente obra asciende a la suma PESOS DOS MIL SEISCIENTOS TREINTA Y UN MILLONES SEISCIENTOS CUARENTA Y DOS MIL TRESCIENTOS TREINTA Y CUATRO, CON 33/100 ($ 2.631.642.334,33), IVA Incluido... El PLAZO DE EJECUCIÓN de la presente obra es de DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_310726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000027",
+   "titulo": "Adecuación Canal Flora (Dpto. Marcos Juárez)",
+   "importa": "Obra de infraestructura hídrica de primera categoría, presupuesto $ 1.086 millones; integrada en plan provincial de riego; entra en temas vigilados.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto Nº 583/2016 (soporte digital). Presupuesto oficial: $ 1.086.417.701,55 (IVA incluido). Plazo: 240 días corridos. Garantía: 1% del presupuesto. Presentación hasta 12:00 hs. 19/8/2026; apertura 20/8/2026. El cronograma permite ejecución hasta principios de marzo 2027. No se describe naturaleza técnica de la 'adecuación' (ampliación, revestimiento, drenaje, etc.).",
+    "politica": "Obra complementaria a licitación anterior; ambas en Marcos Juárez; inversión combinada: $ 3.718 millones. Refuerza eje de riego provincial. Plazo de licitación (18-19/8) consecutivo a la licitación del Arroyo Algodón.",
+    "oficialista": "Continuidad de inversión hídrica; modernización y eficiencia de canales de riego; impacto en productividad agrícola de región prioritaria.",
+    "opositora": "Concentración de dos licitaciones grandes en mismo departamento; podría cuestionarse dispersión geográfica de inversiones o necesidad de ambas obras simultáneamente."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - Expte. N° 0733-012021/2026– SOLICITUD DE COTIZACÍON N° 2026/000027. De acuerdo a lo establecido mediante Resolución Nº 2026/RSI-HG-00000595... se efectúa el Llamado a Licitación Pública para la contratación de la obra 'ADECUACIÓN CANAL FLORA – DPTO. MARCOS JUÁREZ'... El PRESUPUESTO OFICIAL de la presente obra asciende a la suma PESOS MIL OCHENTA Y SEIS MILLONES CUATROCIENTOS DIECISIETE MIL SETECIENTOS UNO CON 55/100 ($ 1.086.417.701,55), IVA Incluido... El PLAZO DE EJECUCIÓN de la presente obra es de DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_310726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5579",
+   "titulo": "Provisión e instalación de aire acondicionado en primer piso — Edificio Administración Central EPEC",
+   "importa": "Obra de mejora edilicia en ente provincial; impacto presupuestario $ 690 millones; relevancia menor que infraestructura hídrica pero indica inversión corriente en modernización.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública EPEC. Presupuesto oficial: $ 690.642.956,60. Plazo: 120 días. Apertura: 18/8/2026 a las 11:00 hs. Entrega de sobres hasta 18/8/2026 a las 10:00 hs. Especialidad: Obra de Arquitectura. Primera Categoría. El texto no detalla alcance técnico (área, sistemas, eficiencia energética).",
+    "politica": "Obra de confort en sede administrativa central de EPEC; refleja mantenimiento de edificios públicos; sin elementos controversiales detectables.",
+    "oficialista": "Modernización de espacios de trabajo; mejora de condiciones laborales; inversión estándar en infraestructura institucional.",
+    "opositora": "Sin críticas obvias; podría cuestionarse prioridad relativa respecto a inversión en expansión de redes o mejora de servicio al usuario."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5579 DOBLE APERTURA: 18-08-26 HORA: 11 .- OBJETO: 'OBRA: PROVISIÓN E INSTALACIÓN DE SISTEMA DE AIRE ACONDICIONADO EN PRIMER PISO - EDIFICIO DE ADMINISTRACIÓN CENTRAL-' - ENTREGA DE SOBRES HASTA EL 18-08-26 HORA 10 – PRESUPUESTO OFICIAL: $ 690.642.956,60.-Especialidad: OBRA DE ARQUITECTURA. - Categoría: PRIMERA CATEGORÍA- Plazo: 120 días-",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_310726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "1416 y 1418",
+   "titulo": "Poda de alta tensión 2026 — Zonas norte y San Francisco (EPEC)",
+   "importa": "Licitaciones para mantenimiento de red eléctrica; presupuesto combinado $ 2.928 millones; impacto en disponibilidad de servicio y riesgo de incendios estivales; entra en temas vigilados (emergencia).",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Dos licitaciones públicas electrónicas con doble apertura. Licitación Nº 1416 (Zona Norte Provincial): presupuesto $ 1.573 millones. Licitación Nº 1418 (Zona San Francisco): presupuesto $ 1.355.200.000. Ambas contienen 'Nota Aclaratoria N° 6 y 7'; se prorrogaron plazos de presentación (apertura técnica 03/8/2026). El texto no especifica qué aclaraciones contienen las notas; falta transparencia sobre cambios introducidos.",
+    "politica": "Mantenimiento preventivo de red de distribución eléctrica; timing (julio-agosto, antes de pico estival) es apropiado. Presupuesto significativo refleja cobertura geográfica amplia. Notas aclaratorias sugieren ajustes durante proceso; podría indicar complejidad o bajo interés de oferentes.",
+    "oficialista": "Inversión crítica en mantenimiento preventivo de infraestructura; reduce riesgo de cortes de servicio y de incendios forestales; atención a demanda de usuarios.",
+    "opositora": "Podría cuestionarse: (1) por qué se requirieron aclaraciones post-licitación; (2) si el presupuesto es suficiente para cobertura integral; (3) si EPEC realiza poda reactiva o preventiva sistemática."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1416 DOBLE APERTURA – NOTA ACLARATORIA N° 6 y 7 - Objeto: 'PODA ALTA TENSION 2026 - ZONA NORTE PROVINCIAL.' . Presupuesto Oficial: $ 1.573.000.000,00 IVA incluido... LICITACION PUBLICA ELECTRONICA Nº 1418 DOBLE APERTURA – NOTA ACLARATORIA N° 6 Y 7 Objeto: 'PODA ALTA TENSION 2026 - ZONA SAN FRANCISCO-' . Presupuesto Oficial: $ 1.355.200.000,00. IVA incluido-",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_310726.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "69",
+   "titulo": "Declaración de duelo provincial",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "981 - Letra:D",
+   "titulo": "Ratificación plan de estudios Tecnicatura Superior en Desarrollo Personal y Organizacional",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1004 - Letra:D",
+   "titulo": "Ratificación plan de estudios Tecnicatura Superior en Administración de Recursos Humanos",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1020 - Letra:D",
+   "titulo": "Titularización de docentes en cargos varios",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1053 - Letra:D",
+   "titulo": "Ratificación plan de estudios Tecnicatura Superior en Administración de Empresas (a distancia)",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1054 - Letra:D",
+   "titulo": "Ratificación plan de estudios Educación Secundaria con orientación en Economía y Administración (a distancia)",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1056 - Letra:D",
+   "titulo": "Ratificación plan de estudios Educación Secundaria con Orientación en Economía y Administración (Instituto Superior Pascal)",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1057 - Letra:D",
+   "titulo": "Ratificación plan de estudios Tecnicatura Superior en Desarrollo de Software (a distancia)",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000026",
+   "titulo": "Limpieza y sistematización de Canal Arroyo Algodón",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000027",
+   "titulo": "Adecuación Canal Flora",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5579",
+   "titulo": "Provisión e instalación de aire acondicionado EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1436",
+   "titulo": "Adquisición de elementos de izaje RAT 2026 (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1416",
+   "titulo": "Poda alta tensión 2026 — Zona Norte Provincial (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1418",
+   "titulo": "Poda alta tensión 2026 — Zona San Francisco (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1437",
+   "titulo": "Adquisición de termocuplas tipo Thermoskin Bicentenario (EPEC)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución ENARGAS",
+   "numero": "I/910",
+   "titulo": "Obra de gas natural — Provisión de GN vecinos de El Tío",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000016",
+   "titulo": "Rehabilitación de calzada Autopista Córdoba-Pilar (Caminos de las Sierras S.A.)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "numero": "2026/000013",
+   "titulo": "Contratación de profesionales para unidades diversas (CEPROCOR)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "s/n (Partido GEN)",
+   "titulo": "Reconocimiento jurídico provincial — Elección de autoridad período 2025-2029",
+   "seccion": "4",
+   "pagina": 4
+  }
+ ],
+ "telegram": "🔴 Boletín Nº 146 (31/7/2026) • 8 resoluciones educativas + 2 licitaciones hídrica ($3.718M) + mantenimiento EPEC ($2.928M poda) • Destacada: Decreto de duelo provincial por siniestro aéreo San Juan. Más: https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "11:54",
+ "estado": "publicado"
+}
