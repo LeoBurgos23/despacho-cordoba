@@ -1,0 +1,216 @@
+{
+ "fecha": "2026-08-03",
+ "numero_boletin": "147",
+ "sintesis_juridica": [
+  "La edición del 3 de agosto contiene una única norma de alcance general: la Resolución N° 1 del Ministerio Jefatura de Gabinete que designa al escribano Héctor Carlos Rafael Dhers como titular del Registro Notarial N° 267 con asiento en Córdoba capital, en sucesión de la escribana fallecida María Teresa Bas de Dhers. El acto se funda en los artículos 17, 29 y 33 de la Ley N° 4183 (T.O. Decreto N° 2252/75) y cuenta con dictamen favorable tanto del Colegio de Escribanos como del Tribunal de Disciplina Notarial. La designación constituye un acto de carácter individual sin impacto en la estructura normativa vigente.",
+  "El resto del boletín se compone de convocatorias a licitaciones públicas de obras e insumos (Ministerio de Infraestructura, EPEC), subastas electrónicas (APROSS, CEPROCOR), audiencias públicas ambientales (loteos en Villa María y Río Cuarto) y edictos de la Unidad Ejecutora Ley 9150 relativos a inscripciones de posesión inmueble. No se registran cambios en normativa sustantiva, modificaciones legales ni derogaciones en esta edición."
+ ],
+ "sintesis_politica": [
+  "La circulación de actos administrativos en el boletín refleja la actividad ordinaria de contrataciones públicas: el Ministerio de Infraestructura licita obras de saneamiento hídrico (Arroyo Algodón, Canal Flora) por montos cercanos a los 3.700 millones de pesos en conjunto, mientras que EPEC convoca a licitaciones y subastas por adquisición de componentes e insumos para operaciones de energía. La concentración de convocatorias de EPEC sugiere un ciclo de renovación de equipamientos y materiales. Las audiencias ambientales digitales en Villa María y Río Cuarto (ambas sobre loteos) forman parte del protocolo de consulta pública ambiental sin signos de controversia política explícita.",
+  "La designación notarial de Dhers, acto de rutina tras vacancia por fallecimiento, no presenta relevancia política. Los edictos de la Unidad Ejecutora constituyen trámites masivos de saneamiento de títulos inmuebles conforme a la Ley 9150, sin indicios de anomalías o conflictividad. En conjunto, el boletín muestra una edición de baja densidad legislativa y política, caracterizada por actos de ejecución y administración corriente."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1",
+   "titulo": "Designación de Escribano Titular del Registro Notarial N° 267",
+   "importa": "Afecta la titularidad de un registro notarial y la habilitación profesional de quien lo ejercerá; requiere verificación de competencia orgánica y respeto de procedimientos de designación.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La Resolución formaliza la designación de Héctor Carlos Rafael Dhers como escribano titular del Registro N° 267 en sucesión de María Teresa Bas de Dhers (fallecida 16/06/2026), con apoyo en Ley N° 4183, arts. 17, 29, 33 (T.O. Decreto 2252/75). El expediente instruido conforme protocolo administrativo: informe favorable del Tribunal de Disciplina Notarial (15/07/2026), dictamen de Legales (N° 001/2026) y conformidad del Colegio de Escribanos. El acto reúne los requisitos formales: motivación (vacancia por muerte del titular), competencia (Ministerio Jefatura de Gabinete conforme Decreto 2449/2023 art. 7.a), refrendo ministerial. No se advierte vicio formal ni conflicto normativo.",
+    "politica": "La designación refleja la sucesión ordinaria en la estructura registral notarial. Dhers había sido adscripto al registro desde 1994 (Decreto 292/1994, 04/03/1994), lo que le otorga antigüedad funcional y conocimiento del acervo. La rotación se produce sin controversia visible ni competencia entre candidatos declarada; se presume consenso colegial.",
+    "oficialista": "El oficialismo destacaría que el proceso se ajustó a la legalidad: convocatoria ordenada tras vacancia notificada, parecer favorable de los órganos de disciplina y colegiación, candidato con treinta años de trayectoria acreditada en la función registral, sin dilaciones administrativas.",
+    "opositora": "La oposición podría cuestionar si el acceso a titularidades registrales sigue criterios abiertos y competitivos, o si opera un sistema de cooptación corporativa interna (Tribunal de Disciplina y Colegio como únicos evaluadores). Podría exigirse publicidad de candidaturas y mérito comparativo explícito."
+   },
+   "texto_oficial": "Artículo 1º.- DESÍGNASE al Notario HECTOR CARLOS RAFAEL DHERS, D.N.I. N° 17.841.877 –Clase 1966-, Matrícula Profesional N° 1609, como Escribano Titular del Registro Notarial Nº 267, con asiento en la ciudad de Córdoba, Departamento Capital, de esta Provincia de Córdoba. Artículo 2°. - PROTOCOLÍCESE, comuníquese, dese intervención al Tribunal de Disciplina Notarial, al Colegio de Escribanos de la Provincia de Córdoba, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_030826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerio Jefatura de Gabinete N° 1",
+   "titulo": "Escribano Titular del Registro Notarial N° 267",
+   "detalle": "Designación de Héctor Carlos Rafael Dhers (D.N.I. 17.841.877, Mat. Prof. 1609) como Escribano Titular del Registro Notarial N° 267 con asiento en Córdoba capital.",
+   "organismo": "Ministerio Jefatura de Gabinete",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_030826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "1",
+   "titulo": "Designación de Escribano Titular del Registro Notarial N° 267",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0733-012020/2026 – Solicitud de Cotización 2026/000026",
+   "titulo": "Limpieza y Sistematización de Canal Arroyo Algodón",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0733-012021/2026 – Solicitud de Cotización 2026/000027",
+   "titulo": "Adecuación Canal Flora – Departamento Marcos Juárez",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5579",
+   "titulo": "Provisión e Instalación de Sistema de Aire Acondicionado en Primer Piso – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1436",
+   "titulo": "Elementos Izaje RAT 2026 – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1437",
+   "titulo": "Adquisición de Termocuplas Tipo Thermoskin Central Bicentenario – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1438",
+   "titulo": "Adquisición de Instrumentos de Medición de Variables Higiénicas – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1439",
+   "titulo": "Adquisición de Hydranal – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5581",
+   "titulo": "Iluminación Ornamental y Refuncionalización Eléctrica Arroyo La Cañada – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1442",
+   "titulo": "Adquisición de Estufas de Secado y Estufa de Cultivo – EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5582",
+   "titulo": "Adquisición de Luminarias para La Cañada de Córdoba – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2466",
+   "titulo": "Asistencia Técnica en Sistemas de Gestión Internacionales ISO – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5580",
+   "titulo": "Construcción y Remodelación de Distribuidores M.T. Cruz del Eje–San Marcos Sierras – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1446",
+   "titulo": "Sistema para Determinación de Estabilidad a la Oxidación en Biodiesel – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1447",
+   "titulo": "Adquisición de Herramientas Eléctricas RAT 2026 – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1440",
+   "titulo": "Adquisición de Fuente de Alimentación Conmutada – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1441",
+   "titulo": "Barrera Flotante para Contención de Hidrocarburos Central Los Molinos – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1443",
+   "titulo": "Materiales de Acero al Carbono para Soldar Línea de Agua Planta Biodiesel – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1444",
+   "titulo": "Servicio de Mantenimiento Anual de Sistemas de Detección de Incendios – EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5583",
+   "titulo": "Adquisición de Columnas de PRFV para Alumbrado Público – EPEC",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000037",
+   "titulo": "Solución Integral de Receta Electrónica Interoperable – APROSS",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "Expte. 0646-000881/2026",
+   "titulo": "Contratación de Profesionales para Unidades Especializadas – CEPROCOR",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Expte. 0918-036973/2026",
+   "titulo": "Loteo Miguel Genovese – Villa María",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Expte. 0918-037217/2026",
+   "titulo": "Loteo La Auténtica – Río Cuarto",
+   "seccion": "4",
+   "pagina": 5
+  }
+ ],
+ "telegram": "📋 BOE Nº 147 | 3 de agosto de 2026. Una Resolución designa escribano titular notarial; 20+ licitaciones de EPEC e Infraestructura por $3.700M+ en obras hídricas. Detalle completo en la app: http://boletinoficial.cba.gov.ar",
+ "hora_procesado": "10:45",
+ "estado": "publicado"
+}
