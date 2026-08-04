@@ -1,0 +1,443 @@
+{
+ "fecha": "2026-08-04",
+ "numero_boletin": "148",
+ "sintesis_juridica": [
+  "El boletín contiene principalmente resoluciones educativas y decisiones tarifarias del ERSeP. En educación, se ratifican modificaciones a planes de estudios de institutos privados (Tecnicatura en Análisis de Sistemas en Siglo 21) y se aprueba un nuevo diseño curricular para la formación profesional de Guardavidas. En materia de servicios públicos, predominan actos regulatorios: el ERSeP rectifica un error de cálculo en la tarifa de agua de la Cooperativa Sudeste (cargo industrial), aprueba incrementos tarifarios para cooperativas eléctricas por variación de costos de junio 2026 (entre 1,08% y 1,21% según categoría de usuario), autoriza aplicación de ajustes previos a cooperativas que completaron requisitos, y aprueba nuevas tarifas para dos cooperativas específicas. En infraestructura, se convocan dos licitaciones públicas de obras hídricas: limpieza del canal Arroyo Algodón (presupuesto $2.631 millones) y adecuación del canal Flora (presupuesto $1.086 millones).",
+  "La sección de contrataciones contiene múltiples licitaciones de EPEC para adquisiciones menores (equipos de laboratorio, herramientas, luminarias) y obras (iluminación ornamental en La Cañada, construcción de distribuidores en media tensión). Se registra también una aclaratoria de CEPROCOR sobre baja de renglón en cotización y una subasta electrónica inversa de APROSS para sistema integral de receta electrónica. Finalmente, hay edictos de la Unidad Ejecutora de la Ley 9150 notificando solicitudes de inscripción de posesión (prescripción adquisitiva) en diversos departamentos de la provincia."
+ ],
+ "sintesis_politica": [
+  "La aprobación de incrementos tarifarios en energía eléctrica genera controversia interna en el ERSeP: mientras la mayoría del directorio (4 votos) avala ajustes de 1,10-1,19% basados en aumento de costos del 2,15% en junio, dos vocales (Vega y Negri) expresan preocupaciones sobre el mecanismo de actualizaciones periódicas. Vega cuestiona la acumulación de incrementos sin evaluar capacidad de pago ni calidad de servicio; Negri considera los aumentos excesivos frente a la economía real de usuarios. Esta división refleja tensión entre sustentabilidad financiera de prestadoras y protección de usuarios, un eje político relevante en un contexto de inflación.",
+  "Las licitaciones de infraestructura hídrica (canales por $3.718 millones combinados) y eléctrica (luminarias, distribuidores, transformadores por montos muy superiores) pueden responder a política de inversión provincial en servicios básicos. La magnitud de la licitación de EPEC para ampliación de transformador en Arroyo Cabral ($21.919 millones) sugiere proyecto estratégico de ampliación de capacidad. El timing de estas convocatorias (agosto) anticipa ejecución en segundo semestre, posiblemente alineada con calendario fiscal y promesas de gestión pública en materia de infraestructura."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1005",
+   "titulo": "Ratificación de modificaciones al plan de estudios de Tecnicatura Superior en Análisis de Sistemas de Computación - Instituto Siglo 21",
+   "importa": "Acto administrativo de ratificación de carrera técnica en institución privada acreditada; sin objeciones jurídicas registradas.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La Resolución ratifica decisiones previas (Res. 0344/2025 y su rectificatoria 2026/PRIVA-00000393) que aprobaron modificaciones curriculares a la carrera de dos años y medio con 1.415 horas reloj. El acto se encuadra en facultades delegadas al Ministerio de Educación conforme Decreto 2449/23 y se ajusta a Ley 5326. El procedimiento incluye Dictamen jurídico previo (N° 2026/00001645). No se advierten vicios formales ni contradicciones normativas.",
+    "politica": "Ratificación de decisiones administrativas anteriores; acto de cierre de trámite sin incidencia política aparente. Beneficia al Instituto Siglo 21 (privado) permitiendo continuidad de la oferta educativa técnica en computación.",
+    "oficialista": "La ratificación cumplienta trámite administrativo normal de revisión de actos delegados; confirma acreditación y conformidad de carrera con marco regulatorio provincial de educación técnica.",
+    "opositora": "Sin elementos de controversia visible. La norma afecta únicamente acreditación técnica de institución privada."
+   },
+   "texto_oficial": "Art. 1°.- RATIFICAR la Resolución N° 0344/2025 y su rectificatoria la Resolución N° 2026/PRIVA-00000393, junto a su Anexo I, por la que se aprueban las modificaciones al plan de estudios de la carrera 'Tecnicatura Superior en Análisis de Sistemas de Computación' -opción pedagógica Presencial-, de dos (2) años y medio (1/2) de duración y una carga horaria de 1415 horas reloj, que otorga el título de 'Técnico Superior en Análisis de Sistemas de Computación', en el establecimiento educativo adscripto INSTITUTO DE ESTUDIOS SUPERIORES 'SIGLO 21' COLEGIO UNIVERSITARIO (I.E.S.) -Nivel Superior- de Córdoba, Departamento Capital, con efecto a partir del ciclo lectivo 2025.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1012",
+   "titulo": "Aprobación de Diseño Curricular del Trayecto de Formación Profesional Inicial 'Guardavidas'",
+   "importa": "Norma sustantiva que aprueba nuevo programa de formación profesional con cobertura en instituciones provinciales; incide sobre política educativa en formación para el trabajo.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La Resolución aprueba diseño curricular conforme Leyes 9870 (Educación Provincial), 26206 (Educación Nacional) y 26058 (Educación Técnico Profesional), así como Resolución 287/16 del Consejo Federal de Educación. El acto incluye Dictamen jurídico (N° 2026/00001375) y aprobación de Secretaría de Educación. El Anexo I (24 páginas) forma parte integrante. Procedimiento administrativo regular con fundamentos técnico-pedagógicos.",
+    "politica": "Aprobación de nuevo trayecto de formación profesional (Guardavidas) responde a política de expansión de educación para el trabajo, sector prioritario en la provincia. Formación de recursos humanos para servicios de seguridad en agua.",
+    "oficialista": "Acto de ampliación de cobertura en formación profesional inicial; alinea con directivas nacionales y federales; beneficia a instituciones reconocidas por Ministerio al abrir nueva oferta formativa.",
+    "opositora": "Sin controversia aparente; acto técnico-educativo de aprobación curricular sin carga política o impacto presupuestario inmediato."
+   },
+   "texto_oficial": "Art. 1°.- APROBAR el Diseño Curricular del Trayecto de Formación Profesional Inicial 'Guardavidas', para su implementación a partir del ciclo lectivo 2026, en instituciones educativas reconocidas por este Ministerio, según se detalla en el Anexo I conformado por el Orden N° 1, el que compuesto de veinticuatro (24) páginas forma parte de la presente resolución.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "111",
+   "titulo": "Rectificación de error material en tarifa de agua de Cooperativa Sudeste (cargo industrial)",
+   "importa": "Corrección de error en cuadro tarifario de agua potable; afecta costos de usuarios industriales de prestadora cooperativa mayorista.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto de rectificación conforme artículo 110 de Ley 5350 (Procedimiento Administrativo). El ERSeP detectó error material involuntario en Res. General N° 106/2026: cargo fijo categoría A.3 Industrial no recibió incremento del 3,62% aprobado. Informe Técnico N° 212/2026 confirma error de cálculo. Directorio por mayoría (4 votos favorables, 1 voto Vega adhiere, 1 voto contrario Negri) autoriza rectificación. Fundamento legal válido; procedimiento adecuado.",
+    "politica": "Rectificación beneficia a Cooperativa Sudeste (mayorista de agua) quien recibió menor ingreso tarifario por error administrativo del regulador. Corrección restaura equilibrio económico de prestadora. Sin controversia política.de fondo.",
+    "oficialista": "La rectificación es corrección de error administrativo involuntario; regulariza situación de prestadora que sufrió perjuicio por omisión del regulador.",
+    "opositora": "Negri no se pronuncia contra rectificación; el acto solo restaura lo aprobado. Sin crítica visible."
+   },
+   "texto_oficial": "ARTÍCULO 1º: RECTIFÍCASE el punto A.3) Industrial del Anexo I de la Resolución General ERSeP . N° 106/2026 PD y reemplazar la parte correspondiente del Anexo I por el aquí aprobado, el que se agrega formando parte integrante de la presente resolución.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "112",
+   "titulo": "Aprobación de incrementos tarifarios para Cooperativas Eléctricas por variación de costos (junio 2026)",
+   "importa": "Decisión regulatoria fundamental sobre tarifas de electricidad; aprueba ajustes diferenciados (1,08%-1,21%) para todos los grupos de cooperativas eléctricas de la provincia; alto impacto en usuarios finales y en equilibrio económico de prestadoras.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Resolución aprueba mecanismo de actualización tarifaria conforme Resoluciones Generales N° 01/2024 y 2026/RG-0000043, fundadas en Ley 8835 (art. 25 inc. h) y Decreto 797/01. Directorio por mayoría (4 votos) aprueba incrementos basados en variación de costos del 2,15% (junio 2026), determinando ajustes diferenciados: cargos fijos +2,15%; cargos variables 0,99%-1,15% según grupo; usuarios residenciales sin subsidio 1,08%-1,21%. Informe Técnico Conjunto respalda cálculos. Vigencia: 01/08/2026. Votos negativos: Vega (disconformidad con mecanismo acumulativo) y Negri (considera aumentos excesivos). Sin vicios formales detectados.",
+    "politica": "Decisión tarifaria genera división interna en ERSeP sobre política regulatoria: mayoría prioriza sustentabilidad de prestadoras y mecanismo automático; voces críticas cuestionan efectos acumulativos sobre usuarios en contexto inflacionario. Timing agosto anticipa traslado a facturas septiembre. Afecta a todas las cooperativas eléctricas provinciales (Grupos A-F y A-AT).",
+    "oficialista": "Los incrementos son moderados (promedios 1,10%-1,19%) respecto a índices de referencia (IPC Córdoba 1,94%); mecanismo regulatorio respeta límites establecidos; sostiene economía de prestadoras para garantizar continuidad y calidad del servicio eléctrico.",
+    "opositora": "Vega señala que acumulación mensual de ajustes configura actualización permanente sin evaluar capacidad de pago de usuarios ni calidad de servicio; Negri argumenta que incrementos exceden variables económicas reales y perjudican economía de familias y pequeñas empresas cuyos ingresos no han crecido al ritmo tarifario."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APRUÉBANSE los incrementos detallados en el Anexo I de la presente resolución, determinados conforme a la variación de costos registrada a lo largo del período junio de 2026, aplicables a los servicios prestados a partir del 01 de agosto de 2026, sobre los Cargos Fijos, Tasas, Cargos por Energía y Cargos por Demanda de Potencia incluidos en los Cuadros Tarifarios de las Cooperativas Concesionarias listadas en el Anexo VIII de este acto, pertenecientes al 'Grupo A', a implementarse sobre las tarifas vigentes al mes de julio de 2026. [Artículos 2º-7º aprueban incrementos similares para Grupos B-F y A-AT].",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "113",
+   "titulo": "Autorización de aplicación de recomposiciones tarifarias a Cooperativas Eléctricas que completaron requisitos",
+   "importa": "Acto administrativo de cierre que autoriza a cooperativas (no contempladas en resoluciones previas por incumplimiento de requisitos) a aplicar incrementos aprobados en RG 2026/RG-0000056, 77, 96 y 107, una vez acreditado cumplimiento.",
+   "seccion": "1",
+   "pagina": 11,
+   "ampliada": {
+    "juridica": "Conforme Ley 6658 art. 95 (unificación de actos administrativos), el ERSeP dicta resolución única para autorizar aplicación de múltiples recomposiciones a cooperativas que presentaron documentación faltante. Informe Técnico de Gerencia de Energía confirma cumplimiento de requisitos (Estados Contables y declaración jurada DATA COOP). Vigencia escalonada (agosto-octubre 2026 según cooperativa). Directorio por mayoría (4 votos). Votos contra: Negri (misma posición que RG 112). Procedimiento conforme; sin defectos formales.",
+    "politica": "Acto de cierre que regulariza situación de cooperativas rezagadas; permite actualización progresiva de tarifas en toda la cartera de prestadoras eléctricas provinciales durante agosto-octubre.",
+    "oficialista": "Permite a cooperativas que completaron requisitos acceder a incrementos aprobados en resoluciones anteriores; regulariza la cadena de tomas de decisiones tarifarias.",
+    "opositora": "Negri mantiene posición crítica respecto del mecanismo de aumentos acumulativos."
+   },
+   "texto_oficial": "ARTÍCULO 1º: AUTORÍZASE la aplicación de las recomposiciones tarifarias detalladas en el ANEXO I de la presente, a instrumentarse de conformidad con las fechas de vigencia allí especificadas, por parte de las Cooperativas listadas en el ANEXO II de la presente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "114",
+   "titulo": "Aprobación de recomposiciones tarifarias para Cooperativas Alto Alegre (Grupo E) y General Baldissera (Grupo B)",
+   "importa": "Cierre de procedimiento tarifario para dos cooperativas específicas que completaron requisitos de múltiples recomposiciones acumuladas (desde RG 18/2025 hasta RG 2026/RG-0000107); autoriza vigencias escalonadas.",
+   "seccion": "1",
+   "pagina": 13,
+   "ampliada": {
+    "juridica": "Acto unificado (Ley 6658 art. 95) que aprueba aplicación de incrementos de 13 resoluciones previas a: COOPERATIVA ELECTRICIDAD Y SERVICIOS PÚBLICOS ALTO ALEGRE LTDA. (Grupo E, vigencia agosto 2026) y COOPERATIVA PROVISIÓN OBRAS Y SERVICIOS GENERALES BALDISSERA LTDA. (Grupo B, vigencia octubre 2026). Informe Técnico confirma cumplimiento de requisitos técnicos-contables. Directorio por mayoría (4 votos). Vega adhiere a fundamentaciones previas; Negri vota contra (posición consistente). Procedimiento regular.",
+    "politica": "Cierre de expediente de dos cooperativas que sufrieron demora por incumplimiento de formalidades; se regulariza su situación con efecto retroactivo a decisiones previas.",
+    "oficialista": "Resolución de situación administrativa que permite a cooperativas recuperar ingresos tarifarios por aumentos aprobados.",
+    "opositora": "Negri mantiene objeción respecto de magnitud acumulada de aumentos."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APRUÉBANSE las recomposiciones tarifarias aplicables por la COOPERATIVA DE ELECTRICIDAD Y SERVICIOS PÚBLICOS DE ALTO ALEGRE LIMITADA, perteneciente al Grupo 'E', al igual que por la COOPERATIVA DE PROVISIÓN DE OBRAS Y SERVICIOS PÚBLICOS DE GENERAL BALDISSERA LIMITADA, perteneciente al Grupo 'B', derivadas de la implementación de las actualizaciones del Valor Agregado de Distribución (VAD) autorizadas por las Resoluciones Generales ERSeP Nº 18/2025... [hasta] Nº 2026/RG-00000107; a instrumentarse de conformidad con las modalidades establecidas en el ANEXO ÚNICO de la presente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0733-012020/2026",
+   "titulo": "Limpieza y sistematización del Canal Arroyo Algodón - Dpto. Unión y Marcos Juárez",
+   "importa": "Obra pública de infraestructura hídrica de primera categoría; presupuesto relevante ($2.631 millones); incide en drenaje de región central provincial.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública (Decreto 583/2016) para contratación de obra de infraestructura hídrica, conforme Ley 8.614. Presupuesto oficial: $2.631.642.334,33 (julio 2026). Plazo: 240 días. Garantía: 1%. Presentación ofertas hasta 18/08/2026 12:00 hs; apertura 19/08/2026. Regulada por Resoluciones 2022/MC-00000046 y 2022_SCPIP-00000012. Pliego disponible en portal oficial. El texto no aclara si hay presupuestación en ejercicio actual o gasto plurianual.",
+    "politica": "Licitación de obra de drenaje en departamentos de Unión y Marcos Juárez sugiere prioridad provincial en infraestructura hídrica; timing agosto permite ejecución en segundo semestre; posible anuncio de inversión en campaña política.",
+    "oficialista": "Llamado transparente a licitación pública de obra de interés general (drenaje de canal); abierta a todos los oferentes; condiciones claras en pliego.",
+    "opositora": "El texto publicado no contiene información sobre evaluación técnica previa, impacto ambiental, o necesidad demostrada de la obra; presupuesto muy elevado requiere escrutinio público."
+   },
+   "texto_oficial": "Se efectúa el Llamado a Licitación Pública para la contratación de la obra 'PROYECTO LIMPIEZA Y SISTEMATIZACIÓN DE CANAL ARROYO ALGODÓN DESDE DESEMBOCADURA EN CANAL SAN ANTONIO HASTA RUTA PROVINCIAL N° 2 – DPTO. UNIÓN Y MARCOS JUÁREZ'. ENTIDAD QUE LICITA: Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos. PRESUPUESTO OFICIAL: PESOS DOS MIL SEISCIENTOS TREINTA Y UN MILLONES SEISCIENTOS CUARENTA Y DOS MIL TRESCIENTOS TREINTA Y CUATRO, CON 33/100 ($ 2.631.642.334,33). PLAZO DE EJECUCIÓN: DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_040826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0733-012021/2026",
+   "titulo": "Adecuación Canal Flora - Dpto. Marcos Juárez",
+   "importa": "Segunda obra de infraestructura hídrica de primera categoría; presupuesto elevado ($1.086 millones); drenaje e hidráulica de región agrícola.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública (Decreto 583/2016) para obra de adecuación de canal. Presupuesto oficial: $1.086.417.701,55 (julio 2026). Plazo: 240 días. Garantía: 1%. Presentación ofertas hasta 19/08/2026 12:00 hs; apertura 20/08/2026. Regulada por normativa igual a licitación anterior. Pliego en portal oficial.",
+    "politica": "Dos licitaciones hídricas consecutivas (Arroyo Algodón y Flora) en departamentos de zona agrícola (Marcos Juárez, Unión) sugieren programa coordinado de inversión en infraestructura de riego/drenaje; presupuesto combinado $3.718 millones.",
+    "oficialista": "Llamado transparente; responde a necesidad de mejora de infraestructura hídrica en zona productiva.",
+    "opositora": "Falta evaluación técnica publicada; ambas licitaciones llamadas en agosto para ejecución rápida levanta preguntas sobre planificación previa."
+   },
+   "texto_oficial": "Se efectúa el Llamado a Licitación Pública para la contratación de la obra 'ADECUACIÓN CANAL FLORA – DPTO. MARCOS JUÁREZ'. PRESUPUESTO OFICIAL: PESOS MIL OCHENTA Y SEIS MILLONES CUATROCIENTOS DIECISIETE MIL SETECIENTOS UNO CON 55/100 ($ 1.086.417.701,55). PLAZO DE EJECUCIÓN: DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_040826.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "1005",
+   "titulo": "Ratificación de modificaciones al plan de estudios de Tecnicatura Superior en Análisis de Sistemas de Computación",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1012",
+   "titulo": "Aprobación de Diseño Curricular del Trayecto de Formación Profesional Inicial 'Guardavidas'",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución General ERSeP",
+   "numero": "111",
+   "titulo": "Rectificación de error material en tarifa de agua de Cooperativa Sudeste",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución General ERSeP",
+   "numero": "112",
+   "titulo": "Aprobación de incrementos tarifarios para Cooperativas Eléctricas (junio 2026)",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución General ERSeP",
+   "numero": "113",
+   "titulo": "Autorización de aplicación de recomposiciones tarifarias a Cooperativas Eléctricas",
+   "seccion": "1",
+   "pagina": 9
+  },
+  {
+   "tipo": "Resolución General ERSeP",
+   "numero": "114",
+   "titulo": "Aprobación de recomposiciones tarifarias para Cooperativas Alto Alegre y General Baldissera",
+   "seccion": "1",
+   "pagina": 11
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0733-012020/2026",
+   "titulo": "Limpieza y sistematización del Canal Arroyo Algodón",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0733-012021/2026",
+   "titulo": "Adecuación Canal Flora",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1437",
+   "titulo": "Adquisición de termocuplas Thermoskin Tipo K Central Bicentenario",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1438",
+   "titulo": "Adquisición de instrumentos de medición de variables higiénicas",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1439",
+   "titulo": "Adquisición de Hydranal",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5581",
+   "titulo": "Obra de iluminación ornamental y refuncionalización eléctrica Arroyo La Cañada",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1442",
+   "titulo": "Adquisición de estufas de secado y estufa de cultivo",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5582",
+   "titulo": "Adquisición de luminarias para la Cañada de Córdoba",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5580",
+   "titulo": "Construcción y remodelación de distribuidores en M.T. desde Cruz del Eje hasta San Marcos Sierras",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1446",
+   "titulo": "Adquisición sistema para determinación de estabilidad a la oxidación en Biodiesel",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1447",
+   "titulo": "Adquisición de herramientas eléctricas RAT 2026",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1440",
+   "titulo": "Adquisición de fuente de alimentación conmutada",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1441",
+   "titulo": "Adquisición de barrera flotante para contención de hidrocarburos Central Los Molinos",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1443",
+   "titulo": "Adquisición de materiales de acero al carbono para soldar línea de agua Planta Biodiésel",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1444",
+   "titulo": "Servicio de mantenimiento anual de sistemas de detección de incendios",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5583",
+   "titulo": "Adquisición de columnas de PRFV para alumbrado público",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "5582",
+   "titulo": "Prórroga de hora de apertura licitación de luminarias para La Cañada",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5584",
+   "titulo": "Ampliación ET Arroyo Cabral - Interconexión transformador 500/132/33 kV",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000037",
+   "titulo": "Solución integral de receta electrónica interoperable - APROSS",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000013",
+   "titulo": "Contratación de cuatro profesionales para CEPROCOR",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "CEPROCOR 0646-000881/2026",
+   "titulo": "Baja de renglón en cotización de profesionales",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "0918-036973/2026",
+   "titulo": "Loteo Miguel Genovese - Villa María",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "0918-037191/2026",
+   "titulo": "Loteo Estación Monte Cristo - Monte Cristo",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "0918-037217/2026",
+   "titulo": "Loteo La Auténtica - Río Cuarto",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Consorcio Caminero 13",
+   "titulo": "Asamblea General Extraordinaria Consorcio Caminero N° 13",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Reconocimiento",
+   "numero": "Partido Demócrata",
+   "titulo": "Reconocimiento jurídico provincial - Elecciones internas 2026-2030",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-109813/2021",
+   "titulo": "Inscripción posesión - Espinosa, Ángel David",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-110564/2021",
+   "titulo": "Inscripción posesión - Herrera, Fernando Andrés",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-023269/2005",
+   "titulo": "Inscripción posesión - Ojeda, Carlos Lorenzo",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-109406/2021",
+   "titulo": "Inscripción posesión - Basualdo, Rosario del Milagro",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-112355/2022",
+   "titulo": "Inscripción posesión - Giaroli, Pamela Belén",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-112148/2022",
+   "titulo": "Inscripción posesión - Monje, Elisa Rosario",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-113066/2022",
+   "titulo": "Inscripción posesión - Torres, Néstor Ezequiel",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-111812/2022",
+   "titulo": "Inscripción posesión - Druetta, Javier Ricardo",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-102586/2013",
+   "titulo": "Inscripción posesión - Álvarez, Mercedes del Valle",
+   "seccion": "4",
+   "pagina": 8
+  }
+ ],
+ "telegram": "BOE Nº 148 (4/8/2026): 6 normas sustantivas. Destaca: ERSeP aprueba incrementos tarifarios en electricidad (1,08%-1,21%) por variación de costos junio 2026; divide internamente sobre efectos acumulativos. Dos licitaciones de obras hídricas por $3.718 millones. Múltiples licitaciones EPEC. Consultar en app el análisis completo de controversias tarifarias.",
+ "hora_procesado": "11:07",
+ "estado": "publicado"
+}
