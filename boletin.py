@@ -156,7 +156,7 @@ def detectar_numero_boletin(texto: str) -> str:
 
 def llamar_api(texto_boletin: str) -> dict:
     instrucciones = (RAIZ / "instrucciones.md").read_text(encoding="utf-8")
-    cliente = anthropic.Anthropic()  # toma ANTHROPIC_API_KEY del entorno
+    cliente = anthropic.Anthropic(timeout=600.0, max_retries=3)  # toma ANTHROPIC_API_KEY del entorno
 
     # Streaming: obligatorio cuando max_tokens es alto (el SDK lo exige si
     # estima que la respuesta puede tardar más de 10 minutos).
