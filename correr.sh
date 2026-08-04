@@ -1,24 +1,14 @@
 #!/bin/bash
-# =====================================================================
-#  DESPACHO DIARIO — ejecutor local (plan B)
-#  Corre el motor en tu Mac y publica el resultado en GitHub.
-#  Lo dispara launchd de lunes a viernes; también podés correrlo
-#  a mano desde la Terminal:  ~/despacho-cordoba/correr.sh
-# =====================================================================
-
 set -u
 
-# Carpeta donde está el proyecto (ajustar si lo pusiste en otro lado)
 REPO="$HOME/despacho-cordoba"
 cd "$REPO" || { echo "No encuentro la carpeta $REPO"; exit 1; }
 
-# Registro: todo lo que pase queda anotado acá
 LOG="$REPO/despacho.log"
 exec >> "$LOG" 2>&1
 echo ""
 echo "===== $(date '+%Y-%m-%d %H:%M:%S') ====="
 
-# Claves privadas (el archivo .env NO se sube a GitHub)
 if [ -f "$REPO/.env" ]; then
   set -a
   source "$REPO/.env"
@@ -28,19 +18,44 @@ else
   exit 1
 fi
 
-# Traer lo último del repo por si editaste algo desde la web
+# Esperar a que haya conexión (la Mac recién despierta tarda en reconectar)
+CONECTADO=0
+for i in $(seq 1 20); do
+  if curl -s --max-time 8 -o /dev/null https://github.com; then
+    CONECTADO=1
+    [ "$i" -gt 1 ] && echo "Conexión disponible tras $((i * 15)) segundos de espera."
+    break
+  fi
+  [ "$i" -eq 1 ] && echo "Sin conexión todavía; esperando…"
+  sleep 15
+done
+
+if [ "$CONECTADO" -eq 0 ]; then
+  echo "No hubo conexión en 5 minutos. Se aborta; la próxima corrida reintenta."
+  exit 1
+fi
+
 git pull --rebase --quiet || echo "Aviso: no pude hacer git pull, sigo igual."
 
-# Motor: descarga, analiza y guarda en docs/data
-"$REPO/.venv/bin/python" "$REPO/boletin.py"
-ESTADO=$?
+# Motor, con reintentos
+ESTADO=1
+for intento in 1 2 3; do
+  "$REPO/.venv/bin/python" "$REPO/boletin.py"
+  ESTADO=$?
+  if [ $ESTADO -eq 0 ]; then
+    break
+  fi
+  if [ $intento -lt 3 ]; then
+    echo "Intento $intento falló (código $ESTADO). Reintento en 2 minutos…"
+    sleep 120
+  fi
+done
 
 if [ $ESTADO -ne 0 ]; then
-  echo "El motor terminó con error ($ESTADO). No se publica nada."
+  echo "El motor falló en los 3 intentos. No se publica nada."
   exit $ESTADO
 fi
 
-# Publicar los datos nuevos
 mkdir -p docs/data
 git add -A docs/data
 if git diff --staged --quiet; then
