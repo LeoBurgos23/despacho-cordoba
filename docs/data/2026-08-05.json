@@ -1,0 +1,443 @@
+{
+ "fecha": "2026-08-05",
+ "numero_boletin": "149",
+ "sintesis_juridica": [
+  "El Boletín de esta fecha publica cuatro normas de bajo alcance general: dos decretos de designación de defensores públicos en carácter reemplazante (ambos con acuerdo legislativo previo del 5 de marzo de 2026), una resolución ministerial que ratifica cambios en un plan de estudios de educación privada, y una resolución administrativa del Tribunal Superior de Justicia que rectifica parcialmente un cronograma de turnos de amparo entre juzgados civiles de la capital. No se registran leyes nuevas, cambios en regímenes tributarios o derogaciones de alcance normativo general.",
+  "En materia de contrataciones públicas, la Sección 4 contiene una actividad significativa: dieciocho licitaciones públicas (quince de EPEC con presupuestos que van de $5,2 millones a $21.919 millones; una de la Universidad Provincial de Córdoba por $4.319 millones para obra de ampliación en Villa Huidobro; dos de Caminos de las Sierras SA por un total de $3.706 millones). Además, Caminos de las Sierras dejó sin efecto una licitación previa. Se registran también aclaratorias a licitaciones EPEC ya publicadas y convocatorias de audiencia pública ambiental y asambleas de consorcios camineros. La Sección 4 incluye además edictos de la Unidad Ejecutora de Saneamiento de Títulos (Ley 9150) por solicitudes de inscripción de posesión."
+ ],
+ "sintesis_politica": [
+  "Las designaciones de defensores públicos confirman la continuidad del ejecutivo en la cobertura de cargos en el sistema de justicia con acuerdo legislativo previo (ambos decretos datan del 31 de julio pero el acuerdo legislativo es del 5 de marzo, lo que sugiere tramitación ordinaria sin controversia). La ratificación del plan de estudios de educación privada es de rutina administrativa. No se detectan movimientos políticos relevantes en estas normas.",
+  "La actividad de contratación pública en EPEC y en la Universidad Provincial resulta notable por volumen y presupuesto agregado (superior a $25 mil millones en obras y servicios). Aunque no hay información en el boletín sobre el contexto de estos llamados, la frecuencia de aclaratorias y prórrogas de plazos (visibles en notas aclaratorias a licitaciones 1434, 5581, 5582 y 5583) sugiere ajustes operativos menores sin controversia de fondo. El cierre sin efecto de una licitación de Caminos de las Sierras por rehabilitación de calzada en la Autopista Córdoba–Pilar permanece sin explicación en el texto publicado."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "70",
+   "titulo": "Designación de Defensora Pública de Niñez, Adolescencia, Violencia Familiar y de Género (Reemplazante)",
+   "importa": "Cobertura reemplazante de cargo de Defensoría Pública especializada en derechos de menores y violencia familiar, conforme acuerdo legislativo previo (R-4249/26).",
+   "seccion": "Poder Ejecutivo",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Decreto de designación reglamentaria fundado en Acuerdo N° 27 del Consejo de la Magistratura (10/4/2026) y en acuerdo legislativo R-4249/26 (5/3/2026) conforme art. 104 inc. 42 de la Constitución Provincial. La designación es en carácter REEMPLAZANTE hasta cobertura definitiva mediante concurso o cese del impedimento conforme Ley 8802 art. 6 inc. 10. Formalmente completo: refrenda del Ministro de Justicia y Fiscal de Estado (art. 144 inc. 9 y 157 CP). Imputación presupuestaria: Jurisdicción 3.00, Programa 926, Partida 01, Grupo 26, cargo 054.",
+    "politica": "Designación ordinaria en cargo de defensoría especializada, con legitimación previa de la Legislatura (5/3/2026). No se detectan señales de controversia política. El carácter reemplazante indica que la cobertura definitiva deberá sustanciarse por concurso del Consejo de la Magistratura.",
+    "oficialista": "La designación respeta el procedimiento constitucional de acuerdo legislativo previo y se funda en propuesta del Consejo de la Magistratura, órgano independiente. La elección del reemplazante cubre necesidad institucional en área sensible (derechos de menores y violencia familiar).",
+    "opositora": "Sin información en el boletín que permita identificar objeciones. La designación en carácter reemplazante (no definitiva) es un mecanismo válido pero de alcance limitado; la oposición podría cuestionar criterios de selección del Consejo en futuros concursos si hubiera desacuerdo."
+   },
+   "texto_oficial": "DESÍGNASE a la señora Dora del Valle VAZQUEZ MARTÍN, D.N.I. N° 21.528.116, como Defensora Pública de Niñez, Adolescencia, Violencia Familiar y de Género \"REEMPLAZANTE\" en la Defensoría Pública de Niñez, Adolescencia, Violencia Familiar y de Género de Segundo Turno del centro judicial Capital, perteneciente a la Primera Circunscripción Judicial. (Art. 1° Decreto N° 70)",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "71",
+   "titulo": "Designación de Defensor Público Itinerante (Reemplazante) para Carlos Paz y Alta Gracia",
+   "importa": "Cobertura reemplazante de cargo de Defensoría Pública con funciones itinerantes en dos centros judiciales de la Primera Circunscripción, conforme acuerdo legislativo previo.",
+   "seccion": "Poder Ejecutivo",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Decreto fundado en Acuerdo N° 40 del Consejo de la Magistratura (30/6/2026) y acuerdo legislativo R-4249/26 (5/3/2026) conforme art. 104 inc. 42 CP. Designación reemplazante conforme Ley 8802 art. 6 inc. 10, hasta cobertura definitiva o cese del impedimento. Imputación presupuestaria idéntica al Decreto N° 70: Jurisdicción 3.00, Programa 926, Partida 01, Grupo 26, cargo 054. Formalmente completo con refrenda de Justicia y Fiscal de Estado.",
+    "politica": "Cobertura de funciones itinerantes en dos ciudades de la Primera Circunscripción. Timing ordinario: propuesta de magistratura del 30/6, acuerdo legislativo del 5/3 (anterior). Designación de carácter reemplazante sugiere urgencia operativa cubierta con mecanismo transitorio.",
+    "oficialista": "Designación que respeta procedimientos constitucionales y cubre necesidad de defensoría pública itinerante en zonas del interior judicial (Carlos Paz, Alta Gracia). El carácter reemplazante es mecanismo válido de transición.",
+    "opositora": "Sin señales de objeción en el texto. La oposición podría cuestionar el uso reiterado del mecanismo reemplazante en lugar de concursos definitivos si considera que debilita la institucionalidad de la defensa pública."
+   },
+   "texto_oficial": "DESÍGNASE al señor Santiago RODRIGUEZ JUNYET, D.N.I. N° 33.029.698, como Defensor Público Itinerante \"REEMPLAZANTE\" en la Defensoría Pública con Funciones Múltiples de los centros Judiciales Carlos Paz y Alta Gracia, pertenecientes a la Primera Circunscripción Judicial. (Art. 1° Decreto N° 71)",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1069 - Letra D",
+   "titulo": "Ratificación de modificaciones al plan de estudios de Tecnicatura Superior en Administración de Empresas (Instituto Superior Pascal)",
+   "importa": "Ratificación ministerial de cambios en plan de estudios de carrera de educación superior privada; cubre educación a distancia con vigencia desde ciclo lectivo 2026.",
+   "seccion": "Ministerio de Educación",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Resolución que ratifica Resolución N° 2026/PRIVA-00000438 de la Dirección General de Educación Pública de Gestión Privada. Modifica plan de estudios de Tecnicatura Superior en Administración de Empresas (opción a distancia, 3 años, 1.802 horas reloj) del Instituto Superior Pascal. Fundada en Ley N° 5326 y dictamen jurídico del Ministerio. Anexo I integra la resolución. Formalmente completa: refrenda del Ministro Horacio Ademar Ferreyra. No se detectan vicios formales.",
+    "politica": "Trámite de rutina ministerial de aprobación curricular en educación privada. Timing ordinario. No hay señales de controversia política. Permite oferta educativa a distancia en instituto adscripto, probablemente respondiendo a demanda de modalidad virtual post-pandemia.",
+    "oficialista": "Modernización de oferta educativa privada mediante flexibilización de formatos (educación a distancia). Cumple normativa educativa provincial (Ley 5326) y favorece acceso a educación técnica superior en modalidad flexible.",
+    "opositora": "Sin información que justifique objeción. La oposición podría cuestionar si el control de calidad académica en educación a distancia es suficiente, pero el texto no aporta elementos para ello."
+   },
+   "texto_oficial": "Art. 1°.- RATIFICAR la Resolución N° 2026/PRIVA-00000438, junto a su Anexo I, emanada de la Dirección General de Educación Pública de Gestión Privada, la que compuesta por ciento sesenta y tres (163) fojas forma parte de la presente Resolución, por la que se aprueban las modificaciones al plan de estudios de la carrera \"Tecnicatura Superior en Administración de Empresas\" -opción pedagógica Educación a Distancia-, de tres (3) años de duración y una carga horaria de 1.802 horas reloj, que otorga el título de \"Técnico Superior en Administración de Empresas\", en el establecimiento educativo adscripto INSTITUTO SUPERIOR \"PASCAL\" -Nivel Superior- de Córdoba, Departamento Capital, con efecto a partir del ciclo lectivo 2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "clase": "resolucion",
+   "numero": "200 - Letra A",
+   "titulo": "Rectificación y modificación parcial de cronograma de turnos de amparo (Juzgados Civil y Comercial N° 24 y 51, Capital)",
+   "importa": "Ajuste de cronograma \"turnero\" de acciones de amparo entre dos juzgados civiles; permuta de fechas solicitada por un juez afectando períodos 2025-2026.",
+   "seccion": "Tribunal Superior de Justicia",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Resolución de Administración General del Poder Judicial (Luis María Sosa Lanza Castelli, 3/8/2026) que rectifica parcialmente Anexo de RAG N° 145/2026 (que a su vez modificaba RAG N° 157/2025). Permuta específica: N° de orden 59 y N° de orden 72 entre Juzgado Civil y Comercial 24° y 51° Nominación. Fundada en art. 5 Acuerdo Reglamentario N° 540/2000 y arts. 2, 3, 6 AR N° 916/2007. Comunicación y difusión ordenadas. El texto no aclara si hubo controversia entre los juzgados o si la permuta fue consensuada.",
+    "politica": "Ajuste administrativo de turnos de amparo respondiendo a solicitud del Dr. Gustavo Manzano (Juzgado 51°). Sugiere que los turnos rotativos generaron dificultad operativa en uno de los juzgados. Timing: solicitud cursada, resolución del 3/8. Sin señales de controversia política.",
+    "oficialista": "Administración judicial busca optimizar carga de trabajo ajustando cronograma de turnos conforme solicitud razonada de un magistrado. El mecanismo es administrativo y respeta la normativa reglamentaria.",
+    "opositora": "Sin objeciones expresas en el texto. Una oposición podría cuestionar si el cambio de turnos favorece a un juzgado sobre otro o afecta acceso igualitario a justicia de amparo, pero el boletín no proporciona información para ello."
+   },
+   "texto_oficial": "I) RECTIFICAR PARCIALMENTE el Anexo de la Resolución N°145/2026 de ésta Administración General, el que en una (1) foja útil integra el presente instrumento, como su Anexo. II) MODIFICAR el ANEXO de la mencionada Resolución en lo consignado en los siguientes Números de Orden: N° de orden 59: Juzgado de 1° Instancia Civil y Comercial de 24° Nominación del 14/11/26 al 20/11/26. N° de orden 72: Juzgado de 1° Instancia Civil y Comercial de 51° Nominación en la fecha del 15/8/26 al 21/8/26.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "000003/2026 (Expediente 0677-000583/2026 RR 359/2026)",
+   "titulo": "Construcción Módulo Anexo Sede Regional UPC Villa Huidobro",
+   "importa": "Obra de envergadura presupuestaria muy significativa ($4.319 millones) en Universidad Provincial; tema vigilado por tratarse de institución estatal educativa.",
+   "seccion": "Licitaciones (Sección 4)",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública convocada por Universidad Provincial de Córdoba para Obra 8157. Presupuesto oficial: $4.319.942.326,27 (mes diciembre 2025). Cierre: 25/8/2026 12:00 hs. Pliegos descargables desde web UPC y portal de compras públicas. Presentación en Mesa de Entradas UPC, Av. Pablo Ricchieri N° 1955. El texto no aclara si incluye financiamiento propio, endeudamiento o transferencias nacionales. No se publica Anexo técnico en el boletín.",
+    "politica": "Obra de infraestructura para la Universidad Provincial en zona del interior (Villa Huidobro, Dpto. Río Cuarto probablemente). Presupuesto muy alto sugiere proyecto de envergadura. Cierre en 25/8 permite tiempo de análisis de ofertas. Sin señales de controversia.",
+    "oficialista": "Inversión en infraestructura educativa estatal de nivel superior en zona del interior provincial, alineada con política de descentralización. Licitación pública respeta procedimiento competitivo.",
+    "opositora": "Sin información para objeción. Podría cuestionarse si el presupuesto es adecuado o si existe financiamiento claro, pero el boletín no lo expone."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA N° 000003 /2026 – Expediente N° 0677 -000583 /2026 RR 359/2026 para la contratación OBRA 8157 \"CONSTRUCCION MODULO ANEXO SEDE REGIONAL UPC VILLA HUIDOBRO\": FECHA DE CIERRE LICITACIÓN PÚBLICA: 25/08/2026 A LAS 12:00 horas. Presupuesto Oficial: Pesos CUATRO MIL TRESCIENTOS DIECINUEVE MILLONES NOVECIENTOS CUARENTA Y DOS MIL TRESCIENTOS VEINTISÉIS CON 27/100 ($ 4.319.942.326,27 .-) al mes diciembre 2025.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5584 (EPEC)",
+   "titulo": "Ampliación ET Arroyo Cabral - Interconexión Transformador 500/132/33 kV - 300 MVA",
+   "importa": "Obra de infraestructura eléctrica de envergadura crítica (transformador 500 kV); presupuesto extremadamente alto ($21.919 millones); tema vigilado: EPEC, obra vial/eléctrica provincial.",
+   "seccion": "Licitaciones (Sección 4)",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública convocada por EPEC SA (24/8/2026, apertura 11:00). Doble apertura: 24/8/2026. Presupuesto oficial: $21.919.250.286,96. Especialidad: Electromecanica y Civil. Categoría: Primera. Plazo: 540 días (18 meses). Entrega de sobres hasta 24/8 10:00. Pliegos sin valor, descargables desde portal EPEC. El texto no detalla si la obra responde a expansión del sistema generada por demanda, emergencia climática o plan de inversiones de largo plazo.",
+    "politica": "Obra de magnitud extraordinaria en empresa estatal proveedora de electricidad. Presupuesto de $21.919 millones (enero 2026 aprox.) sugiere intervención estratégica en matriz de distribución provincial. Plazo de 540 días indica proyecto de envergadura. Sin información sobre financiamiento: crédito BID, FONDOS nacionales, recursos propios o endeudamiento directo.",
+    "oficialista": "Modernización de infraestructura eléctrica provincial mediante licitación competitiva. La interconexión de transformadores de 500 kV responde a necesidad técnica de expansión de capacidad. Plazo de 18 meses es razonable para obra de esta magnitud.",
+    "opositora": "Podría cuestionar: (i) origen del financiamiento (¿endeudamiento?); (ii) necesidad técnica real o sobreinversión; (iii) plazo y riesgo de sobrecostos en obras de larga duración. El boletín no expone ninguno de estos elementos."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5584 SE REALIZARÁ MEDIANTE EL SISTEMA DE DOBLE APERTURA: 24-08-2026 HORA: 11 .- OBJETO: \"AMPLIACION ET ARROYO CABRAL - INTERCONEXION TRANSFORMADOR 500/132/33 KV - 300 MVA\" - ENTREGA DE SOBRES HASTA EL 24-08-2026 HORA: 10:00 - PRESUPUESTO OFICIAL: $ 21.919.250.286,96 .-Especialidad: ELECTROMECANICA Y CIVIL -Categoría: PRIMERA- Plazo: 540 días.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000017 (Caminos de las Sierras SA)",
+   "titulo": "Adquisición de Luminarias LED",
+   "importa": "Licitación de Caminos de las Sierras SA para adquisición de equipamiento de iluminación; tema vigilado: obra vial (Ruta Porteña-Freyre, Caminos de las Sierras).",
+   "seccion": "Licitaciones (Sección 4)",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública convocada por Caminos de las Sierras SA. Objeto: adquisición de luminarias LED. Presupuesto oficial: $2.973.363.200 (IVA incluido). Cierre: 18/8/2026 12:00 hs. Apertura: 18/8/2026 13:00 hs (portal digital). Garantía de oferta: 3% del presupuesto. Pliegos sin valor, disponibles en portal ecommerce.casisa.com.ar. Plazo de consultas hasta 11/8 16:00. El texto no aclara si es adquisición para mantenimiento de iluminación vial (Ruta Porteña o Caminos de las Sierras) o nueva instalación.",
+    "politica": "Empresa estatal dedicada a vialidad (Caminos de las Sierras SA) licita adquisición de luminarias. Magnitud: $2.973 millones. Timing: plazo de consultas hasta 11/8, cierre 18/8. Sin información que indique controversia. Probablemente vinculado a proyecto de iluminación de ruta vial provincial.",
+    "oficialista": "Licitación pública para adquisición de insumos de mantenimiento/mejora vial. Procedimiento competitivo y transparencia mediante portal digital. Presupuesto refleja necesidad real de equipamiento.",
+    "opositora": "Sin información para objeción específica. Podría cuestionarse si la adquisición responde a plan de inversiones claro o si es reactiva."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000017 - OBJETO: ADQUISICIÓN DE LUMINARIAS LED. Presupuesto Oficial: $ 2.973.363.200 con IVA incluido.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000018 (Caminos de las Sierras SA)",
+   "titulo": "Servicios Profesionales para Upgrade de Plataforma SAP S/4HANA 1909 a Versión 2025",
+   "importa": "Contratación de servicios IT para modernización de sistema de gestión empresarial de Caminos de las Sierras SA; tema vigilado: modernización/gobierno digital de empresa estatal vial.",
+   "seccion": "Licitaciones (Sección 4)",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública para servicios profesionales de upgrade de plataforma SAP S/4HANA. Presupuesto oficial: $733.354.400 (IVA incluido). Cierre: 28/8/2026 12:00 hs. Apertura: 28/8/2026 12:30 hs (portal digital). Garantía de oferta: 3% del monto de la oferta. Pliegos sin valor. Plazo de consultas hasta 21/8 16:00. El texto no detalla si el upgrade es obligatorio por política de vendor, seguridad informática o obsolescencia de versión anterior.",
+    "politica": "Modernización IT de empresa estatal vial. Inversión en infraestructura de TI de $733 millones. Timing ordinario (plazo de 27 días para consultas y preparación de ofertas). Sin señales de controversia. Alineado con política de gobierno digital.",
+    "oficialista": "Modernización de sistemas de información de empresa estatal mediante licitación competitiva de servicios profesionales. El upgrade de SAP es estándar en grandes organizaciones para mantener seguridad y funcionalidad.",
+    "opositora": "Podría cuestionarse si el upgrade es realmente necesario o si responde a presión del proveedor (SAP) de software. El boletín no expone justificación técnica."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000018 - OBJETO: SERVICIOS PROFESIONALES PARA EL UPGRADE DE LA PLATAFORMA SAP S/4HANA 1909 A VERSIÓN 2025. Presupuesto Oficial: $ 733.354.400 con IVA incluido.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto N° 70",
+   "titulo": "Defensora Pública de Niñez, Adolescencia, Violencia Familiar y de Género (Reemplazante)",
+   "detalle": "Dora del Valle VAZQUEZ MARTÍN, D.N.I. N° 21.528.116. Designación reemplazante, Defensoría Pública de Niñez, Adolescencia, Violencia Familiar y de Género, Segundo Turno, Centro Judicial Capital, Primera Circunscripción Judicial.",
+   "organismo": "Defensoría Pública de Niñez, Adolescencia, Violencia Familiar y de Género",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto N° 71",
+   "titulo": "Defensor Público Itinerante (Reemplazante)",
+   "detalle": "Santiago RODRIGUEZ JUNYET, D.N.I. N° 33.029.698. Designación reemplazante, Defensor Público Itinerante, Defensoría Pública con Funciones Múltiples, centros Judiciales Carlos Paz y Alta Gracia, Primera Circunscripción Judicial.",
+   "organismo": "Defensoría Pública",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_050826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "70",
+   "titulo": "Designación de Defensora Pública de Niñez, Adolescencia, Violencia Familiar y de Género (Reemplazante)",
+   "seccion": "Poder Ejecutivo",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "71",
+   "titulo": "Designación de Defensor Público Itinerante (Reemplazante)",
+   "seccion": "Poder Ejecutivo",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1069 - Letra D",
+   "titulo": "Ratificación de modificaciones al plan de estudios de Tecnicatura Superior en Administración de Empresas (Instituto Superior Pascal)",
+   "seccion": "Ministerio de Educación",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "numero": "200 - Letra A",
+   "titulo": "Rectificación y modificación parcial de cronograma de turnos de amparo (Juzgados Civil y Comercial N° 24 y 51)",
+   "seccion": "Tribunal Superior de Justicia",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "000003/2026",
+   "titulo": "Construcción Módulo Anexo Sede Regional UPC Villa Huidobro",
+   "seccion": "Licitaciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1438",
+   "titulo": "Adquisición de Instrumentos de Medición de Variables Higiénicas (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1439",
+   "titulo": "Adquisición de Hydranal (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5581",
+   "titulo": "Obra de Iluminación Ornamental y Refuncionalización Eléctrica Arroyo La Cañada (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1442",
+   "titulo": "Adquisición de Estufas de Secado y Estufa de Cultivo (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5582",
+   "titulo": "Adquisición de Luminarias para la Cañada de Córdoba (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5580",
+   "titulo": "Construcción y Remodelación de Distribuidores en M.T. (13,2 kV y 33 kV) desde Cruz del Eje hasta San Marcos Sierras - Zona B (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1446",
+   "titulo": "Adquisición Sistema para Determinación de Estabilidad a la Oxidación en Biodiésel (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1447",
+   "titulo": "Adquisición de Herramientas Eléctricas RAT 2026 (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1440",
+   "titulo": "Adquisición de Fuente de Alimentación Conmutada 220CVA-110VCC/24VCC-3A (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1441",
+   "titulo": "Adquisición de Barrera Flotante para la Contención de Hidrocarburos Central Los Molinos (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1443",
+   "titulo": "Adquisición de Materiales de Acero al Carbono para Soldar Línea de Agua Planta Biodiésel (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1444",
+   "titulo": "Servicio de Mantenimiento Anual de Sistemas de Detección de Incendios (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5583",
+   "titulo": "Adquisición de Columnas de PRFV para Alumbrado Público (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5584",
+   "titulo": "Ampliación ET Arroyo Cabral - Interconexión Transformador 500/132/33 kV - 300 MVA (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1448",
+   "titulo": "Adquisición de 10 Relés Diferenciales de Línea con Respaldo de Impedancia (EPEC)",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "N°2 y N°3 - Licitación Pública Electrónica N° 1434",
+   "titulo": "Contratación del Servicio de Pasajes/Hoteles (EPEC) - Prórroga de Plazos",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Comunicado",
+   "numero": "Dejar sin efecto",
+   "titulo": "Licitación Pública N°2026/000016 - Rehabilitación de Calzada en Autopista Córdoba-Pilar (Caminos de las Sierras SA)",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "N°1 - Licitación Pública N° 5581",
+   "titulo": "Obra de Iluminación Ornamental y Refuncionalización Eléctrica Arroyo La Cañada (EPEC) - Prórroga de Entrega",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "N°2 - Licitación Pública N° 5582",
+   "titulo": "Adquisición de Luminarias para la Cañada de Córdoba (EPEC) - Prórroga de Entrega",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000017",
+   "titulo": "Adquisición de Luminarias LED (Caminos de las Sierras SA)",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000018",
+   "titulo": "Servicios Profesionales para Upgrade de Plataforma SAP S/4HANA 1909 a Versión 2025 (Caminos de las Sierras SA)",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "N°1 - Licitación Pública N° 5583",
+   "titulo": "Adquisición de Columnas de PRFV para Alumbrado Público (EPEC) - Prórroga de Entrega",
+   "seccion": "Licitaciones",
+   "pagina": 3
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "2026",
+   "titulo": "Audiencia Pública Ambiental Digital - Loteo Estación Monte Cristo (Secretaría de Desarrollo Sostenible)",
+   "seccion": "Convocatorias",
+   "pagina": 4
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "2026",
+   "titulo": "Asamblea General Extraordinaria - Consorcio Caminero N° 218",
+   "seccion": "Convocatorias",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-109813/2021",
+   "titulo": "Inscripción en Registro de Posesión - ESPINOSA, ANGEL DAVID (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-110564/2021",
+   "titulo": "Inscripción en Registro de Posesión - HERRERA, FERNANDO ANDRES (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-023269/2005",
+   "titulo": "Inscripción en Registro de Posesión - OJEDA, CARLOS LORENZO (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-109406/2021",
+   "titulo": "Inscripción en Registro de Posesión - BASUALDO ROSARIO DEL MILAGRO (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-112355/2022",
+   "titulo": "Inscripción en Registro de Posesión - GIAROLI PAMELA BELEN (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-112148/2022",
+   "titulo": "Inscripción en Registro de Posesión - MONJE ELISA ROSARIO (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-113066/2022",
+   "titulo": "Inscripción en Registro de Posesión - TORRES NESTOR EZEQUIEL (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-111812/2022",
+   "titulo": "Inscripción en Registro de Posesión - DRUETTA JAVIER RICARDO (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-102586/2013",
+   "titulo": "Inscripción en Registro de Posesión - ALVAREZ, MERCEDES DEL VALLE (Unidad Ejecutora Ley 9150)",
+   "seccion": "Notificaciones",
+   "pagina": 7
+  }
+ ],
+ "telegram": "BOE N° 149 (5/8/26): 4 normas, 18+ licitaciones. Destaca: Decreto designaciones Defensoría Pública (reemplazantes, acuerdo legislativo). Licitación EPEC transformador 500 kV por $21.919 MM y obra UPC $4.319 MM. Obra vial Caminos de las Sierras se licita por luminarias LED. Consultar: boletinoficial.cba.gov.ar",
+ "hora_procesado": "10:06",
+ "estado": "publicado"
+}
