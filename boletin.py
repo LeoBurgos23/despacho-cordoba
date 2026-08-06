@@ -195,10 +195,11 @@ def sanear_valores(v):
 
 def _url_de_seccion(etiqueta_seccion: str, urls: dict) -> str:
     """'1ª Sección · Legislación' → urls['1'] (o la primera disponible)."""
-    m = re.match(r"\s*(\d)", etiqueta_seccion or "")
-    if m and m.group(1) in urls:
-        return urls[m.group(1)]
-    return next(iter(urls.values()), "https://boletinoficial.cba.gov.ar/")
+    m = re.search(r"[1-5]", etiqueta_seccion or "")
+    if m and m.group(0) in urls:
+        return urls[m.group(0)]
+    print(f"   ⚠️  Seccion no resuelta para {etiqueta_seccion!r}; usa Seccion 1.")
+    return urls.get("1") or next(iter(urls.values()), "https://boletinoficial.cba.gov.ar/")
 
 
 def guardar(despacho: dict, urls: dict) -> None:
