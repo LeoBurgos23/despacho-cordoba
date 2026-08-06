@@ -1,0 +1,535 @@
+{
+ "fecha": "2026-08-06",
+ "numero_boletin": "150",
+ "sintesis_juridica": [
+  "El boletín publica cinco designaciones de Procuradores Fiscales de la Dirección General de Rentas (DGR) por Resoluciones Nº 3 a 7 del Ministerio de Economía, delegadas conforme al Decreto Nº 2449/2023. Estas designaciones habilitan la representación judicial y extrajudicial de la Provincia para la gestión de cobro de deudas impositivas en mora. Se destaca la Resolución General Nº 7 de la Dirección General de Inspección de Personas Jurídicas, que reglamenta los requerimientos complementarios y medidas de verificación en procesos registrales y de fiscalización, con facultades para solicitar documentación, comparecencias personales e incorporar notas de advertencia en la publicidad registral ante incumplimientos injustificados.",
+  "En educación, la Resolución Nº 39 de la Secretaría de Educación autoriza el funcionamiento de Centros Integrales de Formación Profesional y Capacitación Laboral «Nodos de Aprendizaje para la Inclusión» en Escuelas de Modalidad Especial, destinados a jóvenes y adultos con discapacidad mayores de 18 años, en el marco del Programa «TransFORMAR@CBA». El Ministerio de Seguridad publica diez resoluciones (Nº 352 a 361) sobre habilitaciones y renovaciones de empresas prestadoras de servicios de seguridad privada, sin autorización para uso de armas. En licitaciones, destacan convocatorias de EPEC, Caminos de las Sierras S.A., Universidad Provincial de Córdoba y APROSS por montos significativos."
+ ],
+ "sintesis_politica": [
+  "La edición refleja continuidad en la gestión administrativa de rutina: designación de procuradores fiscales (práctica habitual para fortalecer la cobranza tributaria), renovaciones de habilitaciones en seguridad privada y licitaciones ordinarias. Sin controversia aparente. El programa «TransFORMAR@CBA» muestra sinergia entre dos secretarías (Educación e Innovación) en educación especial y formación laboral, alineado con prioridades de inclusión social.",
+  "La Resolución General Nº 7 de la Dirección de Inspección de Personas Jurídicas introduce un marco normativo para medidas de verificación y control registral (requerimientos complementarios, comparecencias, notas de advertencia), que refuerza controles sobre personas jurídicas y busca alinearse con normativa de prevención de lavado de dinero (Ley Nacional Nº 25.246). Operativamente, simplifica procedimientos mediante digitalización pero amplía facultades de fiscalización. No hay señal de controversia política inmediata, aunque estas medidas pueden afectar a empresas con documentación incompleta o irregular."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "3",
+   "titulo": "Designación de Procuradora Fiscal de la Dirección General de Rentas",
+   "importa": "El Ministerio de Economía designa a la abogada Cecilia Andrea Zachetti (DNI 25.686.748, Matrícula 2-800) como Procuradora Fiscal de la DGR para la gestión judicial y extrajudicial de cobro de deudas impositivas en mora en distintas circunscripciones judiciales. La designación se funda en el Decreto Nº 2449/2023, que delegó estas atribuciones al Ministerio.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Se trata de un acto administrativo de designación de un funcionario público de rango profesional. La competencia se funda en delegación legislativa mediante Decreto Nº 2449/2023. El texto menciona expresamente que la designada debe «constituir legajo pertinente y otorgar la fianza respectiva» para comenzar a ejercer, lo que cumple requisitos de formalización. No se advierte vicio formal; el decreto fundante tiene rango superior (Poder Ejecutivo) y la resolución respeta el procedimiento de dictamen previo.",
+    "politica": "Hace parte de una política sistemática de fortalecimiento de la cobranza tributaria. La designación de procuradores fiscales es ordinaria y responde a la necesidad de ampliar capacidad de gestión de deuda en mora. No hay actor político identificado como favorecido o perjudicado. El timing (agosto de 2026) no coincide con ciclo electoral inmediato.",
+    "oficialista": "La designación contribuye a mejorar la recaudación y la capacidad coercitiva de cobro de la Provincia, mejorando la eficiencia en la gestión de deudas tributarias. Fortalece el control fiscal.",
+    "opositora": "Podría cuestionarse si estas designaciones responden a criterios políticos antes que técnicos, aunque el texto no aporta evidencia de ello. Sin más contexto no hay objeción clara."
+   },
+   "texto_oficial": "Artículo 1°: DESÍGNAR a la abogada Cecilia Andrea Zachetti, DNI N° 25.686.748, Matrícula Profesional Plena N° 2-800, como Procuradora Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judiciales de la Provincia. Artículo 2°: ESTABLECER que la Procuradora Fiscal designada en el artículo anterior comenzará a ejercer la representación de la Provincia de Córdoba una vez completado el legajo y constituida la fianza pertinente. Artículo 3°: DISPONER que el cumplimiento de la designación dispuesta en la presente Resolución no demandará egreso alguno, atento las condiciones establecidas en la reglamentación vigente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "4",
+   "titulo": "Designación de Procuradora Fiscal de la Dirección General de Rentas",
+   "importa": "Se designa a la abogada Analía del Luján Barovero (DNI 23.962.402, Matrícula 13-207 del Colegio de Abogados de Marcos Juárez) como Procuradora Fiscal de la DGR en los mismos términos que la Resolución Nº 3.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Designación análoga a la Resolución Nº 3. Formalidad idéntica, delegación de competencia clara, requisitos explicitados (legajo, fianza). No hay vicio aparente.",
+    "politica": "Parte de la misma política de expansión de capacidad de cobranza. Sin diferenciación política.",
+    "oficialista": "Amplía la capacidad operativa de la DGR.",
+    "opositora": "Sin base para crítica específica en el texto."
+   },
+   "texto_oficial": "Artículo 1°: DESÍGNAR a la abogada Analía del Luján Barovero, DNI N° 23.962.402, Matrícula Profesional N° 13-207 del Colegio de Abogados de Marcos Juárez, como Procuradora Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judiciales de la Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "5",
+   "titulo": "Designación de Procurador Fiscal de la Dirección General de Rentas",
+   "importa": "Se designa al abogado Marcos Antonio Federico (DNI 42.855.322, Matrícula 1-44033 del Colegio de Abogados de Córdoba) como Procurador Fiscal de la DGR bajo las mismas condiciones.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Idéntica estructura legal a las anteriores. Delegación fundada, requisitos explícitos.",
+    "politica": "Continuación de la política de fortalecimiento de cobranza.",
+    "oficialista": "Suma capacidad técnica a la DGR.",
+    "opositora": "Sin base de crítica en el acto mismo."
+   },
+   "texto_oficial": "Artículo 1°: DESÍGNAR al abogado Marcos Antonio Federico, DNI N° 42.855.322, Matrícula Profesional N° 1-44033 del Colegio de Abogados de Córdoba, como Procurador Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judicales de la Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "6",
+   "titulo": "Designación de Procuradora Fiscal de la Dirección General de Rentas",
+   "importa": "Se designa a la abogada Sonia Carolina Rezzónico (DNI 26.945.922, Matrícula 1-37393) como Procuradora Fiscal de la DGR bajo el mismo régimen.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Estructura idéntica. Delegación válida según Decreto Nº 2445/2023 (art. 2°, inc. b). El expediente base es anterior (0532-001166/2024).",
+    "politica": "Cuarta designación del día. Patrón regular de ampliación de capacidad.",
+    "oficialista": "Fortalece operativamente la DGR.",
+    "opositora": "Sin base de crítica aparente."
+   },
+   "texto_oficial": "Artículo 1°: DESÍGNAR a la abogada Sonia Carolina Rezzónico, DNI N° 26.945.922, Matrícula Profesional N° 1-37393, como Procuradora Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judiciales de la Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "7",
+   "titulo": "Designación de Procurador Fiscal de la Dirección General de Rentas",
+   "importa": "Se designa al abogado Hugo David Tini (DNI 27.034.841, Matrícula 5-503) como Procurador Fiscal de la DGR bajo las mismas condiciones que las anteriores designaciones.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Quinta designación sucesiva con estructura idéntica. Delegación válida, requisitos claros. Nota técnica: el Decreto fundante se cita como «Nº 2445/2023» en la Res. Nº 7, mientras que las anteriores citan «Nº 2449/2023». Esto podría indicar dos decretos distintos o un error tipográfico; el texto no aclara.",
+    "politica": "Quinta designación de procuradores en una sola edición. Indica decisión institucional de expansión significativa de la capacidad de cobranza de la DGR. El volumen sugiere una política deliberada, posiblemente en respuesta a una necesidad de gestión de cartera vencida o presión fiscal.",
+    "oficialista": "Multiplica la capacidad operativa de la DGR de forma eficiente.",
+    "opositora": "Podría interrogarse si la velocidad de designaciones responde a urgencia no declarada (crisis de recaudación) o a decisiones políticas de composición de la DGR. Sin más contexto, no hay sustancia de crítica."
+   },
+   "texto_oficial": "Artículo 1°: DESÍGNAR al abogado Hugo David Tini, DNI N° 27.034.841, Matrícula Profesional N° 5-503, como Procurador Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judiciales de la Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "39",
+   "titulo": "Autorización del funcionamiento de Centros Integrales de Formación Profesional y Capacitación Laboral «Nodos de Aprendizaje para la Inclusión»",
+   "importa": "La Secretaría de Educación y la Secretaría de Innovación, Desarrollo Profesional y Tecnologías en Educación autorizan el funcionamiento de los Centros Integrales de Formación Profesional «Nodos de Aprendizaje para la Inclusión», creados por Resolución Ministerial Nº 113/2026, destinados a la formación integral, profesional y laboral de jóvenes y adultos con discapacidad mayores de 18 años bajo el Programa «TransFORMAR@CBA». La implementación será gradual en Escuelas de Modalidad Especial que cumplan requisitos de infraestructura y equipamiento tecnológico. Posible relación con tema vigilado EDUCACIÓN (a confirmar; el aviso menciona educación especial y formación laboral).",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La Resolución nº 39 es un acto administrativo de autorización de funcionamiento (no creación; esa fue anterior, por Res. Ministerial 113/2026). Emana de dos secretarías en acto conjunto, lo que sugiere coordinación interministerial legítima. Los artículos 3° y 4° encomiendan funciones específicas a cada secretaría (Educación: supervisión pedagógica; Innovación: asistencia técnica), respetando competencias. El Art. 5° propicia la conformación de «Unidades Socialmente Productivas», articulando con municipios, comunas, cooperativas y empresas, lo que es lícito. No se advierten vicios formales. La gradualidad de implementación es una cláusula de prudencia administrativa.",
+    "politica": "La resolución ejecuta el Programa «TransFORMAR@CBA», que aparece como una iniciativa de inclusión educativa y laboral para personas con discapacidad. El timing (agosto 2026) no coincide con ciclos electorales inmediatos. La participación de dos secretarías (Educación e Innovación Tecnológica) muestra sinergia administrativo-institucional en un área de política social tradicional. Sin controversia aparente.",
+    "oficialista": "Ejecuta una política inclusiva de educación especial e inserción laboral, modernizando metodologías mediante tecnología. Fortalece el Estado en educación especial y empleabilidad.",
+    "opositora": "Podría cuestionarse si la «gradualidad» de implementación refleja falta de presupuesto real o compromisos incompletos. También si la participación de «empresas locales» en las «Unidades Socialmente Productivas» (art. 5) implica externalización de servicios públicos o mercantilización de formación especial. Sin datos concretos, son hipótesis."
+   },
+   "texto_oficial": "Art. 1°.- AUTORIZAR el funcionamiento de los Centros Integrales de Formación Profesional y Capacitación Laboral «Nodos de Aprendizaje para la Inclusión», detallados en el ANEXO I, creados por Resolución Ministerial N° 113/2026, destinados a la formación integral, profesional y laboral de jóvenes y adultos con discapacidad mayores de 18 años, en el marco de las líneas estratégicas del Programa «TransFORMAR@CBA». Art. 2°.- ESTABLECER que el funcionamiento de los referidos Centros se implementará de manera gradual en las Escuelas de Modalidad Especial de la Provincia que se determinen mediante la correspondiente reglamentación, priorizando aquellas que cuenten con la infraestructura, equipamiento tecnológico y recursos humanos idóneos para asegurar entornos formativos accesibles e innovadores.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "7 - Letra:T",
+   "titulo": "Normas sobre requerimientos complementarios en procesos registrales de fiscalización de personas jurídicas",
+   "importa": "La Dirección General de Inspección de Personas Jurídicas (Ministerio de Economía) dicta una Resolución General que reglamenta los criterios y procedimientos para que la Dirección formule requerimientos complementarios en ejercicio de sus funciones registrales y de fiscalización de personas jurídicas. Faculta a requerir documentación adicional, comparecencias personales, exhibición de libros y documentos, y otras medidas de verificación de autenticidad e identidad. Prevé plazos entre 3 y 15 días, posibilidad de prorrogas, y efectos diferenciados: en trámites registrales pendientes (suspensión o rechazo); en fiscalización (investigaciones adicionales, sanciones, denuncias); en ambos casos, posibilidad de incorporar notas de advertencia en publicidad registral ante incumplimientos injustificados. La resolución enfatiza que estas medidas deben ser razonables, proporcionales, fundadas en circunstancias objetivas y compatibles con la Ley Nacional Nº 25.246 (prevención de lavado de dinero) y directivas de la UIF.",
+   "seccion": "1",
+   "pagina": 12,
+   "ampliada": {
+    "juridica": "La Resolución General Nº 7-T es un acto normativo (resolución general) que establece un régimen procedural para el ejercicio de facultades ya existentes en la Dirección conforme a la Ley Provincial Nº 8.652. Sistematiza y delimita el ejercicio de discreción: los requerimientos deben cumplir condiciones de procedencia (dudas razonables, contradicciones, indicios de irregularidad) y forma (claridad, plazo, consecuencias). La estructura es garantista: exige motivación, proporcionalidad, plazo fijo con posibilidad de prórroga, y diferencia efectos según contexto (registral vs. fiscalización). Jurídicamente, refuerza el debido procedimiento y limita arbitrariedad. El vínculo con la Ley Nº 25.246 (nacional) y directivas UIF es legítimo como alineación con obligaciones de prevención de lavado. Potencialmente, podría interpretarse como expansión de facultades si la «nota de advertencia» en publicidad registral se usa sin criterio estricto, pero el texto establece límites: debe ser «mediante resolución fundada», «limitada a dejar constancia de incumplimiento», y «suprimida» cuando desaparezcan las causas.",
+    "politica": "La resolución refleja una política de modernización y control institucional sobre la sociedad civil registrada (personas jurídicas, asociaciones, etc.). Busca fortalecer la seguridad jurídica de la información registral y la protección de terceros. El timing (agosto 2026) no es electoral. La mención explícita de la Ley Nº 25.246 y UIF sugiere alineación con estándares federales de lucha contra lavado de dinero, tendencia global en post-Panamá Papers. Operativamente, moderniza procesos mediante digitalización pero amplia facultades de inspección. Poca controversia política predecible, salvo de sectores empresariales que teman mayor escrutinio.",
+    "oficialista": "La resolución fortalece la seguridad jurídica de los registros públicos, protege a terceros y refuerza el control sobre personas jurídicas, alineándose con estándares internacionales de prevención de ilícitos. Moderniza el Estado.",
+    "opositora": "Podría criticarse que amplía facultades discrecionales de un organismo (Dirección de Inspección) sin garantías suficientes de impugnación o revisión. La «nota de advertencia» en publicidad registral podría estigmatizar personas jurídicas de buena fe si se aplica sin rigor. Falta especificar quién revisa la decisión de incorporar anotaciones o cómo se reclama ante su exceso."
+   },
+   "texto_oficial": "Artículo 1°: Requerimientos complementarios. En ejercicio de sus funciones registrales y de fiscalización, la Dirección General de Inspección de Personas Jurídicas podrá requerir a las personas jurídicas sometidas a su competencia, a sus autoridades, representantes, integrantes de sus órganos, profesionales intervinientes, presentantes o terceros vinculados con la actuación: a) la presentación de documentación, información, informes, aclaraciones o antecedentes adicionales o complementarios; b) la exhibición de documentación original, libros, registros o instrumentos que resulten pertinentes; c) la comparecencia personal de quienes hubieren otorgado o suscripto un instrumento, a fin de acreditar su identidad, reconocer o ratificar su firma, manifestación de voluntad o intervención en determinado acto; y d) la adopción de cualquier otra medida razonable de comprobación que resulte necesaria para verificar la autenticidad de los instrumentos, la identidad o legitimación de los intervinientes, la veracidad de los antecedentes invocados o el cumplimiento de la normativa aplicable. [...] Artículo 7°: Constancia en la publicidad registral. Cuando el incumplimiento de un requerimiento impida verificar la autenticidad, veracidad o regularidad de un acto o dato sujeto a publicidad registral y pueda afectar la seguridad jurídica o los derechos de terceros, la Dirección podrá, mediante resolución fundada, disponer la incorporación de una nota de advertencia en la publicidad registral de la entidad. La anotación se limitará a dejar constancia de que la entidad ha incumplido un requerimiento formulado por la Dirección, y será suprimida una vez cumplido aquel o desaparecidas las causas que justificaron su incorporación.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 3",
+   "titulo": "Procuradora Fiscal",
+   "detalle": "Cecilia Andrea Zachetti, DNI 25.686.748",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 4",
+   "titulo": "Procuradora Fiscal",
+   "detalle": "Analía del Luján Barovero, DNI 23.962.402",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 5",
+   "titulo": "Procurador Fiscal",
+   "detalle": "Marcos Antonio Federico, DNI 42.855.322",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 6",
+   "titulo": "Procuradora Fiscal",
+   "detalle": "Sonia Carolina Rezzónico, DNI 26.945.922",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 7",
+   "titulo": "Procurador Fiscal",
+   "detalle": "Hugo David Tini, DNI 27.034.841",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 352",
+   "titulo": "Director Técnico",
+   "detalle": "GIGENA Jorge Rafael, DNI 28.269.243; Renovación habilitación empresa BRUJULA S.A.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 5,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 353",
+   "titulo": "Director Técnico",
+   "detalle": "MARTOS JAMENSON Maximiliano, DNI 29.083.318; Renovación cargo empresa M3 S.R.L.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 354",
+   "titulo": "Director Técnico",
+   "detalle": "NIEVAS LUSERO Luis Horacio, DNI 14.476.005; Habilitación empresa SERVICIOS INTERACTIVOS DE ARGENTINA S.A.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 355",
+   "titulo": "Director Técnico",
+   "detalle": "MARTÍN Gustavo Enrique, DNI 18.427.553; Renovación cargo empresa GS INSIGHT S.A.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 7,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 356",
+   "titulo": "Director Técnico",
+   "detalle": "BARRERA Julio Enrique, DNI 10.773.918; Habilitación empresa SISE S.R.L.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 8,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 357",
+   "titulo": "Director Técnico",
+   "detalle": "AVILA Darío Alberto, DNI 25.845.161; Habilitación empresa ALEXA NICOLE MERLO (unipersonal hasta 10 dependientes, fantasía «SERVICIO INTERGRAL DE SEGURIDAD»)",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 9,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 358",
+   "titulo": "Director Técnico",
+   "detalle": "PADOAN Luciano Dalmacio, DNI 27.545.866; Habilitación empresa ESITECH S.A.S.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 9,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 359",
+   "titulo": "Director Técnico",
+   "detalle": "ROSALES Sebastián, DNI 25.344.830; Habilitación empresa RODRIGO ROSALES (unipersonal con más de 10 dependientes, fantasía «ALTO NIVEL»)",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 10,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 360",
+   "titulo": "Director Técnico",
+   "detalle": "JUAREZ Rodolfo Cesar, DNI 11.560.884; Habilitación empresa HECTOR HUMBERTO CORNEJO (unipersonal hasta diez dependientes, fantasía «CORNECOR»)",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 11,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 361",
+   "titulo": "Director Técnico",
+   "detalle": "MARQUEZ Raúl Daniel, DNI 21.390.610; Habilitación empresa ARTE LIMPIO S.R.L. (fantasía «Security Art - Vigilancia de edificios»)",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad)",
+   "pagina": 12,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_060826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "3",
+   "titulo": "Designación de Procuradora Fiscal de la DGR - Cecilia Andrea Zachetti",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "4",
+   "titulo": "Designación de Procuradora Fiscal de la DGR - Analía del Luján Barovero",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "5",
+   "titulo": "Designación de Procurador Fiscal de la DGR - Marcos Antonio Federico",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "6",
+   "titulo": "Designación de Procuradora Fiscal de la DGR - Sonia Carolina Rezzónico",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "7",
+   "titulo": "Designación de Procurador Fiscal de la DGR - Hugo David Tini",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "39",
+   "titulo": "Autorización funcionamiento Centros Integrales de Formación Profesional - Nodos de Aprendizaje para la Inclusión",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "352",
+   "titulo": "Renovación habilitación empresa BRUJULA S.A. - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "353",
+   "titulo": "Renovación habilitación empresa M3 S.R.L. - Renovación Director Técnico",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "354",
+   "titulo": "Habilitación empresa SERVICIOS INTERACTIVOS DE ARGENTINA S.A. - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "355",
+   "titulo": "Renovación habilitación empresa GS INSIGHT S.A. - Renovación Director Técnico",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "356",
+   "titulo": "Habilitación empresa SISE S.R.L. - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 8
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "357",
+   "titulo": "Habilitación empresa unipersonal ALEXA NICOLE MERLO - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 9
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "358",
+   "titulo": "Habilitación empresa ESITECH S.A.S. - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 9
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "359",
+   "titulo": "Habilitación empresa unipersonal RODRIGO ROSALES - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 10
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "360",
+   "titulo": "Habilitación empresa unipersonal HECTOR HUMBERTO CORNEJO - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 11
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "361",
+   "titulo": "Habilitación empresa ARTE LIMPIO S.R.L. - Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 12
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "7 - Letra:T",
+   "titulo": "Normas sobre requerimientos complementarios en procesos registrales y de fiscalización de personas jurídicas",
+   "seccion": "1",
+   "pagina": 12
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "000003/2026",
+   "titulo": "Construcción Módulo Anexo Sede Regional UPC Villa Huidobro - Obra 8157",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5584",
+   "titulo": "EPEC - Ampliación ET Arroyo Cabral - Interconexión Transformador 500/132/33 KV",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1448",
+   "titulo": "EPEC - Adquisición de 10 Relés Diferenciales de Línea con Respaldo de Impedancia",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Notas Aclaratorias",
+   "numero": "2 y 3 - Licitación 1434",
+   "titulo": "EPEC - Contratación del Servicio de Pasajes/Hoteles (Prórroga)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000017",
+   "titulo": "CASISA - Adquisición de Luminarias LED",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000018",
+   "titulo": "CASISA - Servicios Profesionales para Upgrade Plataforma SAP S/4HANA",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000037",
+   "titulo": "APROSS - Solución Integral de Receta Electrónica Interoperable (Prórroga)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000026",
+   "titulo": "Secretaría General de Salud - Adquisición de Pañales para Familias de Acogimiento",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Solicitud de Personería",
+   "numero": "Comunal",
+   "titulo": "Movimiento Vecinal Potrero de Garay - Solicitud de Reconocimiento Personería Jurídico Política",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-109813/2021",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - ESPINOSA ANGEL DAVID",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-110564/2021",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - HERRERA FERNANDO ANDRES",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-023269/2005",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - OJEDA CARLOS LORENZO",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-109406/2021",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - BASUALDO ROSARIO DEL MILAGRO",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-112355/2022",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - GIAROLI PAMELA BELEN",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-112148/2022",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - MONJE ELISA ROSARIO",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-113066/2022",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - TORRES NESTOR EZEQUIEL",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-111812/2022",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - DRUETTA JAVIER RICARDO",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-102586/2013",
+   "titulo": "Unidad Ejecutora Ley 9150 - Inscripción en Registro de Posesión - ALVAREZ MERCEDES DEL VALLE",
+   "seccion": "4",
+   "pagina": 5
+  }
+ ],
+ "telegram": "Boletín Oficial Nº 150 | 6 de agosto de 2026. Destaca: Resolución General Nº 7 reglamenta requerimientos complementarios en fiscalización de personas jurídicas (Dirección General de Inspección, Ministerio de Economía), ampliando facultades de control. Además: 5 designaciones de Procuradores Fiscales de DGR y 10 habilitaciones de empresas de seguridad privada. Disponible en https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "11:12",
+ "estado": "publicado"
+}
